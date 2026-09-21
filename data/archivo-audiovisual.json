@@ -91,23 +91,6 @@
       "url": "https://www.youtube.com/watch?v=ZwL3Q5cuOHs"
     },
     {
-      "id": "AV-006",
-      "titulo": "Clip Vol. 4 - Skatepark San Patricio del Chañar",
-      "plataforma": "YouTube",
-      "autor": "Fabro Comuzzi",
-      "categoria": [
-        "SKATE",
-        "JUVENTUD",
-        "DEPORTE"
-      ],
-      "fecha": "2012-06-19",
-      "estado": "VERIFICADO",
-      "derechos": "NO_VERIFICADO",
-      "tratamiento": "REFERENCIA_EXTERNA",
-      "url": "https://www.youtube.com/watch?v=9mjA4bUGGzM",
-      "nota": "La URL debe revisarse contra la ficha original antes de ingestarlo: el identificador fue recuperado de resultados previos y requiere validación."
-    },
-    {
       "id": "AV-007",
       "titulo": "NUESTRO SANTO FUTBOL - Documental San Patricio Campeón en Reserva 2023",
       "plataforma": "YouTube",
@@ -135,10 +118,12 @@
         "TERRITORIO"
       ],
       "fecha": "2021-02-12",
-      "estado": "VERIFICADO",
+      "estado": "PARCIAL",
       "derechos": "NO_VERIFICADO",
       "tratamiento": "REFERENCIA_EXTERNA",
-      "url": "https://www.youtube.com/results?search_query=Bodega+Malma+San+Patricio+del+Chañar"
+      "url": "https://www.youtube.com/results?search_query=Bodega+Malma+San+Patricio+del+Chañar",
+      "tipo": "PISTA_DE_DESCUBRIMIENTO",
+      "nota": "La URL almacenada es una consulta de búsqueda, no el video final; no debe mostrarse como pieza audiovisual hasta localizar el recurso exacto."
     },
     {
       "id": "AV-009",
@@ -150,10 +135,12 @@
         "TURISMO"
       ],
       "fecha": "2018-05-02",
-      "estado": "VERIFICADO",
+      "estado": "PARCIAL",
       "derechos": "NO_VERIFICADO",
       "tratamiento": "REFERENCIA_EXTERNA",
-      "url": "https://www.youtube.com/results?search_query=Bodega+Del+Fin+del+Mundo+San+Patricio+del+Chañar"
+      "url": "https://www.youtube.com/results?search_query=Bodega+Del+Fin+del+Mundo+San+Patricio+del+Chañar",
+      "tipo": "PISTA_DE_DESCUBRIMIENTO",
+      "nota": "La URL almacenada es una consulta de búsqueda, no el video final; no debe mostrarse como pieza audiovisual hasta localizar el recurso exacto."
     },
     {
       "id": "AV-010",
@@ -166,10 +153,12 @@
         "PRODUCCION"
       ],
       "fecha": "2023-11-28",
-      "estado": "VERIFICADO",
+      "estado": "PARCIAL",
       "derechos": "NO_VERIFICADO",
       "tratamiento": "REFERENCIA_EXTERNA",
-      "url": "https://www.youtube.com/results?search_query=Bodega+Familia+Aicardi+San+Patricio+del+Chañar"
+      "url": "https://www.youtube.com/results?search_query=Bodega+Familia+Aicardi+San+Patricio+del+Chañar",
+      "tipo": "PISTA_DE_DESCUBRIMIENTO",
+      "nota": "La URL almacenada es una consulta de búsqueda, no el video final; no debe mostrarse como pieza audiovisual hasta localizar el recurso exacto."
     },
     {
       "id": "AV-011",
