@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "actualizado": "2026-09-21",
   "proposito": "Índice de descubrimiento audiovisual externo sobre San Patricio del Chañar. No incorpora automáticamente material de terceros a la señal Ocarina TV.",
   "regla_editorial": "Descubrir primero, verificar después, publicar solo con encaje editorial y estado de derechos documentado.",
@@ -386,7 +386,100 @@
       "tratamiento": "REFERENCIA_EXTERNA",
       "url": "https://www.instagram.com/bodegaelchical/",
       "nota": "La fuente periodística identifica el Instagram oficial @bodegaelchical como canal para futuras actividades culturales y musicales. Falta relevar sus piezas audiovisuales individualmente."
+    },
+    {
+      "id": "AV-024",
+      "titulo": "San Patricio de Primera — canal audiovisual del Club San Patricio",
+      "plataforma": "YouTube",
+      "autor": "Club San Patricio del Chañar",
+      "categoria": [
+        "DEPORTE",
+        "PERSONAS",
+        "COMUNIDAD",
+        "INSTITUCIONAL"
+      ],
+      "estado": "VERIFICADO",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.youtube.com/@sanpatriciodeprimera6436",
+      "nota": "Canal institucional/deportivo del club. Contiene resúmenes de Primera y Reserva, piezas sobre jugadores y material de campañas deportivas; fuente prioritaria para barrido histórico reciente."
+    },
+    {
+      "id": "AV-025",
+      "titulo": "Fiesta Provincial del Pelón — edición XXIX / 2015",
+      "plataforma": "Medio digital / prensa",
+      "autor": "Diario Río Negro",
+      "categoria": [
+        "FIESTA",
+        "CULTURA",
+        "RURALIDAD",
+        "COMUNIDAD"
+      ],
+      "fecha": "2015-01-05",
+      "estado": "PARCIAL",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.rionegro.com.ar/la-fiesta-del-pelon-tiene-grilla-para-edicion-29-MORN_5630508/",
+      "tipo": "PISTA_DE_DESCUBRIMIENTO",
+      "nota": "Registro cronológico del evento de 2015. La fuente documenta programación, artistas y actividades; falta localizar la pieza audiovisual original si existe."
+    },
+    {
+      "id": "AV-026",
+      "titulo": "Vendimia Neuquina — San Patricio del Chañar / Bodega Familia Schroeder 2026",
+      "plataforma": "Prensa / documento editorial",
+      "autor": "LM Neuquén",
+      "categoria": [
+        "VITIVINICULTURA",
+        "COSECHA",
+        "CULTURA",
+        "TERRITORIO"
+      ],
+      "fecha": "2026-03-12",
+      "estado": "PARCIAL",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://media.lmneuquen.com/adjuntos/195/documentos/008/191/0008191214.pdf",
+      "tipo": "PISTA_DE_DESCUBRIMIENTO",
+      "nota": "La fuente documenta la Vendimia 2026 en Bodega Familia Schroeder y menciona otras actividades en Bodega Malma. Debe rastrearse video/fotografía original por plataforma y fecha."
+    },
+    {
+      "id": "AV-027",
+      "titulo": "Escuela Primaria N° 364 — inauguración del edificio propio",
+      "plataforma": "Sitio institucional / prensa",
+      "autor": "Neuquén Informa",
+      "categoria": [
+        "EDUCACION",
+        "INSTITUCIONAL",
+        "COMUNIDAD",
+        "TERRITORIO"
+      ],
+      "fecha": "2026-03-06",
+      "estado": "PARCIAL",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.neuqueninforma.gob.ar/noticias/2026/03/06/255471-se-inauguro-el-nuevo-edificio-de-la-escuela-n-364-de-san-patricio-del-chanar",
+      "tipo": "PISTA_DE_DESCUBRIMIENTO",
+      "nota": "La fuente confirma la inauguración y contiene material visual; falta localizar video institucional, cobertura de medios y publicaciones sociales asociadas al acto."
+    },
+    {
+      "id": "AV-028",
+      "titulo": "Larva — Siempre Hay Música / producción y videoclips",
+      "plataforma": "Podcast / plataformas sociales",
+      "autor": "Larva",
+      "categoria": [
+        "MUSICA",
+        "CULTURA",
+        "PERSONAS",
+        "COMUNIDAD"
+      ],
+      "fecha": "2024-03-01",
+      "estado": "PARCIAL",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.ivoox.com/shm-larva-audios-mp3_rf_124721268_1.html",
+      "tipo": "PISTA_DE_DESCUBRIMIENTO",
+      "nota": "La entrevista identifica a Larva como banda de San Patricio del Chañar, con producción autogestiva y videoclips; confirma Facebook, Instagram y YouTube oficiales como fuentes para continuar el barrido."
     }
   ],
-  "proxima_fase": "Barrido sistemático por personas, instituciones, picadas, eventos y años; priorizar piezas audiovisuales verificables y separar siempre referencias externas de material publicable por Ocarina."
+  "proxima_fase": "Continuar el barrido cronológico 2000–2026 por bloques de años y cruzarlo con personas, instituciones, picadas y eventos. Priorizar YouTube, Vimeo, Instagram, Facebook, TikTok y medios locales. Registrar solo piezas verificables como audiovisual; las fuentes que solo documenten un hecho quedan como PISTA_DE_DESCUBRIMIENTO y nunca se presentan como video."
 }
