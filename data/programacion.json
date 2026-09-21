@@ -1,0 +1,8 @@
+[
+{"orden":1,"etiqueta":"AHORA","programaId":"archivo-ocarina","titulo":"Archivo Ocarina","descripcion":"Producciones documentales disponibles a demanda."},
+{"orden":2,"etiqueta":"PRÓXIMO","programaId":"historias-del-chanar","titulo":"Historias del Chañar","descripcion":"Personas, relatos y territorio."},
+{"orden":3,"etiqueta":"MEMORIA","programaId":"memoria-viva","titulo":"Memoria Viva","descripcion":"Historia local y patrimonio."},
+{"orden":4,"etiqueta":"RURAL","programaId":"chanar-rural","titulo":"Chañar Rural","descripcion":"Campo, producción y paisaje."},
+{"orden":5,"etiqueta":"COMUNIDAD","programaId":"gente-de-aca","titulo":"Gente de acá","descripcion":"Entrevistas, oficios y protagonistas."},
+{"orden":6,"etiqueta":"CULTURA","programaId":"cultura-chanarense","titulo":"Cultura Chañarense","descripcion":"Artistas, música y expresiones locales."}
+]
