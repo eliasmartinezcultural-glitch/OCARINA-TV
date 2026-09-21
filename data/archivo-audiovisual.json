@@ -1,0 +1,312 @@
+{
+  "version": "0.1.0",
+  "actualizado": "2026-09-21",
+  "proposito": "Índice de descubrimiento audiovisual externo sobre San Patricio del Chañar. No incorpora automáticamente material de terceros a la señal Ocarina TV.",
+  "regla_editorial": "Descubrir primero, verificar después, publicar solo con encaje editorial y estado de derechos documentado.",
+  "estados_derechos": {
+    "NO_VERIFICADO": "La titularidad/licencia de reutilización no fue comprobada.",
+    "REFERENCIA_EXTERNA": "Puede registrarse como referencia/curaduría; no implica autorización para descargar, republicar o modificar.",
+    "AUTORIZADO": "Solo usar cuando exista autorización/licencia comprobable.",
+    "OCARINA": "Producción propia."
+  },
+  "registros": [
+    {
+      "id": "AV-001",
+      "titulo": "Municipalidad de San Patricio del Chañar - canal oficial",
+      "plataforma": "YouTube",
+      "autor": "Municipalidad de San Patricio del Chañar",
+      "categoria": [
+        "INSTITUCIONAL",
+        "COMUNIDAD",
+        "CULTURA",
+        "TERRITORIO"
+      ],
+      "estado": "VERIFICADO",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.youtube.com/@munisanpatriciodelchanar",
+      "nota": "Fuente prioritaria para rastrear actos, obras, fiestas, cultura, deporte y territorio."
+    },
+    {
+      "id": "AV-002",
+      "titulo": "San Patricio del Chañar 2022",
+      "plataforma": "YouTube",
+      "autor": "Jorge 'Interior Neuquino' Garro",
+      "categoria": [
+        "TERRITORIO",
+        "PAISAJE"
+      ],
+      "fecha": "2022-06-23",
+      "estado": "VERIFICADO",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.youtube.com/watch?v=9mjA4bUGGzM"
+    },
+    {
+      "id": "AV-003",
+      "titulo": "San Patricio del Chañar (desde el aire)",
+      "plataforma": "YouTube",
+      "autor": "Estudio VeamosLasFotos | Pato Peñas",
+      "categoria": [
+        "TERRITORIO",
+        "DRONE",
+        "PAISAJE"
+      ],
+      "fecha": "2015-09-26",
+      "estado": "VERIFICADO",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.youtube.com/watch?v=TUgasyuno7k"
+    },
+    {
+      "id": "AV-004",
+      "titulo": "San Patricio del Chañar: Ipath skate open",
+      "plataforma": "Vimeo",
+      "autor": "surskate",
+      "categoria": [
+        "SKATE",
+        "JUVENTUD",
+        "DEPORTE"
+      ],
+      "estado": "VERIFICADO",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://vimeo.com/31912121"
+    },
+    {
+      "id": "AV-005",
+      "titulo": "Gonzalo Saravia - Video de Skate - San Patricio del Chañar",
+      "plataforma": "YouTube",
+      "autor": "FabroComuzzi",
+      "categoria": [
+        "SKATE",
+        "JUVENTUD",
+        "DEPORTE",
+        "PERSONAS"
+      ],
+      "fecha": "2010-12-13",
+      "estado": "VERIFICADO",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.youtube.com/watch?v=ZwL3Q5cuOHs"
+    },
+    {
+      "id": "AV-006",
+      "titulo": "Clip Vol. 4 - Skatepark San Patricio del Chañar",
+      "plataforma": "YouTube",
+      "autor": "Fabro Comuzzi",
+      "categoria": [
+        "SKATE",
+        "JUVENTUD",
+        "DEPORTE"
+      ],
+      "fecha": "2012-06-19",
+      "estado": "VERIFICADO",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.youtube.com/watch?v=9mjA4bUGGzM",
+      "nota": "La URL debe revisarse contra la ficha original antes de ingestarlo: el identificador fue recuperado de resultados previos y requiere validación."
+    },
+    {
+      "id": "AV-007",
+      "titulo": "NUESTRO SANTO FUTBOL - Documental San Patricio Campeón en Reserva 2023",
+      "plataforma": "YouTube",
+      "autor": "EsaCOOSA TV / Cooperativa La Coosa",
+      "categoria": [
+        "DOCUMENTAL",
+        "DEPORTE",
+        "PERSONAS",
+        "COMUNIDAD"
+      ],
+      "fecha": "2024-06-12",
+      "estado": "VERIFICADO",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.youtube.com/watch?v=QLLzkH4_tsE"
+    },
+    {
+      "id": "AV-008",
+      "titulo": "Bodega Malma, un paraíso de viñedos",
+      "plataforma": "YouTube",
+      "autor": "Descubrí tu destino",
+      "categoria": [
+        "VITIVINICULTURA",
+        "TURISMO",
+        "TERRITORIO"
+      ],
+      "fecha": "2021-02-12",
+      "estado": "VERIFICADO",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.youtube.com/results?search_query=Bodega+Malma+San+Patricio+del+Chañar"
+    },
+    {
+      "id": "AV-009",
+      "titulo": "Descubrí Bodega Del Fin del Mundo en TONEL PRIVADO",
+      "plataforma": "YouTube",
+      "autor": "Terceros",
+      "categoria": [
+        "VITIVINICULTURA",
+        "TURISMO"
+      ],
+      "fecha": "2018-05-02",
+      "estado": "VERIFICADO",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.youtube.com/results?search_query=Bodega+Del+Fin+del+Mundo+San+Patricio+del+Chañar"
+    },
+    {
+      "id": "AV-010",
+      "titulo": "Bodega Familia Aicardi, San Patricio del Chañar",
+      "plataforma": "YouTube",
+      "autor": "Pasión por el Vino",
+      "categoria": [
+        "VITIVINICULTURA",
+        "TURISMO",
+        "PRODUCCION"
+      ],
+      "fecha": "2023-11-28",
+      "estado": "VERIFICADO",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.youtube.com/results?search_query=Bodega+Familia+Aicardi+San+Patricio+del+Chañar"
+    },
+    {
+      "id": "AV-011",
+      "titulo": "Bodega Familia Schroeder - cosecha 2021",
+      "plataforma": "Video web / fuente editorial",
+      "autor": "Bodega Familia Schroeder / fuente de prensa",
+      "categoria": [
+        "VITIVINICULTURA",
+        "COSECHA",
+        "RURALIDAD",
+        "PRODUCCION"
+      ],
+      "fecha": "2021-04-23",
+      "estado": "VERIFICADO",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.fabricioportelli.com/bodega-familia-schroeder-cosecha-2021-2/"
+    },
+    {
+      "id": "AV-012",
+      "titulo": "Fiesta del Pelón - cobertura 2024",
+      "plataforma": "Instagram embebido / medio digital",
+      "autor": "Municipalidad de San Patricio del Chañar / NoticiasNQN",
+      "categoria": [
+        "FIESTA",
+        "CULTURA",
+        "RURALIDAD",
+        "COMUNIDAD"
+      ],
+      "fecha": "2024-02-12",
+      "estado": "VERIFICADO",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.noticiasnqn.com.ar/noticias/2024/02/12/291195-video-asi-se-vivio-la-1-jornada-de-la-fiesta-del-pelon-en-san-patricio-del-chanar-la-grilla-de-hoy"
+    },
+    {
+      "id": "AV-013",
+      "titulo": "Fiesta Provincial del Pelón - presentación 2025",
+      "plataforma": "Video web",
+      "autor": "Nova Neuquén",
+      "categoria": [
+        "FIESTA",
+        "CULTURA",
+        "RURALIDAD",
+        "TURISMO"
+      ],
+      "fecha": "2025-01-16",
+      "estado": "VERIFICADO",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.novaneuquen.com/VIDEO--San-Patricio-del-Chanar-se-viene-una-nueva-edicion-de-la-Fiesta-Provincial-del-Pelon-40683"
+    },
+    {
+      "id": "AV-014",
+      "titulo": "Entrevista a Jorge San Martín, Bomberos Voluntarios",
+      "plataforma": "YouTube",
+      "autor": "Vaca Muerta News",
+      "categoria": [
+        "PERSONAS",
+        "INSTITUCIONAL",
+        "COMUNIDAD"
+      ],
+      "fecha": "2023-10-20",
+      "estado": "VERIFICADO",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.youtube.com/watch?v=Ia7iWoezagI"
+    },
+    {
+      "id": "AV-015",
+      "titulo": "Zamba de la Libertad - Escuela 191",
+      "plataforma": "Video web",
+      "autor": "Escuela 191 / equipo docente",
+      "categoria": [
+        "EDUCACION",
+        "CULTURA",
+        "COMUNIDAD",
+        "PERSONAS"
+      ],
+      "fecha": "2024-06-21",
+      "estado": "VERIFICADO",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://weblavoz.com.ar/secciones/sociedad/120660-dia-de-la-bandera-zamba-de-la-libertad-en-la-escuela-191-de-san-patricio-del-chanar"
+    },
+    {
+      "id": "AV-016",
+      "titulo": "Canal audiovisual de Chañar Digital",
+      "plataforma": "YouTube / medio digital",
+      "autor": "Chañar Digital",
+      "categoria": [
+        "MEDIO_LOCAL",
+        "DEPORTE",
+        "COMUNIDAD"
+      ],
+      "estado": "VERIFICADO",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.youtube.com/@chanardigital2197",
+      "nota": "Fuente estratégica para rastrear transmisiones y coberturas locales. Revisar pieza por pieza."
+    },
+    {
+      "id": "AV-017",
+      "titulo": "Cuervo Viejo - producción musical local",
+      "plataforma": "Medio digital / plataformas musicales",
+      "autor": "Cuervo Viejo",
+      "categoria": [
+        "MUSICA",
+        "CULTURA",
+        "PERSONAS",
+        "JUVENTUD"
+      ],
+      "fecha": "2026-07-01",
+      "estado": "PARCIAL",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://chanardigital.com.ar/articulo/2026/07/cuervo-viejo-lanza-su-primer-disco-y-marca-un-nuevo-capitulo-en-el-rock-de-san-patricio-del-chanar.php",
+      "nota": "El hallazgo confirma una veta de producción musical local; falta localizar videoclips, sesiones, entrevistas y presentaciones."
+    },
+    {
+      "id": "AV-018",
+      "titulo": "Kayak San Patricio del Chañar - Villa Manzano",
+      "plataforma": "Medio digital",
+      "autor": "LM Neuquén",
+      "categoria": [
+        "RIO",
+        "TERRITORIO",
+        "DEPORTE",
+        "TURISMO",
+        "AVES"
+      ],
+      "fecha": "2022-02-13",
+      "estado": "PARCIAL",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.lmneuquen.com/unieron-san-patricio-del-chanar-y-villa-manzano-kayak-n885624",
+      "nota": "La fuente documenta una actividad audiovisualizable; falta localizar el video original si existe."
+    }
+  ]
+}
