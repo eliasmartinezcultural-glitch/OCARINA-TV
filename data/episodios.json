@@ -1,6 +1,130 @@
 [
-{"id":"cosechas-chanarenses","programaId":"chanar-rural","titulo":"Cosechas Chañarenses","descripcion":"Historias vinculadas a la tierra, la producción y la identidad local.","categoria":"Producción local","tags":["producción","ruralidad","tierra","identidad local"],"territorio":"San Patricio del Chañar","paraje":null,"protagonistas":[],"fecha":null,"duracion":null,"videoId":"hnZ0HWZPlOw","thumbnail":"https://img.youtube.com/vi/hnZ0HWZPlOw/hqdefault.jpg","estado":"publicado"},
-{"id":"50-anos-escuela-273","programaId":"memoria-viva","titulo":"50 años · Escuela 273","descripcion":"Una institución y las generaciones que forman parte de su historia.","categoria":"Memoria","tags":["educación","escuela","memoria","instituciones"],"territorio":"San Patricio del Chañar","paraje":null,"protagonistas":[],"fecha":null,"duracion":null,"videoId":"xY9ppN2HM-s","thumbnail":"https://img.youtube.com/vi/xY9ppN2HM-s/hqdefault.jpg","estado":"publicado"},
-{"id":"colonia-japonesa","programaId":"historias-del-chanar","titulo":"Colonia japonesa","descripcion":"Memoria, personas y territorio en una historia del Chañar.","categoria":"Historia","tags":["historia","colonia japonesa","memoria","territorio"],"territorio":"San Patricio del Chañar","paraje":null,"protagonistas":[],"fecha":null,"duracion":null,"videoId":"G8rbbeZMMVk","thumbnail":"https://img.youtube.com/vi/G8rbbeZMMVk/hqdefault.jpg","estado":"publicado"},
-{"id":"resumen-2024","programaId":"archivo-ocarina","titulo":"Resumen 2024","descripcion":"Personas, instituciones, oficios y momentos de la comunidad.","categoria":"Archivo","tags":["archivo","comunidad","instituciones","personas"],"territorio":"San Patricio del Chañar","paraje":null,"protagonistas":[],"fecha":null,"duracion":null,"videoId":"ruDP0Ur2wZ0","thumbnail":"https://img.youtube.com/vi/ruDP0Ur2wZ0/hqdefault.jpg","estado":"publicado"}
+  {
+    "id": "cosechas-chanarenses",
+    "programaId": "chanar-rural",
+    "titulo": "Cosechas Chañarenses",
+    "tituloFuente": "Cosechas Chañarenses",
+    "descripcion": "Trabajo rural, producción y territorio desde una mirada local.",
+    "categoria": "Producción local",
+    "tipo": "audiovisual",
+    "tags": ["producción", "ruralidad", "tierra", "identidad local"],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [],
+    "fecha": null,
+    "duracion": null,
+    "videoId": "hnZ0HWZPlOw",
+    "thumbnail": "https://img.youtube.com/vi/hnZ0HWZPlOw/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "portfolio-ocarina",
+        "url": "https://eliasmartinezcultural-glitch.github.io/ocarina-producciones/#trabajo"
+      },
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=hnZ0HWZPlOw"
+      }
+    ],
+    "estado": "publicado",
+    "fichaEditorial": {
+      "nivel": "parcial",
+      "faltantes": ["fecha", "duracion", "paraje", "protagonistas"]
+    }
+  },
+  {
+    "id": "50-anos-escuela-273",
+    "programaId": "memoria-viva",
+    "titulo": "50 años · Escuela 273",
+    "tituloFuente": "50 años · Escuela 273",
+    "descripcion": "Registro de una institución que forma parte de la memoria local.",
+    "categoria": "Memoria",
+    "tipo": "audiovisual",
+    "tags": ["educación", "escuela", "memoria", "instituciones"],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [],
+    "fecha": null,
+    "duracion": null,
+    "videoId": "xY9ppN2HM-s",
+    "thumbnail": "https://img.youtube.com/vi/xY9ppN2HM-s/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "portfolio-ocarina",
+        "url": "https://eliasmartinezcultural-glitch.github.io/ocarina-producciones/#trabajo"
+      },
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=xY9ppN2HM-s"
+      }
+    ],
+    "estado": "publicado",
+    "fichaEditorial": {
+      "nivel": "parcial",
+      "faltantes": ["fecha", "duracion", "paraje", "protagonistas"]
+    }
+  },
+  {
+    "id": "colonia-japonesa",
+    "programaId": "historias-del-chanar",
+    "titulo": "Colonia japonesa",
+    "tituloFuente": "Seiichi Matsui",
+    "descripcion": "Una conversación vinculada a la historia y la memoria del territorio.",
+    "categoria": "Historia",
+    "tipo": "audiovisual",
+    "tags": ["historia", "colonia japonesa", "memoria", "territorio"],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": ["Seiichi Matsui"],
+    "fecha": null,
+    "duracion": null,
+    "videoId": "G8rbbeZMMVk",
+    "thumbnail": "https://img.youtube.com/vi/G8rbbeZMMVk/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "portfolio-ocarina",
+        "url": "https://eliasmartinezcultural-glitch.github.io/ocarina-producciones/#trabajo"
+      },
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=G8rbbeZMMVk"
+      }
+    ],
+    "estado": "publicado",
+    "fichaEditorial": {
+      "nivel": "parcial",
+      "faltantes": ["fecha", "duracion", "paraje"]
+    }
+  },
+  {
+    "id": "resumen-2024",
+    "programaId": "archivo-ocarina",
+    "titulo": "Resumen 2024",
+    "tituloFuente": "Resumen 2024",
+    "descripcion": "Un recorrido por personas, instituciones y experiencias registradas por Ocarina.",
+    "categoria": "Archivo",
+    "tipo": "audiovisual",
+    "tags": ["archivo", "comunidad", "instituciones", "personas"],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [],
+    "fecha": null,
+    "duracion": null,
+    "videoId": "ruDP0Ur2wZ0",
+    "thumbnail": "https://img.youtube.com/vi/ruDP0Ur2wZ0/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "portfolio-ocarina",
+        "url": "https://eliasmartinezcultural-glitch.github.io/ocarina-producciones/#trabajo"
+      },
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=ruDP0Ur2wZ0"
+      }
+    ],
+    "estado": "publicado",
+    "fichaEditorial": {
+      "nivel": "parcial",
+      "faltantes": ["fecha", "duracion", "paraje", "protagonistas"]
+    }
+  }
 ]
