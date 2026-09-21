@@ -296,6 +296,97 @@
       "tratamiento": "REFERENCIA_EXTERNA",
       "url": "https://www.lmneuquen.com/unieron-san-patricio-del-chanar-y-villa-manzano-kayak-n885624",
       "nota": "La fuente documenta una actividad audiovisualizable; falta localizar el video original si existe."
+    },
+    {
+      "id": "AV-019",
+      "titulo": "MI MÚSICA TE AGRADECE: San Patricio del Chañar",
+      "plataforma": "YouTube",
+      "autor": "Fundación BPN",
+      "fecha": "2021-07-19",
+      "categoria": [
+        "MUSICA",
+        "CULTURA",
+        "PERSONAS",
+        "SALUD"
+      ],
+      "estado": "VERIFICADO",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.youtube.com/watch?v=OCAnnknlDs8",
+      "nota": "Videoclip de Larva, banda formada en San Patricio del Chañar en 1999. Hallazgo de alto valor para la memoria musical local."
+    },
+    {
+      "id": "AV-020",
+      "titulo": "MI MÚSICA TE AGRADECE: San Patricio del Chañar - segunda canción",
+      "plataforma": "YouTube",
+      "autor": "Fundación BPN",
+      "fecha": "2021-10-14",
+      "categoria": [
+        "MUSICA",
+        "CULTURA",
+        "PERSONAS"
+      ],
+      "estado": "VERIFICADO",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.youtube.com/watch?v=GEtR6AH4-UI",
+      "nota": "Segundo videoclip de Larva dentro del mismo ciclo."
+    },
+    {
+      "id": "AV-021",
+      "titulo": "Río Neuquén, San Patricio del Chañar",
+      "plataforma": "YouTube",
+      "autor": "Javier Brasesco",
+      "fecha": "2020-11-07",
+      "categoria": [
+        "TERRITORIO",
+        "RIO",
+        "DRONE",
+        "PAISAJE"
+      ],
+      "estado": "VERIFICADO",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.youtube.com/watch?v=YwTLspRkoVc",
+      "nota": "Material aéreo con DJI Mavic Air. Útil para archivo paisajístico y comparación temporal."
+    },
+    {
+      "id": "AV-022",
+      "titulo": "Pescando el Río Neuquén, en San Patricio del Chañar",
+      "plataforma": "YouTube",
+      "autor": "Entre Aguas",
+      "fecha": "2024-08-09",
+      "categoria": [
+        "RIO",
+        "TERRITORIO",
+        "DEPORTE",
+        "TURISMO",
+        "PERSONAS"
+      ],
+      "estado": "VERIFICADO",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.youtube.com/watch?v=ynyL1TwE9-M",
+      "nota": "Grabado en la isla de San Patricio del Chañar; incluye pesca con mosca y paisaje."
+    },
+    {
+      "id": "AV-023",
+      "titulo": "El Chical - nueva bodega urbana y espacio cultural",
+      "plataforma": "Instagram / medio digital",
+      "autor": "Bodega El Chical / medios provinciales",
+      "fecha": "2026-03-26",
+      "categoria": [
+        "VITIVINICULTURA",
+        "CULTURA",
+        "TURISMO",
+        "PERSONAS"
+      ],
+      "estado": "PARCIAL",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.instagram.com/bodegaelchical/",
+      "nota": "La fuente periodística identifica el Instagram oficial @bodegaelchical como canal para futuras actividades culturales y musicales. Falta relevar sus piezas audiovisuales individualmente."
     }
-  ]
+  ],
+  "proxima_fase": "Barrido sistemático por personas, instituciones, picadas, eventos y años; priorizar piezas audiovisuales verificables y separar siempre referencias externas de material publicable por Ocarina."
 }
