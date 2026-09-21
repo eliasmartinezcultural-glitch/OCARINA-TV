@@ -1,0 +1,8 @@
+[
+{"id":"historias-del-chanar","nombre":"Historias del Chañar","descripcion":"Documentales y relatos de personas que forman el territorio.","categoria":"Territorio"},
+{"id":"memoria-viva","nombre":"Memoria Viva","descripcion":"Fotografías, testimonios, escuelas, instituciones y patrimonio.","categoria":"Memoria"},
+{"id":"chanar-rural","nombre":"Chañar Rural","descripcion":"Chacras, cosechas, oficios, paisaje y vida rural.","categoria":"Ruralidad"},
+{"id":"gente-de-aca","nombre":"Gente de acá","descripcion":"Conversaciones con vecinos, trabajadores, artistas y emprendedores.","categoria":"Personas"},
+{"id":"cultura-chanarense","nombre":"Cultura Chañarense","descripcion":"Música, arte, fiestas, identidad y expresiones culturales.","categoria":"Cultura"},
+{"id":"archivo-ocarina","nombre":"Archivo Ocarina","descripcion":"Biblioteca audiovisual histórica de Ocarina TV.","categoria":"Archivo"}
+]
