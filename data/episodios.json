@@ -748,5 +748,56 @@
       "criterio": "watch URL convencional, fuente audiovisual identificada y contenido territorial directo; supera umbral editorial 70%",
       "aspecto": "HORIZONTAL_70"
     }
+  },
+  {
+    "id": "familia-schroeder-vendimia-2022",
+    "programaId": "rutas-y-paisajes",
+    "titulo": "Familia Schroeder · Vendimia 2022",
+    "tituloFuente": "FAMILIA SCHROEDER - VENDIMIA 2022, sin subtitulos.",
+    "descripcion": "Registro de la vendimia en primera persona, con trabajadores y protagonistas de la cosecha en Familia Schroeder, San Patricio del Chañar.",
+    "categoria": "Turismo",
+    "tipo": "audiovisual",
+    "tags": [
+      "vendimia",
+      "Familia Schroeder",
+      "vino",
+      "cosecha",
+      "San Patricio del Chañar"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Bodega Familia Schroeder"
+    ],
+    "fecha": "2022-03-03",
+    "duracion": null,
+    "videoId": "3hPukxBiQGI",
+    "thumbnail": "https://img.youtube.com/vi/3hPukxBiQGI/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=3hPukxBiQGI"
+      },
+      {
+        "tipo": "fuente-oficial",
+        "url": "https://www.youtube.com/@familiaschroeder"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL",
+    "chequeoTecnico": {
+      "fuente": "YouTube · Bodega Familia Schroeder",
+      "tipo": "video convencional",
+      "short": false,
+      "criterio": "watch URL convencional; contenido largo y editorialmente compatible; no identificado como Short/Reel",
+      "aspecto": "HORIZONTAL_70"
+    },
+    "fichaEditorial": {
+      "nivel": "70",
+      "faltantes": [
+        "duracion",
+        "paraje"
+      ]
+    }
   }
 ]
