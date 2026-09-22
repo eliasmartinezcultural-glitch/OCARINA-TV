@@ -156,3 +156,10 @@ main:after{content:"";position:fixed;inset:auto 0 0;height:180px;pointer-events:
 .category-rail a{background-color:#0b1820;background-position:center;background-repeat:no-repeat}
 .tv-hero{outline:1px solid rgba(255,255,255,.025);outline-offset:-1px}
 @media(max-width:720px){.grid .card{border-radius:14px}.category-rail a{border-radius:15px}}
+
+
+/* DECORACION · ARCHIVO AUDIOVISUAL LOCAL · SOLO ESTETICA */
+.grid .card{position:relative}.grid .card:before{content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;background:linear-gradient(135deg,rgba(255,255,255,.018),transparent 35%,rgba(214,181,107,.018));opacity:.9}
+.grid .card h3{position:relative}.grid .card p{position:relative}
+.category-rail a{background-image:linear-gradient(180deg,rgba(4,12,16,.12),rgba(4,12,16,.9)),var(--category-bg,none);box-shadow:0 16px 38px rgba(0,0,0,.24),inset 0 1px 0 rgba(255,255,255,.035)}
+.tv-player{box-shadow:0 30px 100px rgba(0,0,0,.46),0 0 0 1px rgba(214,181,107,.045),inset 0 1px 0 rgba(255,255,255,.04)}
