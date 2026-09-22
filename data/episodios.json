@@ -1468,5 +1468,124 @@
         "paraje"
       ]
     }
+  },
+  {
+    "id": "feria-franca-productores-2026",
+    "programaId": "chanar-rural",
+    "titulo": "Feria Franca · Productores locales",
+    "tituloFuente": "Productores locales impulsan la Feria Franca en San Patricio del Chañar",
+    "descripcion": "Registro audiovisual de productores locales, alimentos frescos, conservas y trabajo emprendedor en la Feria Franca.",
+    "categoria": "Producción local",
+    "tipo": "audiovisual",
+    "tags": [
+      "producción",
+      "productores",
+      "feria",
+      "alimentos",
+      "trabajo familiar",
+      "comunidad"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Productores locales"
+    ],
+    "fecha": "2026-01-23",
+    "duracion": null,
+    "videoId": "n1-49ICezi0",
+    "thumbnail": "https://img.youtube.com/vi/n1-49ICezi0/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "chanar-digital",
+        "url": "https://www.chanardigital.com.ar/articulo/2026/01/productores-locales-impulsan-la-feria-franca-en-san-patricio-del-chanar.php"
+      },
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=n1-49ICezi0"
+      }
+    ],
+    "estado": "publicado",
+    "fichaEditorial": {
+      "nivel": "completo",
+      "faltantes": []
+    }
+  },
+  {
+    "id": "club-de-animales-emprendimiento",
+    "programaId": "comunidad-viva",
+    "titulo": "Club de Animales · Emprendimiento local",
+    "tituloFuente": "Testimonio del Top XV Emprendedor · Club de Animales",
+    "descripcion": "Testimonio audiovisual de un emprendimiento de San Patricio del Chañar presentado en el programa Top XV Emprendedor.",
+    "categoria": "Comunidad",
+    "tipo": "audiovisual",
+    "tags": [
+      "emprendimiento",
+      "animales",
+      "comunidad",
+      "economía local"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Club de Animales"
+    ],
+    "fecha": "2022-06-09",
+    "duracion": null,
+    "videoId": "PIBz-v__l70",
+    "thumbnail": "https://img.youtube.com/vi/PIBz-v__l70/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "centro-pyme-adeneu",
+        "url": "https://produccioneindustria.neuquen.gov.ar/2023/06/09/nueva-edicion-del-programa-de-fortalecimiento-para-el-entramado-emprendedor/"
+      },
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=PIBz-v__l70"
+      }
+    ],
+    "estado": "publicado",
+    "fichaEditorial": {
+      "nivel": "completo",
+      "faltantes": []
+    }
+  },
+  {
+    "id": "fiesta-pelon-2025-segunda-noche",
+    "programaId": "memoria-festiva",
+    "titulo": "Fiesta Provincial del Pelón 2025 · Segunda noche",
+    "tituloFuente": "TRANSMISION EN VIVO FIESTA PROVINCIAL DEL PELON 2025 2° NOCHE",
+    "descripcion": "Registro extenso de la Fiesta Provincial del Pelón 2025 desde la transmisión de Radio Chañar, con valor de archivo para una celebración central de la identidad local.",
+    "categoria": "Cultura",
+    "tipo": "audiovisual",
+    "tags": [
+      "Fiesta del Pelón",
+      "cultura",
+      "trabajador rural",
+      "folklore",
+      "archivo",
+      "comunidad"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Radio Chañar"
+    ],
+    "fecha": "2025-02-15",
+    "duracion": null,
+    "videoId": "8v9Izvq26b8",
+    "thumbnail": "https://img.youtube.com/vi/8v9Izvq26b8/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=8v9Izvq26b8"
+      }
+    ],
+    "estado": "publicado",
+    "fichaEditorial": {
+      "nivel": "parcial",
+      "faltantes": [
+        "duracion"
+      ]
+    }
   }
 ]
