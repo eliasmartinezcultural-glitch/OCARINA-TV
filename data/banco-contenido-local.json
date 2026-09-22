@@ -533,5 +533,86 @@
       "paisaje"
     ],
     "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/04/01/255926-cierre-de-lujo-para-el-ciclo-sunsets-en-san-patricio-del-chanar"
+  },
+  {
+    "id": "vendimia-2023-lmneuquen",
+    "titulo": "Vendimia 2023 · archivo audiovisual de San Patricio del Chañar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "enfoques": [
+      "Vendimia Neuquina",
+      "viñedos",
+      "bodegas",
+      "gastronomía",
+      "música"
+    ],
+    "fuente": "https://www.lmneuquen.com/el-comedor/llega-la-vendimia-neuquen-vino-comida-y-musica-vivo-n1004234/amp",
+    "nota": "La fuente publica un reproductor identificado como 'Vendimia 2023.mp4'. Falta recuperar URL directa y verificar formato horizontal antes de incorporar."
+  },
+  {
+    "id": "vendimia-archivo-lmneuquen",
+    "titulo": "Video sobre vendimia neuquina · archivo audiovisual",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "enfoques": [
+      "Vendimia Neuquina",
+      "vitivinicultura",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.lmneuquen.com/neuquen-tuvo-su-propia-fiesta-la-vendimia-el-chanar-n909142/amp",
+    "nota": "La nota contiene un reproductor identificado como 'Video sobre vendimia nequina.mp4'. Falta recuperar URL directa y verificar horizontalidad."
+  },
+  {
+    "id": "pelon-2025-nova-video",
+    "titulo": "Fiesta Provincial del Pelón 2025 · presentación",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "cultura",
+    "programaId": "cultura-chanarense",
+    "enfoques": [
+      "Fiesta del Pelón",
+      "cultura",
+      "trabajo rural",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.novaneuquen.com/VIDEO--San-Patricio-del-Chanar-se-viene-una-nueva-edicion-de-la-Fiesta-Provincial-del-Pelon-40683",
+    "nota": "La fuente identifica la publicación como VIDEO y documenta la Fiesta del Pelón. Falta recuperar reproductor/URL directa y verificar horizontalidad."
+  },
+  {
+    "id": "pelon-2024-archivo",
+    "titulo": "Fiesta Provincial del Pelón 2024 · archivo",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "historias",
+    "programaId": "memoria-viva",
+    "enfoques": [
+      "Fiesta del Pelón",
+      "memoria",
+      "trabajador rural",
+      "tradición"
+    ],
+    "fuente": "https://turismo.neuquen.gob.ar/san-patricio-del-chanar-vuelve-a-realizar-la-fiesta-del-pelon/",
+    "nota": "Fuente oficial documenta la edición 2024 y sus actos tradicionales. Buscar registro audiovisual horizontal concreto."
+  },
+  {
+    "id": "maridar-2021-archivo",
+    "titulo": "Maridar 2021 · gastronomía, cultura y música",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "cocina",
+    "programaId": "sabores-del-chanar",
+    "enfoques": [
+      "Maridar",
+      "gastronomía",
+      "música",
+      "productores",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2021/11/17/179132-san-patricio-del-chanar-vivira-una-nueva-edicion-del-festival-maridar",
+    "nota": "Fuente oficial confirma el evento y sus contenidos. Buscar video horizontal directo."
   }
 ]
