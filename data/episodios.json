@@ -1546,5 +1546,80 @@
         "duracion"
       ]
     }
+  },
+  {
+    "id": "festival-nuke-mapu-2016",
+    "programaId": "archivo-cultural",
+    "titulo": "Festival de la Ñuke Mapu · 2016",
+    "tituloFuente": "1 FESTIVAL DE LA ÑUKE MAPU - (3 ENTREGA) SAN PATRICIO DEL CHAÑAR (NEUQUEN)",
+    "descripcion": "Registro audiovisual de un festival cultural realizado en San Patricio del Chañar, conservado como material de archivo.",
+    "categoria": "Cultura",
+    "tipo": "audiovisual",
+    "tags": [
+      "cultura",
+      "festival",
+      "archivo",
+      "territorio"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Festival de la Ñuke Mapu"
+    ],
+    "fecha": "2016-11-22",
+    "duracion": null,
+    "videoId": "wyOjlTHdAZ0",
+    "thumbnail": "https://img.youtube.com/vi/wyOjlTHdAZ0/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=wyOjlTHdAZ0"
+      }
+    ],
+    "estado": "publicado",
+    "fichaEditorial": {
+      "nivel": "parcial",
+      "faltantes": [
+        "duracion"
+      ]
+    }
+  },
+  {
+    "id": "inauguracion-campo-jineteada-2015",
+    "programaId": "memoria-rural",
+    "titulo": "Inauguración del Campo de Jineteada · 2015",
+    "tituloFuente": "INAUGURACION DEL CAMPO DE JINETEADA EN SAN PATRICIO DEL CHAÑAR (PROVINCIA DE NEUQUEN)",
+    "descripcion": "Registro de la inauguración del campo de jineteada de San Patricio del Chañar, pieza de archivo vinculada a la tradición rural y ecuestre local.",
+    "categoria": "Ruralidad",
+    "tipo": "audiovisual",
+    "tags": [
+      "jineteada",
+      "tradición rural",
+      "campo",
+      "archivo",
+      "cultura"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Campo de Jineteada"
+    ],
+    "fecha": "2015-02-15",
+    "duracion": null,
+    "videoId": "0EGFgmztZpU",
+    "thumbnail": "https://img.youtube.com/vi/0EGFgmztZpU/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=0EGFgmztZpU"
+      }
+    ],
+    "estado": "publicado",
+    "fichaEditorial": {
+      "nivel": "parcial",
+      "faltantes": [
+        "duracion"
+      ]
+    }
   }
 ]
