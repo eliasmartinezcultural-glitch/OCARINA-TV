@@ -1,0 +1,20 @@
+[
+  {
+    "id": "espacio-principal",
+    "activo": true,
+    "posicion": "PRINCIPAL",
+    "titulo": "Tu marca puede estar acá",
+    "texto": "Espacio publicitario de OCARINA TV para comercios, emprendimientos e instituciones locales.",
+    "cta": "Consultar disponibilidad",
+    "url": "https://wa.me/542996728355"
+  },
+  {
+    "id": "espacio-grilla",
+    "activo": true,
+    "posicion": "GRILLA",
+    "titulo": "Publicidad local",
+    "texto": "Presencia dentro de la señal y sus espacios editoriales.",
+    "cta": "Hablar con Ocarina",
+    "url": "https://wa.me/542996728355"
+  }
+]
