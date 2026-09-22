@@ -851,5 +851,39 @@
         "paraje"
       ]
     }
+  },
+  {
+    "id": "familia-schroeder-ecovalley-video",
+    "programaId": "rutas-y-paisajes",
+    "titulo": "Familia Schroeder · Viñedos de San Patricio del Chañar",
+    "descripcion": "Video de 7 minutos presentado por Eco Valley Imports sobre Familia Schroeder y sus viñedos en San Patricio del Chañar.",
+    "categoria": "Turismo",
+    "tags": [
+      "Familia Schroeder",
+      "viñedos",
+      "vino",
+      "Patagonia",
+      "San Patricio del Chañar"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "protagonistas": [
+      "Familia Schroeder"
+    ],
+    "fecha": null,
+    "duracion": "7:00",
+    "videoId": "BpJEJt089EY",
+    "thumbnail": "https://img.youtube.com/vi/BpJEJt089EY/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "web",
+        "url": "https://www.ecovalleyimports.com/familia-schroeder"
+      },
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=BpJEJt089EY"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL_70"
   }
 ]
