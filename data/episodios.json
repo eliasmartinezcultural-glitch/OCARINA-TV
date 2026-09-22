@@ -1419,5 +1419,54 @@
     ],
     "estado": "publicado",
     "formato": "HORIZONTAL"
+  },
+  {
+    "id": "san-patricio-fit-turismo-2025",
+    "programaId": "rutas-y-paisajes",
+    "titulo": "San Patricio del Chañar · propuesta turística en la FIT",
+    "tituloFuente": "#conectadosrtn NEUQUÉN AT THE FIT: TODAY WE LEARN ABOUT THE PROPOSAL OF SAN PATRICIO DEL CHAÑAR",
+    "descripcion": "Presentación audiovisual de la propuesta turística de San Patricio del Chañar en la Feria Internacional de Turismo, con referencias al agroturismo, gastronomía, ferias, atractivos culturales y la Fiesta Provincial del Pelón.",
+    "categoria": "Turismo",
+    "tipo": "audiovisual",
+    "tags": [
+      "turismo",
+      "agroturismo",
+      "gastronomía",
+      "cultura",
+      "Fiesta del Pelón",
+      "territorio"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Abril Manzano",
+      "Radio y Televisión del Neuquén"
+    ],
+    "fecha": "2025-09-18",
+    "duracion": null,
+    "videoId": "qm6-lqwAY40",
+    "thumbnail": "https://img.youtube.com/vi/qm6-lqwAY40/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=qm6-lqwAY40"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL_70",
+    "chequeoTecnico": {
+      "fuente": "YouTube · Radio y Televisión del Neuquén",
+      "tipo": "video convencional",
+      "short": false,
+      "criterio": "watch URL convencional; resultado identificado como video de YouTube, no como Short",
+      "aspecto": "HORIZONTAL_70"
+    },
+    "fichaEditorial": {
+      "nivel": "parcial",
+      "faltantes": [
+        "duracion",
+        "paraje"
+      ]
+    }
   }
 ]
