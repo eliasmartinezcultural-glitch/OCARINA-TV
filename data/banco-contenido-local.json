@@ -1534,5 +1534,38 @@
     "fuente": "https://www.neuqueninforma.gob.ar/amp/noticias/2026/07/10/260413-san-patricio-del-chanar-realizara-la-primera-feria-regional-de-turismo-sabores-y-amigos",
     "nota": "Evento local confirmado. Buscar cobertura horizontal directa; excluir verticales.",
     "evidencia": "FUENTE_OFICIAL_EVENTO"
+  },
+  {
+    "id": "vendimia-2025-lm-cobertura-audiovisual",
+    "titulo": "Vendimia Neuquina 2025 · cobertura San Patricio del Chañar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "fuente": "https://www.lmneuquen.com/neuquen/san-patricio-del-chanar-celebro-el-exito-la-vendimia-neuquina-2025-n1180085",
+    "nota": "Cobertura local del cierre 2025. Investigar el video asociado y comprobar 16:9 antes de incorporar.",
+    "evidencia": "MEDIO_LOCAL_COBERTURA"
+  },
+  {
+    "id": "vendimia-2026-schroeder-lm-cobertura-video",
+    "titulo": "Vendimia Neuquina 2026 · Familia Schroeder · cobertura",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "fuente": "https://www.lmneuquen.com/neuquen/vendimia-neuquina-musica-vino-y-encuentro-bodega-familia-schroeder-n1232478",
+    "nota": "Cobertura del 21/03/2026. Buscar video horizontal asociado a la cobertura; no publicar la nota como video.",
+    "evidencia": "MEDIO_LOCAL_COBERTURA"
+  },
+  {
+    "id": "malma-vendimia-2026-cobertura",
+    "titulo": "Vendimia Neuquina 2026 · Bodega Malma",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/03/12/255578-vinos-musica-sinfonica-djs-y-arte-en-bodega-malma",
+    "nota": "Evento local confirmado el 14/03/2026. Buscar registro audiovisual horizontal en medios y fuentes de la bodega.",
+    "evidencia": "FUENTE_OFICIAL_EVENTO"
   }
 ]
