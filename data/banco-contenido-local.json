@@ -453,5 +453,85 @@
       "espacios culturales"
     ],
     "fuente": "No se incorporó evidencia local suficiente; resultados encontrados no permiten atribuir el proyecto a San Patricio del Chañar"
+  },
+  {
+    "id": "huellas-ritmo-2026",
+    "titulo": "Huellas con Ritmo · comunidad y movimiento",
+    "bancoId": "sociales",
+    "programaId": "gente-de-aca",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "bienestar",
+      "participación",
+      "comunidad",
+      "movimiento",
+      "encuentro"
+    ],
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/07/22/260788-huellas-con-ritmo-llega-a-san-patricio-del-chanar-para-fortalecer-el-bienestar-y-promover-derechos"
+  },
+  {
+    "id": "centro-deportivo-comunitario",
+    "titulo": "Centro Deportivo Comunitario · deporte y comunidad",
+    "bancoId": "deportes",
+    "programaId": "deporte-de-aca",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "deporte",
+      "comunidad",
+      "infraestructura",
+      "recreación",
+      "familias"
+    ],
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/08/26/262631-seis-empresas-interesadas-en-construir-el-centro-deportivo-comunitario-en-san-patricio-del-chanar"
+  },
+  {
+    "id": "el-chical",
+    "titulo": "El Chical · bodega urbana y espacio cultural",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "vino",
+      "bodega",
+      "cultura",
+      "turismo",
+      "territorio"
+    ],
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/04/03/255930-el-chical-se-suma-a-la-oferta-vitivinicola-de-san-patricio-del-chanar"
+  },
+  {
+    "id": "rincon-criollo-schroeder",
+    "titulo": "Rincón Criollo · gastronomía, vino y música",
+    "bancoId": "cocina",
+    "programaId": "sabores-del-chanar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "gastronomía",
+      "vino",
+      "música",
+      "tradición",
+      "enoturismo"
+    ],
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/05/23/258207-bodega-familia-schroeder-celebra-con-una-propuesta-de-enoturismo-sabores-patrios-y-musica-en-vivo"
+  },
+  {
+    "id": "malma-sunsets-2026",
+    "titulo": "Malma · viñedo, gastronomía y música",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "viñedo",
+      "gastronomía",
+      "música",
+      "enoturismo",
+      "paisaje"
+    ],
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/04/01/255926-cierre-de-lujo-para-el-ciclo-sunsets-en-san-patricio-del-chanar"
   }
 ]
