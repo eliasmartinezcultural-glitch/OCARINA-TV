@@ -885,5 +885,39 @@
     ],
     "estado": "publicado",
     "formato": "HORIZONTAL_70"
+  },
+  {
+    "id": "familia-schroeder-cosecha-2021-todo",
+    "programaId": "chanar-rural",
+    "titulo": "Familia Schroeder · Todo sobre la cosecha 2021",
+    "descripcion": "Los protagonistas de Bodega Familia Schroeder muestran cómo fue la cosecha 2021 en San Patricio del Chañar.",
+    "categoria": "Ruralidad",
+    "tags": [
+      "Familia Schroeder",
+      "cosecha",
+      "vendimia",
+      "viñedos",
+      "San Patricio del Chañar"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "protagonistas": [
+      "Bodega Familia Schroeder"
+    ],
+    "fecha": "2021-04-23",
+    "duracion": null,
+    "videoId": "WhDKsRU_2is",
+    "thumbnail": "https://img.youtube.com/vi/WhDKsRU_2is/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "web",
+        "url": "https://www.fabricioportelli.com/bodega-familia-schroeder-cosecha-2021-2/"
+      },
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=WhDKsRU_2is"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL_70"
   }
 ]
