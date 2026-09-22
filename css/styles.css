@@ -121,3 +121,7 @@ main:after{content:"";position:fixed;inset:auto 0 0;height:180px;pointer-events:
 .grid{gap:22px}.grid .card{border-radius:16px;overflow:hidden;transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease}.grid .card:hover{transform:translateY(-3px)}
 .grid .card img{transition:transform .35s ease,filter .35s ease}.grid .card:hover img{transform:scale(1.025);filter:saturate(1.06)}
 @media(max-width:720px){.category-rail{gap:10px}.category-rail a{min-height:96px}.grid{gap:16px}}
+
+/* DECORACION · IDENTIDAD AUDIOVISUAL */
+.section-title{position:relative;padding-bottom:10px}.section-title:after{content:"";position:absolute;left:0;bottom:0;width:54px;height:2px;background:linear-gradient(90deg,var(--gold,#D6B56B),transparent);border-radius:99px}
+.card{transition:transform .2s ease,box-shadow .2s ease,filter .2s ease}.card:hover{filter:brightness(1.035)}
