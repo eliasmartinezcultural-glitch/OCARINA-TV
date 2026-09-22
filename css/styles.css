@@ -247,3 +247,25 @@ img,iframe,video{max-width:100%}
 @media(prefers-reduced-motion:reduce){
   *,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}
 }
+
+
+/* DECORACION · CIERRE FINAL MULTIDISPOSITIVO · SOLO CSS */
+@media(max-width:720px){
+  body{overflow-x:hidden}
+  .tv-hero,.section,.category-rail,.ads-grid,footer{width:100%;min-width:0}
+  .category-rail a{scroll-snap-align:start}
+  .category-rail{scroll-snap-type:x proximity}
+  .grid .card img{height:auto;aspect-ratio:16/9;object-fit:cover}
+  .now-panel,.tv-player,.grid .card,.ads-grid>*{max-width:100%;box-sizing:border-box}
+}
+@media(max-width:420px){
+  main{padding-left:max(12px,env(safe-area-inset-left));padding-right:max(12px,env(safe-area-inset-right));padding-bottom:calc(58px + env(safe-area-inset-bottom))}
+  .tv-player iframe,.tv-player video{display:block;width:100%;aspect-ratio:16/9}
+  .category-rail a{min-width:128px}
+}
+@media(min-width:721px){
+  .grid .card img{aspect-ratio:16/9;object-fit:cover}
+}
+/* DECORACION · IDENTIDAD AUDIOVISUAL · SIN CAMBIOS DE ESTRUCTURA */
+.card .thumb,.grid .card img{background:#0A171E}
+.sectionhead h2{letter-spacing:-.025em}
