@@ -726,5 +726,73 @@
     ],
     "fuente": "https://www.neuqueninforma.gob.ar/noticias/2025/06/01/249561-patritti-el-renacer-de-una-bodega-en-san-patricio-del-chanar",
     "nota": "Fuente oficial reciente para buscar registro audiovisual horizontal asociado."
+  },
+  {
+    "id": "vendimia-2026-malma-video-pista",
+    "titulo": "Vendimia Neuquina 2026 · Bodega Malma · registro audiovisual",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "enfoques": [
+      "Vendimia Neuquina",
+      "Bodega Malma",
+      "música",
+      "gastronomía",
+      "viñedos"
+    ],
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/03/12/255578-vinos-musica-sinfonica-djs-y-arte-en-bodega-malma",
+    "nota": "Fuente oficial documenta el evento audiovisualizable. Buscar video horizontal directo, no Reel/Short."
+  },
+  {
+    "id": "vendimia-2025-schroeder-video-pista",
+    "titulo": "Vendimia Neuquina 2025 · Familia Schroeder · registro",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "enfoques": [
+      "Vendimia Neuquina",
+      "Familia Schroeder",
+      "El Zar",
+      "vino",
+      "gastronomía"
+    ],
+    "fuente": "https://www.lmneuquen.com/neuquen/san-patricio-del-chanar-celebro-el-exito-la-vendimia-neuquina-2025-n1180085",
+    "nota": "Fuente periodística con cobertura audiovisual/fotográfica. Localizar pieza horizontal directa antes de incorporar."
+  },
+  {
+    "id": "schroeder-recorrido-virtual",
+    "titulo": "Familia Schroeder · Recorrido virtual de la bodega",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "enfoques": [
+      "Familia Schroeder",
+      "bodega",
+      "turismo",
+      "vino",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://familiaschroeder.com/arg/turismo/",
+    "nota": "La página oficial ofrece un recorrido virtual. Verificar si existe video horizontal embebido o archivo audiovisual recuperable; no incorporar si es solo experiencia web/360."
+  },
+  {
+    "id": "chanar-naturaleza-aves-kayak",
+    "titulo": "Río Neuquén · kayak y avistaje de aves en Chañar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "naturaleza",
+    "programaId": "naturaleza-cercana",
+    "enfoques": [
+      "Río Neuquén",
+      "kayak",
+      "aves",
+      "naturaleza",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://sanpatricio.gob.ar/quehacer",
+    "nota": "Fuente municipal identifica actividades y fauna local. Buscar registros audiovisuales horizontales concretos."
   }
 ]
