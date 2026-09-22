@@ -1,20 +1,21 @@
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const SETTINGS=window.OTV_SETTINGS||{readSettings:()=>({autoplay:false,volume:70,rememberVolume:true,reducedMotion:false}),saveSettings:s=>s};
-let DATA=null,EDITORIAL=null,ytPlayer=null,playerReady=false,currentEpisode=null,progressTimer=null;
+let DATA=null,EDITORIAL=null,ytPlayer=null,playerReady=false,currentEpisode=null,progressTimer=null;let RANDOM_QUEUE=[];let RANDOM_INDEX=0;
 
 async function load(){
  if(DATA)return DATA;
  const get=async(path,fallback)=>{try{const r=await fetch(path,{cache:'no-store'});if(!r.ok)throw new Error(path+' '+r.status);return await r.json()}catch(err){console.warn('OCARINA TV: no se pudo cargar',path,err);return fallback}};
- const [programas,episodios,programacion,publicidad,bancos,bancoContenido,investigacion]=await Promise.all([
+ const [programas,episodios,programacion,publicidad,bancos,bancoContenido,investigacion,canal]=await Promise.all([
   get('data/programas.json',[]),
   get('data/episodios.json',window.OTV_ARCHIVE_FALLBACK||[]),
   get('data/programacion.json',[]),
   get('data/publicidad.json',[]),
   get('data/bancos-programacion.json',{}),
   get('data/banco-contenido-local.json',[]),
-  get('data/investigacion-quirurgica-local.json',{})
+  get('data/investigacion-quirurgica-local.json',{}),
+  get('data/canal.json',{})
  ]);
- return DATA={programas,episodios,programacion,publicidad,bancos,bancoContenido,investigacion};
+ return DATA={programas,episodios,programacion,publicidad,bancos,bancoContenido,investigacion,canal};
 }
 function header(){
  return '<header><div class="nav"><a class="brand" href="index.html">OCARINA <span>TV</span></a><nav>'+
@@ -95,6 +96,12 @@ function findEpisode(slot){
  }
  return DATA.episodios.find(e=>e.id===slot?.episodioId)||DATA.episodios.find(e=>e.programaId===slot?.programaId)||DATA.episodios[0]||{id:'sin-contenido',titulo:'Señal Ocarina TV',descripcion:'Continuidad editorial',categoria:'Señal',videoId:''};
 }
+function playableEpisodes(){return (DATA?.episodios||[]).filter(e=>e.videoId&&editorialStatus(e.estado)==='PUBLICADO');}
+function shuffle(list){const a=[...list];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function buildRandomQueue(){const pool=playableEpisodes();if(!pool.length)return [];const last=currentEpisode?.id;let q=shuffle(pool);if(last&&q.length>1&&q[0].id===last)[q[0],q[1]]=[q[1],q[0]];return q}
+function nextRandomEpisode(){if(!RANDOM_QUEUE.length||RANDOM_INDEX>=RANDOM_QUEUE.length){RANDOM_QUEUE=buildRandomQueue();RANDOM_INDEX=0}const ep=RANDOM_QUEUE[RANDOM_INDEX++]||playableEpisodes()[0];return ep}
+function startRandomSignal(){const ep=nextRandomEpisode();if(!ep)return null;currentEpisode=ep;return ep}
+function categoryCounts(){const out={};for(const e of playableEpisodes()){const k=e.categoria||'Otros';out[k]=(out[k]||0)+1}return out}
 function formatClock(){return new Intl.DateTimeFormat('es-AR',{hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(new Date())}
 function formatTime(sec){if(!Number.isFinite(sec))return '00:00';sec=Math.max(0,Math.floor(sec));return String(Math.floor(sec/60)).padStart(2,'0')+':'+String(sec%60).padStart(2,'0')}
 function ensureYT(){
@@ -108,7 +115,7 @@ function initYT(){
  const id=holder.dataset.video;
  ytPlayer=new YT.Player('ytplayer',{videoId:id,width:'100%',height:'100%',playerVars:{autoplay:0,controls:0,playsinline:1,rel:0,enablejsapi:1,origin:location.origin},events:{
   onReady:e=>{playerReady=true;const s=SETTINGS.readSettings();e.target.setVolume(Number(s.volume)||70);updatePlayerUI();if(s.autoplay){e.target.mute();e.target.playVideo()}},
-  onStateChange:e=>{updatePlayerUI();if(window.navigator.mediaSession)navigator.mediaSession.playbackState=e.data===1?'playing':e.data===2?'paused':'none';if(e.data===0)markEnded()},
+  onStateChange:e=>{updatePlayerUI();if(window.navigator.mediaSession)navigator.mediaSession.playbackState=e.data===1?'playing':e.data===2?'paused':'none';if(e.data===0){markEnded();setTimeout(()=>window.OTV_PLAY_RANDOM?.(true),500)}},
   onError:e=>{const el=document.getElementById('playerError');if(el)el.textContent='Este video no puede reproducirse dentro del canal (código '+e.data+'). También podés abrirlo en YouTube desde la ficha.'}
  }});
 }
@@ -160,15 +167,18 @@ function miniGuide(list){
 }
 
 async function renderHome(){
- const d=await load();buildEditorialEngine();const signal=buildSignalSchedule();const slot=currentSlot(signal),next=nextSlot(signal),ep=findEpisode(slot),nextEp=findEpisode(next);
- shell('Señal','<main><section class="tv-hero"><div><div class="screen-head"><span class="live-dot">● EN VIVO EDITORIAL</span><span id="dateClock">'+formatClock()+'</span></div>'+buildPlayer(ep)+'</div><aside class="now-panel"><div class="kicker">CANAL LOCAL</div><h1>Historias.<br>Personas.<br>Territorio.</h1><div class="onair-card"><span>AHORA · '+esc(slot.inicio)+'–'+esc(slot.fin)+'</span><strong id="nowTitle">'+esc(slot.titulo)+'</strong><small>'+esc(slot.descripcion)+'</small></div><div class="next-card"><span>SIGUE</span><strong id="nextTitle">'+esc(next.titulo)+'</strong><small>'+esc(next.inicio)+'–'+esc(next.fin)+' · '+esc(next.descripcion)+'</small><button id="nextBtn" class="btn">▶ Preparar siguiente</button></div><div class="quick-links"><a href="programacion.html">▦ Grilla 24 h</a><a href="publicidad.html">▤ Publicidad</a><a href="configuracion.html">⚙ Configuración</a></div></aside></section>'+
- '<section class="section"><div class="sectionhead"><div><div class="kicker">GUÍA</div><h2>Ahora · sigue</h2></div><a class="muted" href="programacion.html">24 h →</a></div>'+miniGuide(signal)+'</section><section class="section"><div class="sectionhead"><div><div class="kicker">VIDEOS</div><h2>Videos sobre Chañar</h2></div><a class="muted" href="archivo.html">Ver todos →</a></div><div class="grid">'+d.episodios.map(card).join('')+'</div></section><section class="section"><div class="sectionhead"><div><div class="kicker">DESCUBRIR</div><h2>Buscar más videos del Chañar</h2></div></div><div class="category-rail"><a target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=San+Patricio+del+Chañar"><span>TODO</span><b>San Patricio del Chañar</b></a><a target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=San+Patricio+del+Chañar+historia"><span>HIS</span><b>Historia</b></a><a target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=San+Patricio+del+Chañar+turismo"><span>TUR</span><b>Turismo</b></a><a target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=San+Patricio+del+Chañar+musica"><span>MUS</span><b>Música</b></a><a target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=San+Patricio+del+Chañar+deporte"><span>DEP</span><b>Deporte</b></a><a target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=San+Patricio+del+Chañar+Fiesta+del+Pelon"><span>CUL</span><b>Fiesta del Pelón</b></a></div></section>
- '<section class="section"><div class="sectionhead"><div><div class="kicker">ESPACIO COMERCIAL</div><h2>Publicidad</h2></div></div><div class="ads-grid">'+d.publicidad.filter(a=>a.activo).map(adBlock).join('')+'</div></section>'+
- '</main>');
+ const d=await load();buildEditorialEngine();const ep=startRandomSignal();const counts=categoryCounts();
+ const categories=[['Historia','historias'],['Cultura','cultura'],['Turismo','turismo'],['Música','musica'],['Deportes','deportes'],['Ruralidad','ruralidad'],['Cocina','cocina'],['Comunidad','sociales'],['Naturaleza','naturaleza']];
+ shell('Señal','<main><section class="tv-hero"><div><div class="screen-head"><span class="live-dot">● OCARINA TV · SEÑAL</span><span id="dateClock">'+formatClock()+'</span></div>'+buildPlayer(ep)+'</div><aside class="now-panel"><div class="kicker">CANAL LOCAL</div><h1>Videos de<br>San Patricio<br>del Chañar.</h1><div class="onair-card"><span>ESTÁS MIRANDO</span><strong id="nowTitle">'+esc(ep?.titulo||'Elegí un video')+'</strong><small id="nowDesc">'+esc(ep?.descripcion||'Contenido audiovisual del territorio.')+'</small></div><button id="randomBtn" class="btn big-action">▶ Ver otro video</button><a class="choose-action" href="archivo.html">▣ Elegir qué ver</a><div class="quick-links"><a href="programacion.html">Programación</a><a href="publicidad.html">Publicidad</a></div></aside></section>'+
+ '<section class="section"><div class="sectionhead"><div><div class="kicker">ELEGÍ QUÉ VER</div><h2>Videos sobre Chañar</h2></div><a class="muted" href="archivo.html">Ver todos →</a></div><div class="category-rail">'+categories.map(([name,id])=>'<a href="archivo.html?categoria='+encodeURIComponent(name)+'"><span>'+esc((name.slice(0,3)).toUpperCase())+'</span><b>'+esc(name)+'</b><small class="category-count">'+(counts[name]||0)+' videos</small></a>').join('')+'</div></section>'+
+ '<section class="section"><div class="sectionhead"><div><div class="kicker">ÚLTIMOS INCORPORADOS</div><h2>Para mirar ahora</h2></div><a class="muted" href="archivo.html">Catálogo completo →</a></div><div class="grid">'+d.episodios.slice(-6).reverse().map(card).join('')+'</div></section>'+
+ '<section class="section simple-note"><div><div class="kicker">OCARINA TV</div><h2>Un lugar para mirar Chañar.</h2><p class="muted">Historias, personas, lugares, música, deporte, cultura y territorio reunidos en un solo canal.</p></div></section>'+
+ '<section class="section"><div class="sectionhead"><div><div class="kicker">ESPACIO COMERCIAL</div><h2>Publicidad</h2></div><a class="muted" href="publicidad.html">Ver sponsors →</a></div><div class="ads-grid">'+d.publicidad.filter(a=>a.activo).slice(0,2).map(adBlock).join('')+'</div></section></main>');
  bindPlayerControls();mediaMetadata(ep);
- const nextBtn=document.getElementById('nextBtn');nextBtn?.addEventListener('click',()=>{if(nextEp&&ytPlayer){ytPlayer.loadVideoById(nextEp.videoId);currentEpisode=nextEp;mediaMetadata(nextEp);document.getElementById('playerTitle').textContent=nextEp.titulo;document.getElementById('playerDesc').textContent=nextEp.descripcion}});
- const refresh=()=>{const signalNow=buildSignalSchedule(),s=currentSlot(signalNow),n=nextSlot(signalNow),se=document.getElementById('dateClock');if(se)se.textContent=formatClock();const c=document.getElementById('continuity');if(c)c.innerHTML=continuity(signalNow);const nt=document.getElementById('nowTitle');if(nt)nt.textContent=s.titulo;const nn=document.getElementById('nextTitle');if(nn)nn.textContent=n.titulo};
- refresh();setInterval(refresh,1000);
+ const playNext=(auto=true)=>{const next=startRandomSignal();if(!next||!ytPlayer)return;ytPlayer.loadVideoById(next.videoId);currentEpisode=next;mediaMetadata(next);const t=document.getElementById('playerTitle'),desc=document.getElementById('playerDesc'),title=document.getElementById('nowTitle'),nd=document.getElementById('nowDesc');if(t)t.textContent=next.titulo;if(desc)desc.textContent=next.descripcion;if(title)title.textContent=next.titulo;if(nd)nd.textContent=next.descripcion;if(auto)ytPlayer.playVideo()};
+ document.getElementById('randomBtn')?.addEventListener('click',()=>playNext(true));
+ window.OTV_PLAY_RANDOM=playNext;
+ const refresh=()=>{const se=document.getElementById('dateClock');if(se)se.textContent=formatClock()};refresh();setInterval(refresh,1000);
 }
 function continuity(list){const idx=scheduleIndex(list);return [0,1,2,3].map(offset=>{const s=list[(idx+offset)%list.length];return '<div class="cont-item '+(offset===0?'current':'')+'"><span>'+esc(offset===0?'AHORA':offset===1?'SIGUE':'DESPUÉS')+'</span><b>'+esc(s.inicio)+' · '+esc(s.titulo)+'</b><small>'+esc(s.descripcion)+'</small></div>'}).join('')}
 async function renderSchedule(){
@@ -181,7 +191,7 @@ async function renderPrograms(){
  shell('Programas','<main><div class="kicker">OCARINA TV</div><h1>Programas</h1><p class="muted">Colecciones editoriales del canal.</p><div class="programs">'+d.programas.map(p=>'<a class="program" href="programas.html?id='+encodeURIComponent(p.id)+'"><b>'+esc(p.nombre)+'</b><span>'+esc(p.descripcion)+' · '+esc(p.categoria)+'</span></a>').join('')+'</div></main>')
 }
 async function renderArchive(){
- const d=await load();buildEditorialEngine();const q=new URLSearchParams(location.search),pid=q.get('programa');let list=pid?d.episodios.filter(e=>e.programaId===pid):d.episodios;
+ const d=await load();buildEditorialEngine();const q=new URLSearchParams(location.search),pid=q.get('programa'),cat=q.get('categoria');let list=pid?d.episodios.filter(e=>e.programaId===pid):d.episodios;if(cat)list=list.filter(e=>String(e.categoria||'').toLowerCase()===String(cat).toLowerCase());
  shell('Videos','<main><div class="kicker">OCARINA TV · SAN PATRICIO DEL CHAÑAR</div><h1>Videos sobre Chañar</h1><p class="muted">Todo el material incorporado al catálogo, en un solo lugar.</p><input class="search" id="search" placeholder="Buscar video, tema, persona o lugar…" aria-label="Buscar videos"><p class="muted" id="count"></p><div class="grid" id="list"></div></main>');
  const draw=()=>{const term=document.getElementById('search').value.toLowerCase().trim();const out=list.filter(e=>([e.titulo,e.descripcion,e.categoria,e.territorio,e.paraje,...(e.tags||[]),...(e.protagonistas||[])].filter(Boolean).join(' ')).toLowerCase().includes(term));document.getElementById('list').innerHTML=out.map(card).join('');document.getElementById('count').textContent=out.length+' episodios encontrados'};document.getElementById('search').oninput=draw;draw()
 }
