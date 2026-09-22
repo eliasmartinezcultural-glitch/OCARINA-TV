@@ -38,12 +38,64 @@ function buildEditorialEngine(){
   return {...item,bankName:bank?.nombre||'',editorialCode:bank?.codigo||'',allowed,eligible:allowed&&editorialGate(item)};
  });
  const published=(DATA.episodios||[]).filter(e=>editorialStatus(e.estado)==='PUBLICADO'||editorialStatus(e.estado)==='PUBLICABLE');
- return EDITORIAL={candidates,published,eligibleCandidates:candidates.filter(x=>x.eligible),pending:candidates.filter(x=>editorialStatus(x.estado)==='PENDIENTE'),blocked:candidates.filter(x=>!x.allowed)};
+ return EDITORIAL={candidates,published,eligibleCandidates:candidates.filter(x=>x.eligible),schedulableCandidates:candidates.filter(x=>x.eligible&&candidateEpisode(x)),pending:candidates.filter(x=>editorialStatus(x.estado)==='PENDIENTE'),blocked:candidates.filter(x=>!x.allowed)};
 }
 function editorialCandidates(bankId){return (EDITORIAL?.eligibleCandidates||[]).filter(x=>!bankId||x.bancoId===bankId)}
+function candidateEpisode(candidate){
+ if(!candidate)return null;
+ if(candidate.episodioId){
+  const e=DATA.episodios.find(x=>x.id===candidate.episodioId);
+  if(e?.videoId)return e;
+ }
+ if(candidate.videoId){
+  return {
+   id:'auto-'+candidate.id,
+   titulo:candidate.titulo,
+   descripcion:candidate.descripcion||candidate.enfoques?.join(' · ')||'Contenido editorial local',
+   categoria:candidate.bancoName||candidate.bancoId||'Señal',
+   territorio:'San Patricio del Chañar',
+   fecha:candidate.fechaVerificacion||candidate.fecha||'',
+   duracion:candidate.duracion||'',
+   tags:candidate.enfoques||[],
+   thumbnail:candidate.thumbnail||('https://img.youtube.com/vi/'+encodeURIComponent(candidate.videoId)+'/hqdefault.jpg'),
+   videoId:candidate.videoId,
+   estado:'PUBLICABLE',
+   fuente:candidate.fuente||''
+  };
+ }
+ return null;
+}
+function buildSignalSchedule(){
+ const base=DATA.programacion||[];
+ const used=new Set(),assigned=[];
+ const pool=(EDITORIAL?.eligibleCandidates||[]).filter(c=>candidateEpisode(c));
+ for(const slot of base){
+  const compatible=pool.filter(c=>c.bancoId===slot.bancoId&&!used.has(c.id));
+  compatible.sort((a,b)=>{
+   const score=c=>Number(c.prioridad||0)*10+(c.programaId===slot.programaId?100:0)+(c.calidad==='ALTA'?5:0);
+   return score(b)-score(a);
+  });
+  const chosen=compatible[0];
+  if(chosen){
+   const ep=candidateEpisode(chosen);
+   used.add(chosen.id);
+   assigned.push({...slot,episodioId:ep.id,autoCandidateId:chosen.id,autoAssignment:true,titulo:ep.titulo,descripcion:ep.descripcion});
+  }else{
+   assigned.push({...slot,autoAssignment:false});
+  }
+ }
+ return assigned;
+}
 function currentSlot(list){return list[scheduleIndex(list)]||list[0]}
 function nextSlot(list){return list[(scheduleIndex(list)+1)%list.length]||list[0]}
-function findEpisode(slot){return DATA.episodios.find(e=>e.id===slot?.episodioId)||DATA.episodios.find(e=>e.programaId===slot?.programaId)||DATA.episodios[0]||{id:'sin-contenido',titulo:'Señal Ocarina TV',descripcion:'Continuidad editorial',categoria:'Señal',videoId:''}}
+function findEpisode(slot){
+ if(slot?.autoCandidateId){
+  const c=EDITORIAL?.eligibleCandidates?.find(x=>x.id===slot.autoCandidateId);
+  const autoEp=candidateEpisode(c);
+  if(autoEp)return autoEp;
+ }
+ return DATA.episodios.find(e=>e.id===slot?.episodioId)||DATA.episodios.find(e=>e.programaId===slot?.programaId)||DATA.episodios[0]||{id:'sin-contenido',titulo:'Señal Ocarina TV',descripcion:'Continuidad editorial',categoria:'Señal',videoId:''};
+}
 function formatClock(){return new Intl.DateTimeFormat('es-AR',{hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(new Date())}
 function formatTime(sec){if(!Number.isFinite(sec))return '00:00';sec=Math.max(0,Math.floor(sec));return String(Math.floor(sec/60)).padStart(2,'0')+':'+String(sec%60).padStart(2,'0')}
 function ensureYT(){
@@ -97,20 +149,20 @@ function editorialEnginePanel(){
 function adBlock(ad){return '<a class="ad-slot" href="'+esc(ad.url||'publicidad.html')+'"><span class="ad-label">PUBLICIDAD</span><strong>'+esc(ad.titulo)+'</strong><p>'+esc(ad.texto)+'</p><b>'+esc(ad.cta||'Consultar')+' →</b></a>'}
 
 async function renderHome(){
- const d=await load();buildEditorialEngine();const slot=currentSlot(d.programacion),next=nextSlot(d.programacion),ep=findEpisode(slot),nextEp=findEpisode(next);
+ const d=await load();buildEditorialEngine();const signal=buildSignalSchedule();const slot=currentSlot(signal),next=nextSlot(signal),ep=findEpisode(slot),nextEp=findEpisode(next);
  shell('Señal','<main><section class="tv-hero"><div><div class="screen-head"><span class="live-dot">● EN VIVO EDITORIAL</span><span id="dateClock">'+formatClock()+'</span></div>'+buildPlayer(ep)+'</div><aside class="now-panel"><div class="kicker">CANAL LOCAL</div><h1>Historias.<br>Personas.<br>Territorio.</h1><div class="onair-card"><span>AHORA · '+esc(slot.inicio)+'–'+esc(slot.fin)+'</span><strong id="nowTitle">'+esc(slot.titulo)+'</strong><small>'+esc(slot.descripcion)+'</small></div><div class="next-card"><span>SIGUE</span><strong id="nextTitle">'+esc(next.titulo)+'</strong><small>'+esc(next.inicio)+'–'+esc(next.fin)+' · '+esc(next.descripcion)+'</small><button id="nextBtn" class="btn">▶ Preparar siguiente</button></div><div class="quick-links"><a href="programacion.html">▦ Grilla 24 h</a><a href="publicidad.html">▤ Publicidad</a><a href="configuracion.html">⚙ Configuración</a></div></aside></section>'+
  '<section class="section"><div class="sectionhead"><div><div class="kicker">CONTINUIDAD</div><h2>Qué sigue en la señal</h2></div><span class="muted">Actualización automática</span></div><div class="continuity" id="continuity"></div></section>'+editorialEnginePanel()+
  '<section class="section"><div class="sectionhead"><div><div class="kicker">ESPACIO COMERCIAL</div><h2>Publicidad</h2></div></div><div class="ads-grid">'+d.publicidad.filter(a=>a.activo).map(adBlock).join('')+'</div></section>'+
  '<section class="section"><div class="sectionhead"><div><div class="kicker">A DEMANDA</div><h2>Últimos episodios</h2></div><a class="muted" href="archivo.html">Ver archivo →</a></div><div class="grid">'+d.episodios.slice(0,4).map(card).join('')+'</div></section></main>');
  bindPlayerControls();mediaMetadata(ep);
  const nextBtn=document.getElementById('nextBtn');nextBtn?.addEventListener('click',()=>{if(nextEp&&ytPlayer){ytPlayer.loadVideoById(nextEp.videoId);currentEpisode=nextEp;mediaMetadata(nextEp);document.getElementById('playerTitle').textContent=nextEp.titulo;document.getElementById('playerDesc').textContent=nextEp.descripcion}});
- const refresh=()=>{const s=currentSlot(d.programacion),n=nextSlot(d.programacion),se=document.getElementById('dateClock');if(se)se.textContent=formatClock();const c=document.getElementById('continuity');if(c)c.innerHTML=continuity(d.programacion);const nt=document.getElementById('nowTitle');if(nt)nt.textContent=s.titulo;const nn=document.getElementById('nextTitle');if(nn)nn.textContent=n.titulo};
+ const refresh=()=>{const signalNow=buildSignalSchedule(),s=currentSlot(signalNow),n=nextSlot(signalNow),se=document.getElementById('dateClock');if(se)se.textContent=formatClock();const c=document.getElementById('continuity');if(c)c.innerHTML=continuity(signalNow);const nt=document.getElementById('nowTitle');if(nt)nt.textContent=s.titulo;const nn=document.getElementById('nextTitle');if(nn)nn.textContent=n.titulo};
  refresh();setInterval(refresh,1000);
 }
 function continuity(list){const idx=scheduleIndex(list);return [0,1,2,3].map(offset=>{const s=list[(idx+offset)%list.length];return '<div class="cont-item '+(offset===0?'current':'')+'"><span>'+esc(offset===0?'AHORA':offset===1?'SIGUE':'DESPUÉS')+'</span><b>'+esc(s.inicio)+' · '+esc(s.titulo)+'</b><small>'+esc(s.descripcion)+'</small></div>'}).join('')}
 async function renderSchedule(){
- const d=await load();buildEditorialEngine();const idx=scheduleIndex(d.programacion);
- shell('Programación','<main><div class="kicker">SEÑAL OCARINA TV</div><h1>Programación · 24 horas</h1><p class="muted">Grilla editorial de continuidad. La señal web usa contenido bajo demanda y requiere la interacción del usuario para iniciar reproducción con sonido cuando el navegador lo exige.</p><div class="schedule-summary"><div><span>AHORA</span><strong>'+esc(d.programacion[idx].inicio)+' · '+esc(d.programacion[idx].titulo)+'</strong></div><div><span>SIGUE</span><strong>'+esc(d.programacion[(idx+1)%24].inicio)+' · '+esc(d.programacion[(idx+1)%24].titulo)+'</strong></div></div><div class="schedule-grid">'+d.programacion.map((s,i)=>'<a class="schedule-row '+(i===idx?'now':'')+'" href="index.html"><time>'+esc(s.inicio)+'<br><small>'+esc(s.fin)+'</small></time><div><b>'+esc(s.titulo)+'</b><span>'+esc(s.descripcion)+'</span></div><em>'+(i===idx?'AHORA':i===(idx+1)%24?'SIGUE':'')+'</em></a>').join('')+'</div></main>');
+ const d=await load();buildEditorialEngine();const signal=buildSignalSchedule();const idx=scheduleIndex(signal);
+ shell('Programación','<main><div class="kicker">SEÑAL OCARINA TV</div><h1>Programación · 24 horas</h1><p class="muted">Grilla editorial de continuidad. La señal web usa contenido bajo demanda y requiere la interacción del usuario para iniciar reproducción con sonido cuando el navegador lo exige.</p><div class="schedule-summary"><div><span>AHORA</span><strong>'+esc(signal[idx].inicio)+' · '+esc(signal[idx].titulo)+'</strong></div><div><span>SIGUE</span><strong>'+esc(signal[(idx+1)%24].inicio)+' · '+esc(signal[(idx+1)%24].titulo)+'</strong></div></div><div class="schedule-grid">'+signal.map((s,i)=>'<a class="schedule-row '+(i===idx?'now':'')+'" href="index.html"><time>'+esc(s.inicio)+'<br><small>'+esc(s.fin)+'</small></time><div><b>'+esc(s.titulo)+'</b><span>'+esc(s.descripcion)+'</span></div><em>'+(i===idx?'AHORA':i===(idx+1)%24?'SIGUE':'')+'</em></a>').join('')+'</div></main>');
 }
 async function renderPrograms(){
  const d=await load();buildEditorialEngine();const q=new URLSearchParams(location.search),id=q.get('id');
