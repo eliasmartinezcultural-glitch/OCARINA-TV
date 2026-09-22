@@ -292,5 +292,68 @@
       }
     ],
     "estado": "publicado"
+  },
+  {
+    "id": "aicardi-pasion-vino",
+    "programaId": "rutas-y-paisajes",
+    "titulo": "Bodega Familia Aicardi",
+    "tituloFuente": "Bodega Familia Aicardi, San Patricio del Chañar, Neuquén",
+    "descripcion": "Registro dedicado a una bodega y a la producción vitivinícola de San Patricio del Chañar.",
+    "categoria": "Turismo",
+    "tipo": "audiovisual",
+    "tags": [
+      "vino",
+      "bodega",
+      "turismo",
+      "producción"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Familia Aicardi"
+    ],
+    "fecha": "2023-11-28",
+    "duracion": null,
+    "videoId": "ystl-eJDwDM",
+    "thumbnail": "https://img.youtube.com/vi/ystl-eJDwDM/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=ystl-eJDwDM"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": "nuestro-santo-futbol-reserva-2023",
+    "programaId": "deporte-de-aca",
+    "titulo": "Nuestro Santo Fútbol · Campeón en Reserva 2023",
+    "tituloFuente": "NUESTRO SANTO FUTBOL - Documental San Patricio Campeon en Reserva 2023",
+    "descripcion": "Documental sobre la Reserva del Club San Patricio del Chañar y su recorrido durante 2023.",
+    "categoria": "Deportes",
+    "tipo": "audiovisual",
+    "tags": [
+      "fútbol",
+      "deporte",
+      "Club San Patricio",
+      "documental",
+      "jóvenes"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Club San Patricio del Chañar"
+    ],
+    "fecha": "2024-06-12",
+    "duracion": null,
+    "videoId": "QLLzkH4_tsE",
+    "thumbnail": "https://img.youtube.com/vi/QLLzkH4_tsE/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=QLLzkH4_tsE"
+      }
+    ],
+    "estado": "publicado"
   }
 ]
