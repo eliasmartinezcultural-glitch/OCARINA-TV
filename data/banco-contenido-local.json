@@ -1040,5 +1040,89 @@
     ],
     "fuente": "https://www.hcdn.gob.ar/comisiones/permanentes/cdhygarantias/proyecto.html?exp=0039-D-2013",
     "nota": "Fuente oficial confirma la Fiesta del Pelón 2013 y participación de Larva. Es pista histórica, no video; requiere recuperar material audiovisual."
+  },
+  {
+    "id": "patritti-nicolas-navio-youtube",
+    "titulo": "Nicolás Navío · Bodega Patritti · Pasión por el Vino",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "enfoques": [
+      "Nicolás Navío",
+      "Bodega Patritti",
+      "vino",
+      "San Patricio del Chañar",
+      "enología"
+    ],
+    "fuente": "https://www.youtube.com/watch?v=KpZy2w251t8",
+    "nota": "Segmento de programa televisivo localizado en YouTube. La temática y fuente son aptas; queda pendiente la comprobación técnica del 16:9 antes de incorporarlo."
+  },
+  {
+    "id": "pelon-2024-noticiasnqn-video",
+    "titulo": "Fiesta del Pelón 2024 · primera jornada",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "sociales",
+    "programaId": "gente-de-aca",
+    "enfoques": [
+      "Fiesta del Pelón",
+      "comunidad",
+      "familias",
+      "cultura",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.noticiasnqn.com.ar/noticias/2024/02/12/291195-video-asi-se-vivio-la-1-jornada-de-la-fiesta-del-pelon-en-san-patricio-del-chanar-la-grilla-de-hoy",
+    "nota": "La nota contiene video pero enlaza una publicación de Instagram. No publicar como OCARINA TV hasta encontrar/recoverar una versión horizontal independiente."
+  },
+  {
+    "id": "pelon-2026-larva-rock",
+    "titulo": "Fiesta del Pelón 2026 · Larva Rock",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "musica",
+    "programaId": "escena-musical",
+    "enfoques": [
+      "Larva Rock",
+      "Fiesta del Pelón",
+      "música local",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/02/10/255111-san-patricio-del-chanar-se-prepara-para-la-fiesta-del-pelon",
+    "nota": "Fuente oficial confirma la presentación de Larva Rock en la Fiesta del Pelón 2026. Buscar registro audiovisual horizontal."
+  },
+  {
+    "id": "pelon-2026-documental-fiesta",
+    "titulo": "Fiesta Provincial del Pelón 2026 · registro de la celebración",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "sociales",
+    "programaId": "gente-de-aca",
+    "enfoques": [
+      "Fiesta del Pelón",
+      "trabajo rural",
+      "tradición",
+      "cultura",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://turismo.neuquen.gob.ar/fiesta-provincial-del-pelon-en-san-patricio-del-chanar/",
+    "nota": "La celebración 2026 tiene fuerte valor documental. Buscar video horizontal de la edición, evitando publicaciones verticales."
+  },
+  {
+    "id": "sabores-y-amigos-2026-video",
+    "titulo": "Sabores y Amigos 2026 · Feria Regional de Turismo",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "enfoques": [
+      "turismo",
+      "gastronomía",
+      "vinos",
+      "producción local",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/07/10/260413-san-patricio-del-chanar-realizara-la-primera-feria-regional-de-turismo-sabores-y-amigos",
+    "nota": "Evento local de 2026 con gastronomía, vinos y producción. Buscar registro audiovisual horizontal."
   }
 ]
