@@ -132,3 +132,7 @@ main:after{content:"";position:fixed;inset:auto 0 0;height:180px;pointer-events:
 /* DECORACION · ATMOSFERA DE ARCHIVO */
 .grid .card{position:relative;background:linear-gradient(180deg,rgba(17,37,48,.72),rgba(12,24,33,.98))}.grid .card:after{content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;box-shadow:inset 0 1px 0 rgba(255,255,255,.035)}
 .category-rail a{position:relative}.category-rail a:after{content:"";position:absolute;left:14px;right:14px;bottom:10px;height:1px;background:linear-gradient(90deg,rgba(214,181,107,.55),transparent);opacity:.7}
+
+/* DECORACION · CATALOGO LOCAL */
+.grid .card{background:linear-gradient(180deg,rgba(17,37,48,.82),rgba(6,16,22,.98));box-shadow:0 18px 42px rgba(0,0,0,.24),inset 0 1px 0 rgba(255,255,255,.035)}
+.category-rail a{box-shadow:0 12px 30px rgba(0,0,0,.2),inset 0 1px 0 rgba(255,255,255,.035)}
