@@ -876,5 +876,72 @@
     ],
     "fuente": "https://es.scribd.com/document/869968648/Secuencia-Semana-25-de-MAYO-y-50-Aniversario-Chanar",
     "nota": "Una secuencia educativa identifica un video del programa Interior Neuquino sobre el aniversario de Chañar. Falta recuperar la pieza original y verificar formato horizontal."
+  },
+  {
+    "id": "vendimia-2022-video-lm",
+    "titulo": "Vendimia Neuquina 2022 · video sobre la fiesta en El Chañar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "enfoques": [
+      "Vendimia Neuquina",
+      "historia",
+      "vino",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.lmneuquen.com/neuquen-tuvo-su-propia-fiesta-la-vendimia-el-chanar-n909142/amp",
+    "nota": "Fuente periodística contiene un reproductor identificado como 'Video sobre vendimia nequina.mp4'. Recuperar archivo y comprobar dimensiones horizontales antes de publicar."
+  },
+  {
+    "id": "vendimia-2023-nota-eze-video",
+    "titulo": "Vendimia Neuquina 2023 · cocina y gastronomía en Schroeder",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "cocina",
+    "programaId": "sabores-del-chanar",
+    "enfoques": [
+      "Vendimia",
+      "cocina",
+      "Ezequiel González",
+      "Familia Schroeder",
+      "gastronomía"
+    ],
+    "fuente": "https://www.lmneuquen.com/neuquen/furor-el-chanar-y-las-bodegas-la-vendimia-neuquina-n1005698",
+    "nota": "La cobertura contiene un video identificado como 'Nota Eze González.mp4'. Recuperar y verificar formato horizontal."
+  },
+  {
+    "id": "vendimia-2024-cierre-video",
+    "titulo": "Vendimia Neuquina 2024 · cierre en Familia Schroeder",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "enfoques": [
+      "Vendimia Neuquina",
+      "Familia Schroeder",
+      "música",
+      "gastronomía",
+      "identidad local"
+    ],
+    "fuente": "https://www.lmneuquen.com/neuquen/vendimia-neuquina-un-cierre-tono-intimo-y-pura-identidad-local-n1101552",
+    "nota": "Cobertura audiovisual de la cuarta edición. Localizar el video asociado y comprobar que sea horizontal."
+  },
+  {
+    "id": "vendimia-2026-schroeder-cobertura",
+    "titulo": "Vendimia Neuquina 2026 · Familia Schroeder",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "enfoques": [
+      "Vendimia 2026",
+      "Familia Schroeder",
+      "vino",
+      "música",
+      "cocina regional"
+    ],
+    "fuente": "https://www.lmneuquen.com/neuquen/vendimia-neuquina-el-evento-impulsado-los-bodegueros-sera-una-propuesta-provincial-potenciar-el-turismo-n1230228/amp",
+    "nota": "La página contiene reproductor HTML5 y entrevistas sobre Vendimia 2026. Recuperar pieza y comprobar formato horizontal."
   }
 ]
