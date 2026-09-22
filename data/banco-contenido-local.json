@@ -1668,5 +1668,60 @@
     "fuente": "https://www.youtube.com/watch?v=C0S4uVzGpyo",
     "nota": "Video directo localizado. No se publica hasta verificar técnicamente que el video sea horizontal.",
     "evidencia": "YOUTUBE_DIRECTO"
+  },
+  {
+    "id": "pelon-2013-larva-archivo-historico",
+    "titulo": "Fiesta del Pelón 2013 · Larva y archivo cultural",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "musica",
+    "programaId": "escena-musical",
+    "fuente": "https://www.hcdn.gob.ar/comisiones/permanentes/cdhygarantias/proyecto.html?exp=0039-D-2013",
+    "nota": "Fuente histórica confirma actuación de Larva en la Fiesta del Pelón 2013. Buscar registro audiovisual horizontal de archivo; no publicar la fuente textual como video.",
+    "evidencia": "FUENTE_HISTORICA"
+  },
+  {
+    "id": "pelon-2024-noticiasnqn-horizontal-pista",
+    "titulo": "Fiesta del Pelón 2024 · cobertura audiovisual local",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "cultura",
+    "programaId": "cultura-chanarense",
+    "fuente": "https://www.noticiasnqn.com.ar/noticias/2024/02/12/291195-video-asi-se-vivio-la-1-jornada-de-la-fiesta-del-pelon-en-san-patricio-del-chanar-la-grilla-de-hoy",
+    "nota": "La nota contiene video embebido, pero el origen recuperado es Instagram. Buscar copia horizontal independiente antes de incorporar.",
+    "evidencia": "EMBED_SOCIAL"
+  },
+  {
+    "id": "maridar-2022-video-pista",
+    "titulo": "Maridar 2022 · festival gastronómico de Chañar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "cocina",
+    "programaId": "sabores-del-chanar",
+    "fuente": "https://www.lmneuquen.com/el-comedor/maridar-festival-gastronomico-este-finde-el-chanar-n970442",
+    "nota": "Cobertura del festival 2022 con clases de cocina, productores y gastronomía. Buscar video horizontal asociado.",
+    "evidencia": "MEDIO_LOCAL_COBERTURA"
+  },
+  {
+    "id": "maridar-2021-video-pista",
+    "titulo": "Maridar 2021 · gastronomía y cultura local",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "cocina",
+    "programaId": "sabores-del-chanar",
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2021/11/17/179132-san-patricio-del-chanar-vivira-una-nueva-edicion-del-festival-maridar",
+    "nota": "Fuente oficial confirma festival gastronómico y cultural en Chañar. Buscar registro horizontal directo.",
+    "evidencia": "FUENTE_OFICIAL_EVENTO"
+  },
+  {
+    "id": "larva-2026-pelon-horizontal-pista",
+    "titulo": "Larva Rock · Fiesta del Pelón 2026",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "musica",
+    "programaId": "escena-musical",
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/02/10/255111-san-patricio-del-chanar-se-prepara-para-la-fiesta-del-pelon",
+    "nota": "Fuente oficial confirma presentación de Larva Rock en la edición 2026. Buscar filmación horizontal completa.",
+    "evidencia": "FUENTE_OFICIAL_EVENTO"
   }
 ]
