@@ -1248,5 +1248,96 @@
     "fuente": "https://www.youtube.com/watch?v=7GB2MUk_Vdg",
     "nota": "Incorporado al catálogo. YouTube watch convencional; no identificado como Short/Reel. Se mantiene como HORIZONTAL.",
     "evidencia": "YOUTUBE_WATCH_HORIZONTAL"
+  },
+  {
+    "id": "larva-los-monos-2026-video-pista",
+    "titulo": "Larva y Los Monos · noche de rock en Chañar 2026",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "musica",
+    "programaId": "escena-musical",
+    "enfoques": [
+      "Larva",
+      "Los Monos",
+      "rock",
+      "música local",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.chanardigital.com.ar/articulo/2026/06/larva-y-los-monos-encienden-la-noche-chanarense-a-puro-rock.php",
+    "nota": "Fuente local confirma actuación audiovisualizable de Larva y Los Monos en San Patricio del Chañar el 13/06/2026. Buscar grabación horizontal concreta; no incorporar Reel/Short.",
+    "evidencia": "EVENTO_LOCAL_CONFIRMADO"
+  },
+  {
+    "id": "sabores-amigos-2026-cobertura-video-pista",
+    "titulo": "Sabores y Amigos 2026 · cobertura audiovisual local",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "enfoques": [
+      "Sabores y Amigos",
+      "gastronomía",
+      "vino",
+      "producción local",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://chanardigital.com.ar/articulo/2026/07/san-patricio-del-chanar-celebro-su-primera-feria-regional-de-turismo.php",
+    "nota": "La feria se realizó el 12/07/2026 en el Predio Fiesta del Pelón. Buscar video horizontal directo de la cobertura.",
+    "evidencia": "EVENTO_LOCAL_CONFIRMADO"
+  },
+  {
+    "id": "pelon-2024-lm-audiovisual-pista",
+    "titulo": "Fiesta del Pelón 2024 · cobertura audiovisual",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "cultura",
+    "programaId": "cultura-chanarense",
+    "enfoques": [
+      "Fiesta del Pelón",
+      "tradición",
+      "familias",
+      "trabajo rural",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.lmneuquen.com/neuquen/a-puro-ritmo-la-fiesta-del-pelon-volvio-san-patricio-del-chanar-n1092360",
+    "nota": "Cobertura periodística confirma shows, destrezas criollas, concurso de asadores y bendición de frutos. Buscar archivo de video horizontal asociado; no incorporar imagen fija ni Reel.",
+    "evidencia": "COBERTURA_PERIODISTICA"
+  },
+  {
+    "id": "vendimia-2026-schroeder-video-pista-2",
+    "titulo": "Vendimia Neuquina 2026 · Familia Schroeder · cobertura",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "enfoques": [
+      "Vendimia Neuquina",
+      "Familia Schroeder",
+      "viñedos",
+      "cosecha",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://familiaschroeder.com/arg/turismo/",
+    "nota": "La fuente oficial confirma la experiencia Vendimia 2026 en Calle 7 Norte, San Patricio del Chañar. Buscar registro audiovisual horizontal de la experiencia; la página turística por sí sola no entra como video.",
+    "evidencia": "FUENTE_OFICIAL_LOCAL"
+  },
+  {
+    "id": "vendimia-2026-malma-video-pista-2",
+    "titulo": "Vendimia Neuquina 2026 · Bodega Malma · registro",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y_paisajes",
+    "enfoques": [
+      "Vendimia Neuquina",
+      "Malma",
+      "vino",
+      "música",
+      "gastronomía",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://turismo.neuquen.gob.ar/la-vendimia-neuquina-invita-a-vivir-la-cosecha-desde-adentro/",
+    "nota": "La fuente oficial confirma el evento del 14/03/2026 en Bodega Malma, San Patricio del Chañar. Buscar video horizontal directo antes de publicar.",
+    "evidencia": "EVENTO_OFICIAL_CONFIRMADO"
   }
 ]
