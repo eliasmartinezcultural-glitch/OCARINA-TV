@@ -355,5 +355,69 @@
       }
     ],
     "estado": "publicado"
+  },
+  {
+    "id": "regional-amateur-la-amistad-vuelta-2026",
+    "programaId": "deporte-de-aca",
+    "titulo": "La Amistad vs San Patricio · Cuartos de final",
+    "tituloFuente": "Regional Amateur- Cuartos Partido de vuelta- La Amistad (2) vs San Patricio del Chañar (1)",
+    "descripcion": "Transmisión del partido de vuelta de cuartos de final del Regional Amateur entre La Amistad y San Patricio del Chañar.",
+    "categoria": "Deportes",
+    "tipo": "audiovisual",
+    "tags": [
+      "fútbol",
+      "deporte",
+      "Regional Amateur",
+      "San Patricio"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "San Patricio del Chañar",
+      "La Amistad"
+    ],
+    "fecha": "2026-01-11",
+    "duracion": null,
+    "videoId": "gVGu_ledBQI",
+    "thumbnail": "https://img.youtube.com/vi/gVGu_ledBQI/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=gVGu_ledBQI"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": "rally-mtb-chanar-2025",
+    "programaId": "deporte-de-aca",
+    "titulo": "Rally MTB de San Patricio del Chañar",
+    "tituloFuente": "#RTNVerano SE VIENE EL RALLY MTB DE SAN PATRICIO DEL CHAÑAR",
+    "descripcion": "Cobertura previa del Rally MTB de San Patricio del Chañar, con sus circuitos y categorías.",
+    "categoria": "Deportes",
+    "tipo": "audiovisual",
+    "tags": [
+      "MTB",
+      "ciclismo",
+      "deporte",
+      "territorio"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Daniel Garay",
+      "Team Zona 2"
+    ],
+    "fecha": "2025-02-28",
+    "duracion": null,
+    "videoId": "Av-fsmYkDN4",
+    "thumbnail": "https://img.youtube.com/vi/Av-fsmYkDN4/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=Av-fsmYkDN4"
+      }
+    ],
+    "estado": "publicado"
   }
 ]
