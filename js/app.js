@@ -7,14 +7,13 @@ async function load(){
  const get=async(path,fallback)=>{try{const r=await fetch(path,{cache:'no-store'});if(!r.ok)throw new Error(path+' '+r.status);return await r.json()}catch(err){console.warn('OCARINA TV: no se pudo cargar',path,err);return fallback}};
  const [programas,episodios,programacion,publicidad,bancos,bancoContenido,investigacion]=await Promise.all([
   get('data/programas.json',[]),
-  get('data/episodios.json',[]),
+  get('data/episodios.json',window.OTV_ARCHIVE_FALLBACK||[]),
   get('data/programacion.json',[]),
   get('data/publicidad.json',[]),
   get('data/bancos-programacion.json',{}),
   get('data/banco-contenido-local.json',[]),
   get('data/investigacion-quirurgica-local.json',{})
  ]);
- if(!programacion.length)throw new Error('La grilla 24h no está disponible.');
  return DATA={programas,episodios,programacion,publicidad,bancos,bancoContenido,investigacion};
 }
 function header(){
@@ -23,7 +22,7 @@ function header(){
 }
 function foot(){return '<footer><strong>OCARINA TV</strong> · San Patricio del Chañar · Una producción de Ocarina Producciones · <a href="creditos.html">Créditos</a> · <a href="configuracion.html">Configuración</a></footer>'}
 function shell(title,body){document.title=title+' · OCARINA TV';document.body.innerHTML=header()+body+foot();if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});if(SETTINGS.readSettings().reducedMotion)document.body.classList.add('reduced-motion')}
-function card(e){return '<article class="card"><img class="thumb" src="'+esc(e.thumbnail)+'" alt="" loading="lazy"><div class="cardbody"><span class="tag">'+esc(e.categoria)+'</span><h3>'+esc(e.titulo)+'</h3><p>'+esc(e.descripcion)+'</p><div class="chips">'+(e.tags||[]).map(t=>'<span>'+esc(t)+'</span>').join('')+'</div><a class="play" href="episodio.html?id='+encodeURIComponent(e.id)+'">▶ VER EPISODIO</a></div></article>'}
+function card(e){return '<article class="card"><img class="thumb" src="'+esc(e.thumbnail)+'" alt="" loading="lazy"><div class="cardbody"><span class="tag">'+esc(e.categoria)+'</span><h3>'+esc(e.titulo)+'</h3><p>'+esc(e.descripcion)+'</p><div class="chips">'+(e.tags||[]).map(t=>'<span>'+esc(t)+'</span>').join('')+'</div><a class="play" href="episodio.html?id='+encodeURIComponent(e.id)+'">▶ VER VIDEO</a></div></article>'}
 function scheduleIndex(list,date=new Date()){const h=date.getHours();return h%24}
 function editorialStatus(value){return String(value||'').toUpperCase()}
 function editorialGate(item){
@@ -183,7 +182,7 @@ async function renderPrograms(){
 }
 async function renderArchive(){
  const d=await load();buildEditorialEngine();const q=new URLSearchParams(location.search),pid=q.get('programa');let list=pid?d.episodios.filter(e=>e.programaId===pid):d.episodios;
- shell('Archivo','<main><div class="kicker">ARCHIVO TERRITORIAL</div><h1>Archivo Ocarina</h1><input class="search" id="search" placeholder="Buscar episodio, tema, territorio o etiqueta…" autofocus><p class="muted" id="count"></p><div class="grid" id="list"></div></main>');
+ shell('Videos','<main><div class="kicker">OCARINA TV · SAN PATRICIO DEL CHAÑAR</div><h1>Videos sobre Chañar</h1><p class="muted">Todo el material incorporado al catálogo, en un solo lugar.</p><input class="search" id="search" placeholder="Buscar video, tema, persona o lugar…" aria-label="Buscar videos"><p class="muted" id="count"></p><div class="grid" id="list"></div></main>');
  const draw=()=>{const term=document.getElementById('search').value.toLowerCase().trim();const out=list.filter(e=>([e.titulo,e.descripcion,e.categoria,e.territorio,e.paraje,...(e.tags||[]),...(e.protagonistas||[])].filter(Boolean).join(' ')).toLowerCase().includes(term));document.getElementById('list').innerHTML=out.map(card).join('');document.getElementById('count').textContent=out.length+' episodios encontrados'};document.getElementById('search').oninput=draw;draw()
 }
 async function renderEpisode(){
