@@ -146,12 +146,24 @@ function editorialEnginePanel(){
  const counts={pendiente:e.pending.length,verificado:e.candidates.filter(x=>editorialStatus(x.estado)==='VERIFICADO').length,curado:e.candidates.filter(x=>editorialStatus(x.estado)==='CURADO').length,publicable:e.candidates.filter(x=>editorialStatus(x.estado)==='PUBLICABLE').length};
  return '<div class="editorial-engine"><div class="kicker">MOTOR EDITORIAL</div><h3>Investigación → señal</h3><div class="editorial-flow"><span>PENDIENTE <b>'+counts.pendiente+'</b></span><i>→</i><span>VERIFICADO <b>'+counts.verificado+'</b></span><i>→</i><span>CURADO <b>'+counts.curado+'</b></span><i>→</i><span>PUBLICABLE <b>'+counts.publicable+'</b></span></div><p>Las investigaciones alimentan el motor como candidatos. Ninguna pieza entra a la señal por estar encontrada: necesita atravesar las cuatro puertas editoriales.</p></div>';
 }
-function adBlock(ad){return '<a class="ad-slot" href="'+esc(ad.url||'publicidad.html')+'"><span class="ad-label">PUBLICIDAD</span><strong>'+esc(ad.titulo)+'</strong><p>'+esc(ad.texto)+'</p><b>'+esc(ad.cta||'Consultar')+' →</b></a>'}
+function adBlock(ad){return '<a class="ad-slot" href="'+esc(ad.url||'publicidad.html')+'">'+(ad.imagen?'<img class="ad-image" src="'+esc(ad.imagen)+'" alt="'+esc(ad.titulo)+'">':'')+'<span class="ad-label">PUBLICIDAD</span><strong>'+esc(ad.titulo)+'</strong><p>'+esc(ad.texto)+'</p><b>'+esc(ad.cta||'Consultar')+' →</b></a>'}
+function editorialPreview(limit=8){
+ const pool=(EDITORIAL?.candidates||[]).filter(x=>editorialStatus(x.estado)!=='PUBLICABLE'&&x.tipo!=='LINEA_DE_INVESTIGACION');
+ return pool.slice(0,limit).map(x=>'<article class="preview-card"><div class="preview-top"><span class="tag">'+esc(x.bankName||x.bancoId)+'</span><span class="preview-state">'+esc(x.estado)+'</span></div><h3>'+esc(x.titulo)+'</h3><p>'+esc((x.enfoques||[]).slice(0,4).join(' · '))+'</p><a href="'+esc(x.fuente||'#')+'" target="_blank" rel="noopener">Ver fuente de investigación ↗</a></article>').join('');
+}
+function categoryRail(){
+ const banks=DATA.bancos?.permitidos||[];
+ return '<div class="category-rail">'+banks.slice(0,12).map(b=>'<a href="programas.html?id='+encodeURIComponent(b.programaId||'')+'"><span>'+esc(b.codigo||'')+'</span><b>'+esc(b.nombre||b.id)+'</b></a>').join('')+'</div>';
+}
+function miniGuide(list){
+ const idx=scheduleIndex(list);
+ return '<div class="mini-guide">'+[0,1,2,3,4,5].map(offset=>{const s=list[(idx+offset)%list.length];return '<div class="guide-item '+(offset===0?'active':'')+'"><time>'+esc(s.inicio)+'</time><div><strong>'+esc(s.titulo)+'</strong><small>'+esc(s.descripcion)+'</small></div></div>'}).join('')+'</div>';
+}
 
 async function renderHome(){
  const d=await load();buildEditorialEngine();const signal=buildSignalSchedule();const slot=currentSlot(signal),next=nextSlot(signal),ep=findEpisode(slot),nextEp=findEpisode(next);
  shell('Señal','<main><section class="tv-hero"><div><div class="screen-head"><span class="live-dot">● EN VIVO EDITORIAL</span><span id="dateClock">'+formatClock()+'</span></div>'+buildPlayer(ep)+'</div><aside class="now-panel"><div class="kicker">CANAL LOCAL</div><h1>Historias.<br>Personas.<br>Territorio.</h1><div class="onair-card"><span>AHORA · '+esc(slot.inicio)+'–'+esc(slot.fin)+'</span><strong id="nowTitle">'+esc(slot.titulo)+'</strong><small>'+esc(slot.descripcion)+'</small></div><div class="next-card"><span>SIGUE</span><strong id="nextTitle">'+esc(next.titulo)+'</strong><small>'+esc(next.inicio)+'–'+esc(next.fin)+' · '+esc(next.descripcion)+'</small><button id="nextBtn" class="btn">▶ Preparar siguiente</button></div><div class="quick-links"><a href="programacion.html">▦ Grilla 24 h</a><a href="publicidad.html">▤ Publicidad</a><a href="configuracion.html">⚙ Configuración</a></div></aside></section>'+
- '<section class="section"><div class="sectionhead"><div><div class="kicker">CONTINUIDAD</div><h2>Qué sigue en la señal</h2></div><span class="muted">Actualización automática</span></div><div class="continuity" id="continuity"></div></section>'+editorialEnginePanel()+
+ '<section class="section"><div class="sectionhead"><div><div class="kicker">GUÍA DE SEÑAL</div><h2>Ahora · sigue · próximas horas</h2></div><span class="muted">Programación automática</span></div>'+miniGuide(signal)+'<div class="continuity" id="continuity"></div></section><section class="section"><div class="sectionhead"><div><div class="kicker">CATEGORÍAS</div><h2>Explorá la señal</h2></div></div>'+categoryRail()+'</section>'+editorialEnginePanel()+'<section class="section"><div class="sectionhead"><div><div class="kicker">PRÓXIMAMENTE</div><h2>Contenido en curaduría</h2></div><span class="muted">Investigación local · no publicado aún</span></div><div class="preview-grid">'+editorialPreview(8)+'</div></section>'+
  '<section class="section"><div class="sectionhead"><div><div class="kicker">ESPACIO COMERCIAL</div><h2>Publicidad</h2></div></div><div class="ads-grid">'+d.publicidad.filter(a=>a.activo).map(adBlock).join('')+'</div></section>'+
  '<section class="section"><div class="sectionhead"><div><div class="kicker">A DEMANDA</div><h2>Últimos episodios</h2></div><a class="muted" href="archivo.html">Ver archivo →</a></div><div class="grid">'+d.episodios.slice(0,4).map(card).join('')+'</div></section></main>');
  bindPlayerControls();mediaMetadata(ep);
