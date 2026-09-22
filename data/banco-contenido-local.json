@@ -678,5 +678,53 @@
     ],
     "fuente": "https://bancolechehumana.neuquen.gob.ar/san-patricio-del-chanar/",
     "nota": "La página del Banco de Leche Humana publica dos MP4 de campaña asociados a la página de San Patricio del Chañar. Verificar contenido territorial y formato horizontal antes de incorporar."
+  },
+  {
+    "id": "patritti-nicolas-navio",
+    "titulo": "Nicolás Navío · Bodega Patritti",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "enfoques": [
+      "Bodega Patritti",
+      "Nicolás Navío",
+      "enología",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://es.linkedin.com/posts/oscar-pinco-80467213_nicol%C3%A1s-nav%C3%ADo-bodega-patritti-neuqu%C3%A9n-activity-7150955273082351616-eJFy",
+    "nota": "La publicación identifica contenido de video del programa Pasión por el Vino. Localizar URL directa y verificar 16:9 antes de incorporar."
+  },
+  {
+    "id": "larva-shm-2024",
+    "titulo": "Larva · Siempre Hay Música · FM Universidad",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "musica",
+    "programaId": "escena-musical",
+    "enfoques": [
+      "Larva",
+      "música",
+      "rock",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.ivoox.com/shm-larva-audios-mp3_rf_124721268_1.html",
+    "nota": "Entrevista/episodio sobre Larva y su nuevo single. La fuente es un podcast de audio; localizar versión audiovisual horizontal antes de incorporar a OCARINA TV."
+  },
+  {
+    "id": "patritti-2025-renacer",
+    "titulo": "Patritti · nueva etapa de la bodega en Chañar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "enfoques": [
+      "Patritti",
+      "bodega",
+      "vino",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2025/06/01/249561-patritti-el-renacer-de-una-bodega-en-san-patricio-del-chanar",
+    "nota": "Fuente oficial reciente para buscar registro audiovisual horizontal asociado."
   }
 ]
