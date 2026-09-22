@@ -851,59 +851,5 @@
         "paraje"
       ]
     }
-  },
-  {
-    "id": "interior-neuquino-chanar-2022-publicado",
-    "programaId": "historias-del-chanar",
-    "titulo": "San Patricio del Chañar 2022 · Interior Neuquino",
-    "descripcion": "Recorrido audiovisual por San Patricio del Chañar y su territorio.",
-    "categoria": "Historia",
-    "tags": [
-      "Interior Neuquino",
-      "territorio",
-      "San Patricio del Chañar"
-    ],
-    "territorio": "San Patricio del Chañar",
-    "protagonistas": [
-      "Jorge Interior Neuquino Garro"
-    ],
-    "fecha": "2022-06-23",
-    "duracion": null,
-    "videoId": "9mjA4bUGGzM",
-    "thumbnail": "https://img.youtube.com/vi/9mjA4bUGGzM/hqdefault.jpg",
-    "fuentes": [
-      {
-        "tipo": "youtube",
-        "url": "https://www.youtube.com/watch?v=9mjA4bUGGzM"
-      }
-    ],
-    "estado": "publicado"
-  },
-  {
-    "id": "interior-neuquino-chanar-2021-publicado",
-    "programaId": "historias-del-chanar",
-    "titulo": "San Patricio del Chañar 2021 · Interior Neuquino",
-    "descripcion": "Registro audiovisual del territorio de San Patricio del Chañar.",
-    "categoria": "Historia",
-    "tags": [
-      "Interior Neuquino",
-      "territorio",
-      "San Patricio del Chañar"
-    ],
-    "territorio": "San Patricio del Chañar",
-    "protagonistas": [
-      "Jorge Interior Neuquino Garro"
-    ],
-    "fecha": "2021-06-03",
-    "duracion": null,
-    "videoId": "C0S4uVzGpyo",
-    "thumbnail": "https://img.youtube.com/vi/C0S4uVzGpyo/hqdefault.jpg",
-    "fuentes": [
-      {
-        "tipo": "youtube",
-        "url": "https://www.youtube.com/watch?v=C0S4uVzGpyo"
-      }
-    ],
-    "estado": "publicado"
   }
 ]
