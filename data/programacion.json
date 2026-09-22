@@ -6,7 +6,10 @@
     "programaId": "archivo-ocarina",
     "titulo": "Archivo Ocarina",
     "descripcion": "Selección de archivo audiovisual",
-    "episodioId": "archivo-ocarina"
+    "episodioId": "archivo-ocarina",
+    "bancoId": "documentales",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 2,
@@ -15,7 +18,10 @@
     "programaId": "historias-del-chanar",
     "titulo": "Historias del Chañar",
     "descripcion": "Historias, personas y territorio",
-    "episodioId": "colonia-japonesa"
+    "episodioId": "colonia-japonesa",
+    "bancoId": "historias",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 3,
@@ -24,7 +30,10 @@
     "programaId": "memoria-viva",
     "titulo": "Memoria Viva",
     "descripcion": "Memoria e instituciones",
-    "episodioId": "50-anos-escuela-273"
+    "episodioId": "50-anos-escuela-273",
+    "bancoId": "historias",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 4,
@@ -33,7 +42,10 @@
     "programaId": "chanar-rural",
     "titulo": "Chañar Rural",
     "descripcion": "Tierra, producción y paisaje",
-    "episodioId": "cosechas-chanarenses"
+    "episodioId": "cosechas-chanarenses",
+    "bancoId": "ruralidad",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 5,
@@ -42,7 +54,10 @@
     "programaId": "gente-de-aca",
     "titulo": "Gente de acá",
     "descripcion": "Vecinos, oficios y comunidad",
-    "episodioId": "resumen-2024"
+    "episodioId": "resumen-2024",
+    "bancoId": "sociales",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 6,
@@ -51,7 +66,10 @@
     "programaId": "cultura-chanarense",
     "titulo": "Cultura Chañarense",
     "descripcion": "Música, arte e identidad",
-    "episodioId": "resumen-2024"
+    "episodioId": "resumen-2024",
+    "bancoId": "cultura",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 7,
@@ -60,7 +78,10 @@
     "programaId": "archivo-ocarina",
     "titulo": "Archivo Ocarina",
     "descripcion": "Selección de archivo",
-    "episodioId": "resumen-2024"
+    "episodioId": "resumen-2024",
+    "bancoId": "documentales",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 8,
@@ -69,7 +90,10 @@
     "programaId": "historias-del-chanar",
     "titulo": "Historias del Chañar",
     "descripcion": "Relatos del territorio",
-    "episodioId": "colonia-japonesa"
+    "episodioId": "colonia-japonesa",
+    "bancoId": "historias",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 9,
@@ -78,7 +102,10 @@
     "programaId": "chanar-rural",
     "titulo": "Chañar Rural",
     "descripcion": "Producción local",
-    "episodioId": "cosechas-chanarenses"
+    "episodioId": "cosechas-chanarenses",
+    "bancoId": "ruralidad",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 10,
@@ -87,7 +114,10 @@
     "programaId": "memoria-viva",
     "titulo": "Memoria Viva",
     "descripcion": "Patrimonio y memoria",
-    "episodioId": "50-anos-escuela-273"
+    "episodioId": "50-anos-escuela-273",
+    "bancoId": "historias",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 11,
@@ -96,7 +126,10 @@
     "programaId": "gente-de-aca",
     "titulo": "Gente de acá",
     "descripcion": "Personas de la comunidad",
-    "episodioId": "resumen-2024"
+    "episodioId": "resumen-2024",
+    "bancoId": "sociales",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 12,
@@ -105,7 +138,10 @@
     "programaId": "cultura-chanarense",
     "titulo": "Cultura Chañarense",
     "descripcion": "Expresiones culturales",
-    "episodioId": "resumen-2024"
+    "episodioId": "resumen-2024",
+    "bancoId": "cultura",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 13,
@@ -114,7 +150,10 @@
     "programaId": "archivo-ocarina",
     "titulo": "Archivo Ocarina",
     "descripcion": "Edición mediodía",
-    "episodioId": "resumen-2024"
+    "episodioId": "resumen-2024",
+    "bancoId": "documentales",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 14,
@@ -123,7 +162,10 @@
     "programaId": "historias-del-chanar",
     "titulo": "Historias del Chañar",
     "descripcion": "Historias locales",
-    "episodioId": "colonia-japonesa"
+    "episodioId": "colonia-japonesa",
+    "bancoId": "historias",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 15,
@@ -132,7 +174,10 @@
     "programaId": "chanar-rural",
     "titulo": "Chañar Rural",
     "descripcion": "Campo y paisaje",
-    "episodioId": "cosechas-chanarenses"
+    "episodioId": "cosechas-chanarenses",
+    "bancoId": "ruralidad",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 16,
@@ -141,7 +186,10 @@
     "programaId": "memoria-viva",
     "titulo": "Memoria Viva",
     "descripcion": "Escuelas, instituciones y patrimonio",
-    "episodioId": "50-anos-escuela-273"
+    "episodioId": "50-anos-escuela-273",
+    "bancoId": "historias",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 17,
@@ -150,7 +198,10 @@
     "programaId": "gente-de-aca",
     "titulo": "Gente de acá",
     "descripcion": "Vecinos y protagonistas",
-    "episodioId": "resumen-2024"
+    "episodioId": "resumen-2024",
+    "bancoId": "sociales",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 18,
@@ -159,7 +210,10 @@
     "programaId": "cultura-chanarense",
     "titulo": "Cultura Chañarense",
     "descripcion": "Música y comunidad",
-    "episodioId": "resumen-2024"
+    "episodioId": "resumen-2024",
+    "bancoId": "cultura",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 19,
@@ -168,7 +222,10 @@
     "programaId": "archivo-ocarina",
     "titulo": "Archivo Ocarina",
     "descripcion": "Edición tarde",
-    "episodioId": "resumen-2024"
+    "episodioId": "resumen-2024",
+    "bancoId": "documentales",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 20,
@@ -177,7 +234,10 @@
     "programaId": "historias-del-chanar",
     "titulo": "Historias del Chañar",
     "descripcion": "Personas y territorio",
-    "episodioId": "colonia-japonesa"
+    "episodioId": "colonia-japonesa",
+    "bancoId": "historias",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 21,
@@ -186,7 +246,10 @@
     "programaId": "chanar-rural",
     "titulo": "Chañar Rural",
     "descripcion": "Cosechas y ruralidad",
-    "episodioId": "cosechas-chanarenses"
+    "episodioId": "cosechas-chanarenses",
+    "bancoId": "ruralidad",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 22,
@@ -195,7 +258,10 @@
     "programaId": "memoria-viva",
     "titulo": "Memoria Viva",
     "descripcion": "Memoria viva",
-    "episodioId": "50-anos-escuela-273"
+    "episodioId": "50-anos-escuela-273",
+    "bancoId": "historias",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 23,
@@ -204,7 +270,10 @@
     "programaId": "gente-de-aca",
     "titulo": "Gente de acá",
     "descripcion": "Comunidad y oficios",
-    "episodioId": "resumen-2024"
+    "episodioId": "resumen-2024",
+    "bancoId": "sociales",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   },
   {
     "orden": 24,
@@ -213,6 +282,9 @@
     "programaId": "cultura-chanarense",
     "titulo": "Cultura Chañarense",
     "descripcion": "Cierre del día",
-    "episodioId": "resumen-2024"
+    "episodioId": "resumen-2024",
+    "bancoId": "cultura",
+    "tipoBloque": "EDITORIAL",
+    "reglaEditorial": "Solo contenido que cumpla bancos-programacion.json"
   }
 ]
