@@ -140,3 +140,10 @@ main:after{content:"";position:fixed;inset:auto 0 0;height:180px;pointer-events:
 /* DECORACION · ARCHIVO CINEMATOGRAFICO */
 .tv-player{border-radius:18px;box-shadow:0 28px 90px rgba(0,0,0,.42),inset 0 1px 0 rgba(255,255,255,.04)}
 .grid .card h3{letter-spacing:.005em}.grid .card p{opacity:.84}.category-rail a{transition:transform .22s ease,box-shadow .22s ease,filter .22s ease}.category-rail a:hover{filter:brightness(1.04)}
+
+
+/* DECORACION · IDENTIDAD LOCAL 2026 · SIN CAMBIO DE ESTRUCTURA */
+.tv-hero{background-image:radial-gradient(circle at 15% 15%,rgba(114,199,160,.055),transparent 28%),radial-gradient(circle at 88% 18%,rgba(214,181,107,.07),transparent 26%),linear-gradient(180deg,rgba(6,16,22,.98),rgba(6,16,22,.9))}
+.sectionhead{position:relative}.sectionhead:before{content:"";display:block;width:34px;height:1px;margin-bottom:9px;background:linear-gradient(90deg,rgba(214,181,107,.8),transparent)}
+.grid .card img{aspect-ratio:16/9;object-fit:cover}.grid .card{background-image:linear-gradient(180deg,rgba(17,37,48,.7),rgba(6,16,22,.99)),radial-gradient(circle at 85% 0,rgba(114,199,160,.045),transparent 35%)}
+@media(max-width:720px){.sectionhead:before{margin-bottom:7px}.tv-hero{background-image:linear-gradient(180deg,rgba(6,16,22,.98),rgba(6,16,22,.94))}}
