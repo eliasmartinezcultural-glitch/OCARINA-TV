@@ -1611,5 +1611,62 @@
     "fuente": "https://www.lmneuquen.com/neuquen/la-ruta-del-vino-neuquen-5-bodegas-visitar-la-provincia-n1070025/amp",
     "nota": "Archivo MP4 identificado. Recuperar URL y comprobar relación de aspecto.",
     "evidencia": "HTML5_MP4_IDENTIFICADO"
+  },
+  {
+    "id": "vendimia-2026-malma-cierre-cobertura",
+    "titulo": "Vendimia 2026 · cierre Malma · San Patricio del Chañar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "fuente": "https://www.chanardigital.com.ar/articulo/2026/03/bodega-malma-despide-la-vendimia-2026-con-un-festival-de-musica-vino-y-experiencias.php",
+    "nota": "Cobertura local del cierre del 11/04/2026. Buscar video horizontal directo en la nota, canal del medio o fuente original.",
+    "evidencia": "MEDIO_LOCAL_COBERTURA"
+  },
+  {
+    "id": "vendimia-2022-archivo-horizontal-pista",
+    "titulo": "Vendimia Neuquina 2022 · archivo histórico de San Patricio del Chañar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "historias",
+    "programaId": "memoria-viva",
+    "fuente": "https://media.lmneuquen.com/adjuntos/195/documentos/007/143/0007143678.pdf",
+    "nota": "Archivo histórico que documenta la Vendimia 2022 en Chañar. Buscar el audiovisual original asociado; publicar solo si se recupera video horizontal.",
+    "evidencia": "ARCHIVO_PERIODISTICO"
+  },
+  {
+    "id": "el-chical-video-busqueda",
+    "titulo": "El Chical · bodega urbana y espacio cultural",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "cultura",
+    "programaId": "cultura-chanarense",
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/04/03/255930-el-chical-se-suma-a-la-oferta-vitivinicola-de-san-patricio-del-chanar",
+    "nota": "Buscar entrevista, recorrido o inauguración en video horizontal. La fuente oficial confirma su apertura y función cultural/turística.",
+    "evidencia": "FUENTE_OFICIAL_LOCAL"
+  },
+  {
+    "id": "interior-neuquino-chanar-2022-archivo",
+    "titulo": "Interior Neuquino · San Patricio del Chañar 2022",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "historias",
+    "programaId": "historias-del-chanar",
+    "videoId": "9mjA4bUGGzM",
+    "fuente": "https://www.youtube.com/watch?v=9mjA4bUGGzM",
+    "nota": "Video directo localizado. No se publica hasta verificar técnicamente que el video sea horizontal.",
+    "evidencia": "YOUTUBE_DIRECTO"
+  },
+  {
+    "id": "interior-neuquino-chanar-2021-archivo",
+    "titulo": "Interior Neuquino · San Patricio del Chañar 2021",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "historias",
+    "programaId": "historias-del-chanar",
+    "videoId": "C0S4uVzGpyo",
+    "fuente": "https://www.youtube.com/watch?v=C0S4uVzGpyo",
+    "nota": "Video directo localizado. No se publica hasta verificar técnicamente que el video sea horizontal.",
+    "evidencia": "YOUTUBE_DIRECTO"
   }
 ]
