@@ -163,3 +163,10 @@ main:after{content:"";position:fixed;inset:auto 0 0;height:180px;pointer-events:
 .grid .card h3{position:relative}.grid .card p{position:relative}
 .category-rail a{background-image:linear-gradient(180deg,rgba(4,12,16,.12),rgba(4,12,16,.9)),var(--category-bg,none);box-shadow:0 16px 38px rgba(0,0,0,.24),inset 0 1px 0 rgba(255,255,255,.035)}
 .tv-player{box-shadow:0 30px 100px rgba(0,0,0,.46),0 0 0 1px rgba(214,181,107,.045),inset 0 1px 0 rgba(255,255,255,.04)}
+
+
+/* DECORACION · MEMORIA AUDIOVISUAL · SOLO ESTETICA */
+.tv-player{background-image:radial-gradient(circle at 50% 0,rgba(114,199,160,.035),transparent 35%),linear-gradient(180deg,rgba(8,20,27,.92),rgba(4,11,15,.98))}
+.grid .card{backdrop-filter:blur(2px)}
+.grid .card:hover{box-shadow:0 22px 48px rgba(0,0,0,.28),0 0 0 1px rgba(214,181,107,.08),inset 0 1px 0 rgba(255,255,255,.035)}
+.category-rail a:hover{box-shadow:0 20px 44px rgba(0,0,0,.28),0 0 0 1px rgba(214,181,107,.08),inset 0 1px 0 rgba(255,255,255,.04)}
