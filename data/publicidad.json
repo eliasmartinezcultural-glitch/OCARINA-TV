@@ -1,5 +1,27 @@
 [
   {
+    "id": "sponsor-kiri",
+    "activo": true,
+    "tipo": "SPONSOR",
+    "posicion": "SPONSORS",
+    "titulo": "KIRI FOTOGRAFÍA",
+    "texto": "Sponsor de OCARINA TV · imagen, fotografía y memoria.",
+    "cta": "Conocer sponsor",
+    "url": "publicidad.html",
+    "imagen": "assets/sponsors/kiri-photografia.svg"
+  },
+  {
+    "id": "sponsor-phantom",
+    "activo": true,
+    "tipo": "SPONSOR",
+    "posicion": "SPONSORS",
+    "titulo": "PHANTOM AUDIO",
+    "texto": "Sponsor de OCARINA TV · sonido y producción.",
+    "cta": "Conocer sponsor",
+    "url": "publicidad.html",
+    "imagen": "assets/sponsors/phantom-audio.svg"
+  },
+  {
     "id": "espacio-principal",
     "activo": true,
     "posicion": "PRINCIPAL",
