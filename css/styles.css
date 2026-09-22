@@ -274,3 +274,19 @@ img,iframe,video{max-width:100%}
 .episode-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
 .episode-actions .btn{display:inline-flex;align-items:center;justify-content:center;min-height:42px}
 @media(max-width:620px){.episode-actions{display:grid;grid-template-columns:1fr}.episode-actions .btn{width:100%}}
+
+/* DECORACION · CIERRE MOVIL OCARINA TV · SIN CAMBIO DE ESTRUCTURA */
+@media(max-width:720px){
+  .detail h1{font-size:clamp(1.65rem,7vw,2.25rem);line-height:1.04}
+  .detail .tv-player{margin-top:14px}
+  .detail .meta{display:grid;grid-template-columns:1fr;gap:7px}
+  .detail .chips{gap:6px}
+  .detail .chips span{font-size:.7rem}
+}
+@media(max-width:420px){
+  .detail{overflow:hidden}
+  .detail .player-title h2{font-size:1rem}
+  .detail .player-title p{font-size:.76rem}
+  .detail .episode-actions{margin-top:14px}
+  .detail .episode-actions .btn{min-height:46px}
+}
