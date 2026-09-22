@@ -1567,5 +1567,49 @@
     "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/03/12/255578-vinos-musica-sinfonica-djs-y-arte-en-bodega-malma",
     "nota": "Evento local confirmado el 14/03/2026. Buscar registro audiovisual horizontal en medios y fuentes de la bodega.",
     "evidencia": "FUENTE_OFICIAL_EVENTO"
+  },
+  {
+    "id": "fiesta-pelon-2025-horizontal-pista",
+    "titulo": "Fiesta Provincial del Pelón 2025 · registro audiovisual",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "cultura",
+    "programaId": "cultura-chanarense",
+    "fuente": "https://www.google.com/search?q=%22Fiesta+del+Pel%C3%B3n%22+%222025%22+%22San+Patricio+del+Cha%C3%B1ar%22+video",
+    "nota": "Buscar cobertura horizontal en medios locales, YouTube y archivos periodísticos. Excluir Reels/Shorts.",
+    "evidencia": "BUSQUEDA_MULTIFUENTE"
+  },
+  {
+    "id": "fiesta-pelon-2026-horizontal-pista",
+    "titulo": "Fiesta Provincial del Pelón 2026 · archivo audiovisual",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "cultura",
+    "programaId": "cultura-chanarense",
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/02/10/255111-san-patricio-del-chanar-se-prepara-para-la-fiesta-del-pelon",
+    "nota": "Edición 36 confirmada. Buscar video horizontal completo de la fiesta, artistas, destrezas y tradición rural.",
+    "evidencia": "FUENTE_OFICIAL_EVENTO"
+  },
+  {
+    "id": "skate-chanar-archivo-horizontal",
+    "titulo": "Skatepark Rodrigo Barros Hurtado · archivo de Chañar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "deportes",
+    "programaId": "deporte-de-aca",
+    "fuente": "https://www.lmneuquen.com/con-un-megaevento-el-chanar-recupero-su-skatepark-n860238/amp",
+    "nota": "Existe archivo MP4 identificado en la cobertura. Recuperar URL y medir dimensiones antes de publicar.",
+    "evidencia": "HTML5_MP4_IDENTIFICADO"
+  },
+  {
+    "id": "nieve-schroeder-archivo-horizontal",
+    "titulo": "Nieve en Bodega Familia Schroeder · archivo",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "naturaleza",
+    "programaId": "naturaleza-cercana",
+    "fuente": "https://www.lmneuquen.com/neuquen/la-ruta-del-vino-neuquen-5-bodegas-visitar-la-provincia-n1070025/amp",
+    "nota": "Archivo MP4 identificado. Recuperar URL y comprobar relación de aspecto.",
+    "evidencia": "HTML5_MP4_IDENTIFICADO"
   }
 ]
