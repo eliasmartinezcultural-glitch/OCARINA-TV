@@ -106,3 +106,6 @@ main:after{content:"";position:fixed;inset:auto 0 0;height:180px;pointer-events:
 .grid .card{position:relative}.grid .card:after{content:"";position:absolute;left:0;right:0;top:0;height:2px;background:linear-gradient(90deg,transparent,rgba(214,181,107,.5),transparent);opacity:.55}
 .now-panel{background:radial-gradient(circle at 100% 0,rgba(214,181,107,.08),transparent 30%),linear-gradient(145deg,#0e2028,#08141b)!important;border-color:rgba(214,181,107,.12)!important}
 @media(max-width:760px){.category-rail a{min-height:112px!important}}
+
+/* ACABADO EDITORIAL · SOLO DECORACION */
+.tv-hero,.section,.simple-note{scroll-margin-top:20px}.sectionhead h2{font-weight:950}.category-rail a{isolation:isolate}.category-rail a:after{mix-blend-mode:screen;opacity:.8}.grid .card{transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}.grid .card:hover{border-color:rgba(214,181,107,.24)!important}
