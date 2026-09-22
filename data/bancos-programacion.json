@@ -1,0 +1,114 @@
+{
+  "version": "1.0.0",
+  "nombre": "Bancos editoriales OCARINA TV",
+  "principio": "Programar lo que suma, acompaña, descubre y representa al territorio sin generar confrontación innecesaria.",
+  "regla": "Encontrar contenido no significa incorporarlo. Cada pieza debe superar revisión editorial, territorial y de derechos antes de entrar a señal.",
+  "permitidos": [
+    {
+      "id": "cultura",
+      "nombre": "Cultura",
+      "descripcion": "Música, arte, fiestas, tradiciones, artesanías, danza, patrimonio vivo e identidad.",
+      "ejemplos": ["música local", "artistas", "artesanías", "fiestas culturales", "patrimonio"],
+      "codigo": "CUL"
+    },
+    {
+      "id": "turismo",
+      "nombre": "Turismo y territorio",
+      "descripcion": "Paisajes, lugares, recorridos, naturaleza y propuestas para conocer la región.",
+      "ejemplos": ["lugares para visitar", "rutas", "paisajes", "turismo rural", "patrimonio natural"],
+      "codigo": "TUR"
+    },
+    {
+      "id": "historias",
+      "nombre": "Historias y memoria",
+      "descripcion": "Historias de vida, memoria local, fotografías, archivos y patrimonio.",
+      "ejemplos": ["vecinos pioneros", "escuelas", "instituciones", "fotografías antiguas", "testimonios"],
+      "codigo": "HIS"
+    },
+    {
+      "id": "sociales",
+      "nombre": "Comunidad",
+      "descripcion": "Iniciativas sociales, encuentros, voluntariado, educación comunitaria y proyectos positivos.",
+      "ejemplos": ["clubes", "escuelas", "ferias", "proyectos comunitarios", "solidaridad"],
+      "codigo": "COM"
+    },
+    {
+      "id": "documentales",
+      "nombre": "Documentales",
+      "descripcion": "Relatos audiovisuales sobre personas, territorio, cultura, naturaleza y trabajo.",
+      "ejemplos": ["documentales locales", "microdocumentales", "crónicas de territorio", "retratos"],
+      "codigo": "DOC"
+    },
+    {
+      "id": "deportes",
+      "nombre": "Deportes",
+      "descripcion": "Deporte comunitario, clubes, disciplinas, entrenamiento, historias y eventos deportivos.",
+      "ejemplos": ["fútbol", "atletismo", "ciclismo", "skate", "deporte escolar"],
+      "codigo": "DEP"
+    },
+    {
+      "id": "cocina",
+      "nombre": "Cocina y sabores",
+      "descripcion": "Recetas, productos regionales, gastronomía familiar y saberes culinarios.",
+      "ejemplos": ["recetas", "cocina familiar", "productos regionales", "huerta", "gastronomía local"],
+      "codigo": "COC"
+    },
+    {
+      "id": "ruralidad",
+      "nombre": "Ruralidad y producción",
+      "descripcion": "Chacras, cosechas, oficios, animales, paisaje productivo y saberes del campo.",
+      "ejemplos": ["cosechas", "chacras", "oficios rurales", "producción", "paisaje"],
+      "codigo": "RUR"
+    },
+    {
+      "id": "naturaleza",
+      "nombre": "Naturaleza",
+      "descripcion": "Fauna, flora, ambiente, paisaje, agua, cielo y observación del territorio.",
+      "ejemplos": ["aves", "flora", "río", "barda", "cuidado ambiental"],
+      "codigo": "NAT"
+    },
+    {
+      "id": "oficios",
+      "nombre": "Oficios y saberes",
+      "descripcion": "Personas que hacen, reparan, producen, enseñan y transmiten conocimientos.",
+      "ejemplos": ["oficios", "emprendedores", "artesanos", "talleres", "saberes"],
+      "codigo": "OFI"
+    },
+    {
+      "id": "educacion",
+      "nombre": "Aprender",
+      "descripcion": "Contenidos educativos, ciencia, historia, lectura, tecnología útil y experiencias escolares.",
+      "ejemplos": ["escuelas", "experimentos", "lectura", "ciencia", "tecnología"],
+      "codigo": "EDU"
+    },
+    {
+      "id": "musica",
+      "nombre": "Música",
+      "descripcion": "Artistas, bandas, canciones, instrumentos, ensayos y escenas musicales locales.",
+      "ejemplos": ["músicos", "bandas", "sesiones", "instrumentos", "recitales"],
+      "codigo": "MUS"
+    }
+  ],
+  "no_programar": [
+    "policiales",
+    "accidentes",
+    "violencia",
+    "morbo",
+    "crónica roja",
+    "conflictos partidarios",
+    "campañas electorales",
+    "propaganda política",
+    "contenido humillante",
+    "exposición de personas en situaciones de vulnerabilidad",
+    "material sexual o explícito",
+    "contenido que promueva odio o discriminación"
+  ],
+  "filtro_de_entrada": [
+    "Tiene relación real con San Patricio del Chañar o su territorio cercano.",
+    "Aporta cultura, conocimiento, disfrute, memoria, comunidad, naturaleza o descubrimiento.",
+    "Puede presentarse sin convertir a una persona o grupo en objeto de conflicto o exposición innecesaria.",
+    "Cuenta con estado editorial y derechos suficientemente claros para el uso previsto.",
+    "La pieza tiene calidad mínima de imagen, sonido o relato.",
+    "Si genera duda seria sobre su incorporación, queda fuera hasta revisión."
+  ]
+}
