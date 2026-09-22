@@ -4,12 +4,14 @@ let DATA=null,ytPlayer=null,playerReady=false,currentEpisode=null,progressTimer=
 
 async function load(){
  if(DATA)return DATA;
+ const get=async(path,fallback)=>{try{const r=await fetch(path,{cache:'no-store'});if(!r.ok)throw new Error(path+' '+r.status);return await r.json()}catch(err){console.warn('OCARINA TV: no se pudo cargar',path,err);return fallback}};
  const [programas,episodios,programacion,publicidad]=await Promise.all([
-  fetch('data/programas.json').then(r=>r.json()),
-  fetch('data/episodios.json').then(r=>r.json()),
-  fetch('data/programacion.json').then(r=>r.json()),
-  fetch('data/publicidad.json').then(r=>r.json())
+  get('data/programas.json',[]),
+  get('data/episodios.json',[]),
+  get('data/programacion.json',[]),
+  get('data/publicidad.json',[])
  ]);
+ if(!programacion.length)throw new Error('La grilla 24h no está disponible.');
  return DATA={programas,episodios,programacion,publicidad};
 }
 function header(){
@@ -22,7 +24,7 @@ function card(e){return '<article class="card"><img class="thumb" src="'+esc(e.t
 function scheduleIndex(list,date=new Date()){const h=date.getHours();return h%24}
 function currentSlot(list){return list[scheduleIndex(list)]||list[0]}
 function nextSlot(list){return list[(scheduleIndex(list)+1)%list.length]||list[0]}
-function findEpisode(slot){return DATA.episodios.find(e=>e.id===slot?.episodioId)||DATA.episodios.find(e=>e.programaId===slot?.programaId)}
+function findEpisode(slot){return DATA.episodios.find(e=>e.id===slot?.episodioId)||DATA.episodios.find(e=>e.programaId===slot?.programaId)||DATA.episodios[0]||{id:'sin-contenido',titulo:'Señal Ocarina TV',descripcion:'Continuidad editorial',categoria:'Señal',videoId:''}}
 function formatClock(){return new Intl.DateTimeFormat('es-AR',{hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(new Date())}
 function formatTime(sec){if(!Number.isFinite(sec))return '00:00';sec=Math.max(0,Math.floor(sec));return String(Math.floor(sec/60)).padStart(2,'0')+':'+String(sec%60).padStart(2,'0')}
 function ensureYT(){
