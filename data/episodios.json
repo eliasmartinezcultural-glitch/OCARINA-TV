@@ -1622,86 +1622,124 @@
       ]
     }
   },
-{
-  "id": "feria-franca-productores-locales-2026",
-  "programaId": "produccion-local",
-  "titulo": "Feria Franca · productores locales",
-  "tituloFuente": "Productores locales impulsan la Feria Franca en San Patricio del Chañar",
-  "descripcion": "Registro de una feria de productores y emprendedores locales, con alimentos frescos, productos artesanales y trabajo familiar.",
-  "categoria": "Producción local",
-  "tipo": "audiovisual",
-  "tags": [
-    "feria franca",
-    "productores",
-    "emprendedores",
-    "producción local",
-    "comunidad"
-  ],
-  "territorio": "San Patricio del Chañar",
-  "paraje": null,
-  "protagonistas": [
-    "Productores locales"
-  ],
-  "fecha": "2026-01-23",
-  "duracion": null,
-  "videoId": "n1-49ICezi0",
-  "thumbnail": "https://img.youtube.com/vi/n1-49ICezi0/hqdefault.jpg",
-  "fuentes": [
-    {
-      "tipo": "web",
-      "url": "https://www.chanardigital.com.ar/articulo/2026/01/productores-locales-impulsan-la-feria-franca-en-san-patricio-del-chanar.php"
-    },
-    {
-      "tipo": "youtube",
-      "url": "https://www.youtube.com/watch?v=n1-49ICezi0"
+  {
+    "id": "feria-franca-productores-locales-2026",
+    "programaId": "produccion-local",
+    "titulo": "Feria Franca · productores locales",
+    "tituloFuente": "Productores locales impulsan la Feria Franca en San Patricio del Chañar",
+    "descripcion": "Registro de una feria de productores y emprendedores locales, con alimentos frescos, productos artesanales y trabajo familiar.",
+    "categoria": "Producción local",
+    "tipo": "audiovisual",
+    "tags": [
+      "feria franca",
+      "productores",
+      "emprendedores",
+      "producción local",
+      "comunidad"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Productores locales"
+    ],
+    "fecha": "2026-01-23",
+    "duracion": null,
+    "videoId": "n1-49ICezi0",
+    "thumbnail": "https://img.youtube.com/vi/n1-49ICezi0/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "web",
+        "url": "https://www.chanardigital.com.ar/articulo/2026/01/productores-locales-impulsan-la-feria-franca-en-san-patricio-del-chanar.php"
+      },
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=n1-49ICezi0"
+      }
+    ],
+    "estado": "publicado",
+    "fichaEditorial": {
+      "nivel": "parcial",
+      "faltantes": [
+        "duracion"
+      ]
     }
-  ],
-  "estado": "publicado",
-  "fichaEditorial": {
-    "nivel": "parcial",
-    "faltantes": [
-      "duracion"
-    ]
-  }
-},
-{
-  "id": "florencio-barros-bomberos-140-aniversario",
-  "programaId": "gente-de-aca",
-  "titulo": "Florencio Barros · Bomberos Voluntarios",
-  "tituloFuente": "FLORENCIO BARROS - SUBOFICIAL MAYOR JEFE 140º ANIVERSARIO BOMBEROS VOLUNTARIOS",
-  "descripcion": "Entrevista a Florencio Barros, jefe de Bomberos Voluntarios, vinculada a la vida institucional y al servicio comunitario.",
-  "categoria": "Comunidad",
-  "tipo": "audiovisual",
-  "tags": [
-    "bomberos",
-    "comunidad",
-    "instituciones",
-    "personas",
-    "archivo"
-  ],
-  "territorio": "San Patricio del Chañar",
-  "paraje": null,
-  "protagonistas": [
-    "Florencio Barros",
-    "Bomberos Voluntarios"
-  ],
-  "fecha": null,
-  "duracion": null,
-  "videoId": "1OaQSj6LlmA",
-  "thumbnail": "https://img.youtube.com/vi/1OaQSj6LlmA/hqdefault.jpg",
-  "fuentes": [
-    {
-      "tipo": "youtube",
-      "url": "https://www.youtube.com/watch?v=1OaQSj6LlmA"
+  },
+  {
+    "id": "florencio-barros-bomberos-140-aniversario",
+    "programaId": "gente-de-aca",
+    "titulo": "Florencio Barros · Bomberos Voluntarios",
+    "tituloFuente": "FLORENCIO BARROS - SUBOFICIAL MAYOR JEFE 140º ANIVERSARIO BOMBEROS VOLUNTARIOS",
+    "descripcion": "Entrevista a Florencio Barros, jefe de Bomberos Voluntarios, vinculada a la vida institucional y al servicio comunitario.",
+    "categoria": "Comunidad",
+    "tipo": "audiovisual",
+    "tags": [
+      "bomberos",
+      "comunidad",
+      "instituciones",
+      "personas",
+      "archivo"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Florencio Barros",
+      "Bomberos Voluntarios"
+    ],
+    "fecha": null,
+    "duracion": null,
+    "videoId": "1OaQSj6LlmA",
+    "thumbnail": "https://img.youtube.com/vi/1OaQSj6LlmA/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=1OaQSj6LlmA"
+      }
+    ],
+    "estado": "publicado",
+    "fichaEditorial": {
+      "nivel": "parcial",
+      "faltantes": [
+        "fecha",
+        "duracion"
+      ]
     }
-  ],
-  "estado": "publicado",
-  "fichaEditorial": {
-    "nivel": "parcial",
-    "faltantes": [
-      "fecha",
-      "duracion"
-    ]
+  },
+  {
+    "id": "puesto-chanar-chacinados-2026",
+    "programaId": "produccion-local",
+    "titulo": "Puesto Chañar · taller de chacinados",
+    "tituloFuente": "El taller de chacinados de Puesto Chañar sigue formando emprendedores con una fuerte propuesta práctica",
+    "descripcion": "Registro audiovisual de un taller de elaboración de chacinados y embutidos en Puesto Chañar, con el profesor Jorge Águila y participantes de la capacitación.",
+    "categoria": "Producción local",
+    "tipo": "audiovisual",
+    "tags": [
+      "Puesto Chañar",
+      "chacinados",
+      "producción local",
+      "emprendedores",
+      "capacitación"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Jorge Águila",
+      "Puesto Chañar"
+    ],
+    "fecha": "2026-07-13",
+    "duracion": null,
+    "videoId": "TlRAOqRwADQ",
+    "thumbnail": "https://img.youtube.com/vi/TlRAOqRwADQ/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "web",
+        "url": "https://www.chanardigital.com.ar/articulo/2026/07/el-taller-de-chacinados-de-puesto-chanar-sigue-formando-emprendedores-con-una-fuerte-propuesta-practica.php"
+      },
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=TlRAOqRwADQ"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL"
   }
-}
 ]
