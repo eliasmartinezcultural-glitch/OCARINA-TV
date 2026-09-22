@@ -1172,5 +1172,252 @@
       "criterio": "URL YouTube directa identificada por fuente vinculada a Malma; no identificado como Short/Reel",
       "aspecto": "HORIZONTAL_70"
     }
+  },
+  {
+    "id": "chanar-desde-el-aire-2015",
+    "programaId": "rutas-y-paisajes",
+    "titulo": "San Patricio del Chañar · desde el aire",
+    "descripcion": "Registro aéreo del territorio de San Patricio del Chañar y su paisaje.",
+    "categoria": "Naturaleza",
+    "tipo": "audiovisual",
+    "tags": [
+      "territorio",
+      "paisaje",
+      "drone",
+      "naturaleza"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Estudio VeamosLasFotos · Pato Peñas"
+    ],
+    "fecha": "2015-09-26",
+    "duracion": null,
+    "videoId": "TUgasyuno7k",
+    "thumbnail": "https://img.youtube.com/vi/TUgasyuno7k/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=TUgasyuno7k"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL"
+  },
+  {
+    "id": "gonzalo-saravia-skate-2010",
+    "programaId": "deporte-de-aca",
+    "titulo": "Gonzalo Saravia · skate en San Patricio del Chañar",
+    "descripcion": "Registro histórico de skate y juventud en San Patricio del Chañar.",
+    "categoria": "Deportes",
+    "tipo": "audiovisual",
+    "tags": [
+      "skate",
+      "juventud",
+      "deporte",
+      "archivo"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Gonzalo Saravia"
+    ],
+    "fecha": "2010-12-13",
+    "duracion": null,
+    "videoId": "ZwL3Q5cuOHs",
+    "thumbnail": "https://img.youtube.com/vi/ZwL3Q5cuOHs/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZwL3Q5cuOHs"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL"
+  },
+  {
+    "id": "bomberos-jorge-san-martin-2023",
+    "programaId": "gente-de-aca",
+    "titulo": "Jorge San Martín · Bomberos Voluntarios",
+    "descripcion": "Entrevista a un referente de Bomberos Voluntarios de San Patricio del Chañar.",
+    "categoria": "Comunidad",
+    "tipo": "audiovisual",
+    "tags": [
+      "bomberos",
+      "comunidad",
+      "personas",
+      "instituciones"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Jorge San Martín",
+      "Bomberos Voluntarios"
+    ],
+    "fecha": "2023-10-20",
+    "duracion": null,
+    "videoId": "Ia7iWoezagI",
+    "thumbnail": "https://img.youtube.com/vi/Ia7iWoezagI/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=Ia7iWoezagI"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL"
+  },
+  {
+    "id": "rio-neuquen-drone-2020",
+    "programaId": "naturaleza-cercana",
+    "titulo": "Río Neuquén · San Patricio del Chañar",
+    "descripcion": "Registro aéreo del Río Neuquén y el territorio de San Patricio del Chañar.",
+    "categoria": "Naturaleza",
+    "tipo": "audiovisual",
+    "tags": [
+      "río",
+      "territorio",
+      "drone",
+      "paisaje"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Javier Brasesco"
+    ],
+    "fecha": "2020-11-07",
+    "duracion": null,
+    "videoId": "YwTLspRkoVc",
+    "thumbnail": "https://img.youtube.com/vi/YwTLspRkoVc/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=YwTLspRkoVc"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL"
+  },
+  {
+    "id": "pesca-rio-neuquen-2024",
+    "programaId": "naturaleza-cercana",
+    "titulo": "Pesca de carpas · Río Neuquén",
+    "descripcion": "Jornada de pesca en la isla de San Patricio del Chañar, con paisaje y actividad deportiva.",
+    "categoria": "Naturaleza",
+    "tipo": "audiovisual",
+    "tags": [
+      "pesca",
+      "río",
+      "naturaleza",
+      "deporte"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": "Isla",
+    "protagonistas": [
+      "Entre Aguas"
+    ],
+    "fecha": "2024-11-01",
+    "duracion": null,
+    "videoId": "5n0QUwXrl6w",
+    "thumbnail": "https://img.youtube.com/vi/5n0QUwXrl6w/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=5n0QUwXrl6w"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL"
+  },
+  {
+    "id": "pesca-isla-san-patricio-2024",
+    "programaId": "naturaleza-cercana",
+    "titulo": "Pesca en la isla · San Patricio del Chañar",
+    "descripcion": "Jornada de pesca con spinning en la isla de San Patricio del Chañar.",
+    "categoria": "Naturaleza",
+    "tipo": "audiovisual",
+    "tags": [
+      "pesca",
+      "isla",
+      "río",
+      "deporte"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": "Isla",
+    "protagonistas": [
+      "Entre Aguas"
+    ],
+    "fecha": "2024-05-23",
+    "duracion": null,
+    "videoId": "RbgoqQlXLr8",
+    "thumbnail": "https://img.youtube.com/vi/RbgoqQlXLr8/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=RbgoqQlXLr8"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL"
+  },
+  {
+    "id": "rio-neuquen-pescando-2024",
+    "programaId": "deporte-de-aca",
+    "titulo": "Pescando el Río Neuquén · San Patricio del Chañar",
+    "descripcion": "Pesca con mosca y paisaje en la isla de San Patricio del Chañar.",
+    "categoria": "Deportes",
+    "tipo": "audiovisual",
+    "tags": [
+      "pesca",
+      "pesca con mosca",
+      "río",
+      "territorio"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": "Isla",
+    "protagonistas": [
+      "Entre Aguas"
+    ],
+    "fecha": "2024-08-09",
+    "duracion": null,
+    "videoId": "ynyL1TwE9-M",
+    "thumbnail": "https://img.youtube.com/vi/ynyL1TwE9-M/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=ynyL1TwE9-M"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL"
+  },
+  {
+    "id": "turismo-chanar-mfx-archivo",
+    "programaId": "rutas-y-paisajes",
+    "titulo": "San Patricio del Chañar · turismo y territorio",
+    "descripcion": "Recorrido audiovisual asociado al paisaje y los atractivos turísticos de San Patricio del Chañar.",
+    "categoria": "Turismo",
+    "tipo": "audiovisual",
+    "tags": [
+      "turismo",
+      "territorio",
+      "paisaje",
+      "río"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [],
+    "fecha": null,
+    "duracion": null,
+    "videoId": "mFXL6PxMBvU",
+    "thumbnail": "https://img.youtube.com/vi/mFXL6PxMBvU/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=mFXL6PxMBvU"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL"
   }
 ]
