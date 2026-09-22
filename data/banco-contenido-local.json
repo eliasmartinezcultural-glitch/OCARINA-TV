@@ -1982,5 +1982,24 @@
     "fuente": "https://www.youtube.com/watch?v=a4KUd3nBuPA",
     "nota": "Incorporado bajo umbral editorial HORIZONTAL_70: video convencional de YouTube, relevancia territorial directa y sin identificación como Short/Reel.",
     "evidencia": "YOUTUBE_WATCH_HORIZONTAL_70"
+  },
+  {
+    "id": "pancho-fernandez-malma-pasion-vino",
+    "titulo": "Francisco Pancho Fernández · cocina de Bodega Malma",
+    "tipo": "CONTENIDO_PUBLICADO",
+    "estado": "PUBLICADO",
+    "bancoId": "cocina",
+    "programaId": "sabores-del-chanar",
+    "videoId": "d-zSEuLkQBg",
+    "enfoques": [
+      "cocina",
+      "gastronomía",
+      "Bodega Malma",
+      "Pancho Fernández",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.youtube.com/watch?v=d-zSEuLkQBg",
+    "nota": "Video directo asociado a Bodega Malma y a su chef; incorporado bajo HORIZONTAL_70 y sin señal de Short/Reel.",
+    "evidencia": "YOUTUBE_WATCH_HORIZONTAL_70"
   }
 ]
