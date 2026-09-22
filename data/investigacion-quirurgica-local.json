@@ -1,0 +1,124 @@
+{
+  "version": "1.0.0",
+  "proposito": "Banco interno de investigación para detectar material audiovisual, relatos, personas, eventos, recetas y lugares alineados con la ley editorial de OCARINA TV. Investigar no equivale a publicar.",
+  "fechaCorte": "2026-09-21",
+  "ejes": [
+    {
+      "id": "musica",
+      "nombre": "Música",
+      "hallazgos": [
+        "Larva",
+        "Pasión Ranchera",
+        "Orquesta Municipal",
+        "La Acústika Folk",
+        "Grupo Picunches",
+        "Los Placeros del Chamamé"
+      ],
+      "fuentes": [
+        "https://www.youtube.com/watch?v=OCAnnknlDs8",
+        "https://www.neuqueninforma.gob.ar/noticias/2026/02/10/255111-san-patricio-del-chanar-se-prepara-para-la-fiesta-del-pelon"
+      ]
+    },
+    {
+      "id": "cocina",
+      "nombre": "Cocina",
+      "hallazgos": [
+        "Maridar",
+        "Guiso Chañarense",
+        "cocina regional de Malma",
+        "chivito patagónico",
+        "recetas y maridajes de Familia Schroeder"
+      ],
+      "fuentes": [
+        "https://www.neuqueninforma.gob.ar/noticias/2021/11/17/179132-san-patricio-del-chanar-vivira-una-nueva-edicion-del-festival-maridar",
+        "https://www.neuqueninforma.gob.ar/amp/noticias/2026/07/10/260413-san-patricio-del-chanar-realizara-la-primera-feria-regional-de-turismo-sabores-y-amigos",
+        "https://turismo.neuquen.gob.ar/el-orgullo-de-una-cocina-regional/",
+        "https://familiaschroeder.com/eng/restaurant-homepage/"
+      ]
+    },
+    {
+      "id": "turismo",
+      "nombre": "Turismo y vino",
+      "hallazgos": [
+        "Vendimia Neuquina",
+        "Bodega Malma",
+        "Familia Schroeder",
+        "Bodega del Fin del Mundo",
+        "Secreto Patagónico",
+        "Bodega Patritri",
+        "viñedos",
+        "agroturismo"
+      ],
+      "fuentes": [
+        "https://sanpatricio.gob.ar/quehacer",
+        "https://www.neuqueninforma.gob.ar/noticias/2023/03/16/212388-las-bodegas-neuquinas-invitan-a-la-fiesta-de-la-vendimia",
+        "https://www.neuqueninforma.gob.ar/noticias/2026/04/01/255926-cierre-de-lujo-para-el-ciclo-sunsets-en-san-patricio-del-chanar"
+      ]
+    },
+    {
+      "id": "historia",
+      "nombre": "Historia y memoria",
+      "hallazgos": [
+        "Tratayén",
+        "colonia agrícola",
+        "familia Gasparri",
+        "riego y fruticultura",
+        "fundación 21 de mayo de 1973",
+        "origen del nombre Chañar"
+      ],
+      "fuentes": [
+        "https://www.sanpatricio.gob.ar/identidad",
+        "https://www.legislaturaneuquen.gob.ar/SVRFILES/hln/documentos/DiaSesio/XLVIII/DXLVIII_08.pdf",
+        "https://www.mininterior.gob.ar/planificacion/pdf/planes-loc/NEUQUEN/Plan-de-Ordenamiento-Territorial-Ambiental-para-las-localidades-A%C3%B1elo-San-Patricio-del-Cha%C3%B1ar-y-Sauzal-Bonito.pdf"
+      ]
+    }
+  ],
+  "keywordsAudit": [
+    {
+      "termino": "maridar",
+      "resultado": "CONFIRMADO",
+      "nota": "Festival gastronómico y cultural con gastronomía, bebidas, música, artesanos y productores."
+    },
+    {
+      "termino": "vendimia",
+      "resultado": "CONFIRMADO",
+      "nota": "La Vendimia Neuquina tiene registros de actividades en San Patricio del Chañar y continuidad documentada en 2026."
+    },
+    {
+      "termino": "bodegas",
+      "resultado": "CONFIRMADO",
+      "nota": "El municipio documenta el polo vitivinícola y varias bodegas; las fuentes turísticas aportan experiencias y gastronomía."
+    },
+    {
+      "termino": "Fiesta del Pelón",
+      "resultado": "CONFIRMADO",
+      "nota": "Evento central de cultura, producción, música, gastronomía y memoria local; edición 2026 documentada."
+    },
+    {
+      "termino": "Interior Neuquino",
+      "resultado": "ABIERTO",
+      "nota": "Se mantiene como pista de búsqueda, pero no se atribuye contenido a Chañar sin coincidencia directa."
+    },
+    {
+      "termino": "Larva",
+      "resultado": "CONFIRMADO",
+      "nota": "Banda formada en San Patricio del Chañar en 1999; existe material audiovisual público de Fundación BPN."
+    },
+    {
+      "termino": "Bemoles",
+      "resultado": "NO ATRIBUIR",
+      "nota": "La búsqueda encontró un proyecto cultural homónimo sin evidencia suficiente de relación con San Patricio del Chañar. Queda fuera hasta nueva prueba."
+    },
+    {
+      "termino": "Pasión Ranchera",
+      "resultado": "CONFIRMADO",
+      "nota": "Figura documentada en programaciones de la Fiesta del Pelón y en documentación municipal previa."
+    },
+    {
+      "termino": "Malma",
+      "resultado": "CONFIRMADO",
+      "nota": "Bodega y restaurante con fuerte conexión entre vino, paisaje, cocina regional, vendimia y música."
+    }
+  ],
+  "regla": "Solo pasan a ARCHIVO CURADO u OCARINA TV los materiales con relación territorial verificable, calidad suficiente, derechos/permiso compatibles y revisión editorial. Los resultados de búsqueda son pistas, no episodios."
+}
