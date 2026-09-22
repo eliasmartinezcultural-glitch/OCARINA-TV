@@ -1339,5 +1339,59 @@
     "fuente": "https://turismo.neuquen.gob.ar/la-vendimia-neuquina-invita-a-vivir-la-cosecha-desde-adentro/",
     "nota": "La fuente oficial confirma el evento del 14/03/2026 en Bodega Malma, San Patricio del Chañar. Buscar video horizontal directo antes de publicar.",
     "evidencia": "EVENTO_OFICIAL_CONFIRMADO"
+  },
+  {
+    "id": "vendimia-2023-lm-mp4-horizontal",
+    "titulo": "Vendimia Neuquina 2023 · registro LM Neuquén",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "VERIFICADO",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "videoId": null,
+    "enfoques": [
+      "Vendimia Neuquina",
+      "Familia Schroeder",
+      "vino",
+      "cosecha",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.lmneuquen.com/el-comedor/llega-la-vendimia-neuquen-vino-comida-y-musica-vivo-n1004234/amp",
+    "nota": "La página contiene un archivo HTML5 identificado explícitamente como 'Vendimia 2023.mp4'. Es una pista audiovisual directa, no un Reel. Antes de incorporarlo a episodios hay que recuperar URL del MP4 y comprobar dimensiones >=16:9.",
+    "evidencia": "HTML5_MP4_IDENTIFICADO"
+  },
+  {
+    "id": "pelon-2024-instagram-no-incorporar",
+    "titulo": "Fiesta del Pelón 2024 · registro Instagram municipal",
+    "tipo": "NO_INCORPORAR",
+    "estado": "NO INCORPORAR",
+    "bancoId": "cultura",
+    "programaId": "cultura-chanarense",
+    "videoId": null,
+    "enfoques": [
+      "Fiesta del Pelón",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.noticiasnqn.com.ar/noticias/2024/02/12/291195-video-asi-se-vivio-la-1-jornada-de-la-fiesta-del-pelon-en-san-patricio-del-chanar-la-grilla-de-hoy",
+    "nota": "La cobertura enlaza una publicación de Instagram. No entra mientras no se recupere una versión horizontal independiente.",
+    "evidencia": "INSTAGRAM_EMBED"
+  },
+  {
+    "id": "vendimia-2026-schroeder-cobertura-objetivo",
+    "titulo": "Vendimia Neuquina 2026 · Familia Schroeder",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "videoId": null,
+    "enfoques": [
+      "Vendimia 2026",
+      "Familia Schroeder",
+      "rock",
+      "vino",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://vendimianeuquina.com.ar/vinos-rock-y-atardecer-en-bodega-familia-schroeder-todo-lo-que-tenes-que-saber-de-la-vendimia-neuquina/",
+    "nota": "Evento local confirmado; buscar grabación horizontal concreta de la jornada del 21/03/2026. No incorporar publicación social vertical.",
+    "evidencia": "EVENTO_2026_CONFIRMADO"
   }
 ]
