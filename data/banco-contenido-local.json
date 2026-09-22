@@ -1810,5 +1810,24 @@
     "fuente": "https://www.youtube.com/watch?v=3hPukxBiQGI",
     "nota": "Incorporado con umbral editorial 70%. Canal oficial de Bodega Familia Schroeder; video convencional de vendimia, sin identificación como Short/Reel.",
     "evidencia": "YOUTUBE_WATCH_HORIZONTAL_70"
+  },
+  {
+    "id": "cosecha-chanar-2021-schroeder-publicado",
+    "titulo": "Cómo viene la cosecha 2021 · San Patricio del Chañar",
+    "tipo": "CONTENIDO_PUBLICADO",
+    "estado": "PUBLICADO",
+    "bancoId": "ruralidad",
+    "programaId": "chanar-rural",
+    "videoId": "OK2X-9MyhLs",
+    "enfoques": [
+      "vendimia",
+      "cosecha",
+      "Familia Schroeder",
+      "ruralidad",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.youtube.com/watch?v=OK2X-9MyhLs",
+    "nota": "Incorporado con umbral editorial 70%. Video convencional sobre la cosecha local; no identificado como Short/Reel.",
+    "evidencia": "YOUTUBE_WATCH_HORIZONTAL_70"
   }
 ]
