@@ -1393,5 +1393,78 @@
     "fuente": "https://vendimianeuquina.com.ar/vinos-rock-y-atardecer-en-bodega-familia-schroeder-todo-lo-que-tenes-que-saber-de-la-vendimia-neuquina/",
     "nota": "Evento local confirmado; buscar grabación horizontal concreta de la jornada del 21/03/2026. No incorporar publicación social vertical.",
     "evidencia": "EVENTO_2026_CONFIRMADO"
+  },
+  {
+    "id": "vendimia-2023-lm-nuevo-registro",
+    "titulo": "Vendimia Neuquina 2023 · archivo audiovisual LM Neuquén",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "VERIFICADO",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "videoId": null,
+    "enfoques": [
+      "Vendimia",
+      "vino",
+      "bodegas",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.lmneuquen.com/neuquen/las-bodegas-neuquinas-abren-sus-vinedos-la-vendimia-2023-n1000576/amp",
+    "nota": "La página identifica un archivo 'Vendimia 2023.mp4'. Debe recuperarse el src del video y medir ancho/alto antes de publicar. No se incorpora por URL de página solamente.",
+    "evidencia": "HTML5_MP4_IDENTIFICADO"
+  },
+  {
+    "id": "nieve-schroeder-mp4",
+    "titulo": "Nieve en Bodega Familia Schroeder · San Patricio del Chañar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "VERIFICADO",
+    "bancoId": "naturaleza",
+    "programaId": "naturaleza-cercana",
+    "videoId": null,
+    "enfoques": [
+      "nieve",
+      "Familia Schroeder",
+      "bodega",
+      "paisaje",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.lmneuquen.com/neuquen/la-ruta-del-vino-neuquen-5-bodegas-visitar-la-provincia-n1070025/amp",
+    "nota": "La página identifica un archivo 'Nieve en Bodega Familia Schroeder.mp4'. Recuperar y medir dimensiones; solo entra si es horizontal.",
+    "evidencia": "HTML5_MP4_IDENTIFICADO"
+  },
+  {
+    "id": "skatepark-chanar-evento-mp4",
+    "titulo": "Skatepark Rodrigo Barros Hurtado · evento en Chañar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "VERIFICADO",
+    "bancoId": "deportes",
+    "programaId": "deporte-de-aca",
+    "videoId": null,
+    "enfoques": [
+      "skate",
+      "deporte",
+      "juventud",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.lmneuquen.com/con-un-megaevento-el-chanar-recupero-su-skatepark-n860238/amp",
+    "nota": "La página identifica el archivo 'MV Chañar EVENTO .mp4'. Recuperar y medir dimensiones; no publicar hasta confirmar horizontalidad.",
+    "evidencia": "HTML5_MP4_IDENTIFICADO"
+  },
+  {
+    "id": "bert-2021-vendimia-pdv-mp4",
+    "titulo": "Puntos de Vista · Leandro Bertoya · Vendimia Neuquina",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "VERIFICADO",
+    "bancoId": "historias",
+    "programaId": "historias-del-chanar",
+    "videoId": null,
+    "enfoques": [
+      "Leandro Bertoya",
+      "Vendimia",
+      "historia local",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.lmneuquen.com/bertoya-la-pandemia-hizo-la-politica-la-dinamica-lo-impensado-n805002",
+    "nota": "La página identifica archivo '18-PDV-LEANDRO BERTOYA - 01.mp4' y menciona explícitamente San Patricio del Chañar y la primera Vendimia neuquina. Recuperar y medir dimensiones.",
+    "evidencia": "HTML5_MP4_IDENTIFICADO"
   }
 ]
