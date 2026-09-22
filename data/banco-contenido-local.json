@@ -1466,5 +1466,73 @@
     "fuente": "https://www.lmneuquen.com/bertoya-la-pandemia-hizo-la-politica-la-dinamica-lo-impensado-n805002",
     "nota": "La página identifica archivo '18-PDV-LEANDRO BERTOYA - 01.mp4' y menciona explícitamente San Patricio del Chañar y la primera Vendimia neuquina. Recuperar y medir dimensiones.",
     "evidencia": "HTML5_MP4_IDENTIFICADO"
+  },
+  {
+    "id": "interior-neuquino-chanar-2022-youtube-revision",
+    "titulo": "San Patricio del Chañar 2022 · Interior Neuquino",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "VERIFICADO",
+    "bancoId": "historias",
+    "programaId": "historias-del-chanar",
+    "videoId": "9mjA4bUGGzM",
+    "fuente": "https://www.youtube.com/watch?v=9mjA4bUGGzM",
+    "nota": "Video directo de Jorge Interior Neuquino Garro. Dimensiones pendientes de comprobación técnica.",
+    "evidencia": "YOUTUBE_WATCH_DIRECTO"
+  },
+  {
+    "id": "interior-neuquino-chanar-2021-youtube-revision",
+    "titulo": "San Patricio del Chañar 2021 · Interior Neuquino",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "VERIFICADO",
+    "bancoId": "historias",
+    "programaId": "historias-del-chanar",
+    "videoId": "C0S4uVzGpyo",
+    "fuente": "https://www.youtube.com/watch?v=C0S4uVzGpyo",
+    "nota": "Video directo de Jorge Interior Neuquino Garro. Dimensiones pendientes de comprobación técnica.",
+    "evidencia": "YOUTUBE_WATCH_DIRECTO"
+  },
+  {
+    "id": "larva-los-monos-2026-busqueda-directa",
+    "titulo": "Larva + Los Monos · Chañar 2026",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "musica",
+    "programaId": "escena-musical",
+    "fuente": "https://www.chanardigital.com.ar/articulo/2026/06/larva-y-los-monos-encienden-la-noche-chanarense-a-puro-rock.php",
+    "nota": "Actuación local confirmada. Buscar grabación horizontal completa; excluir Reel/Short.",
+    "evidencia": "FUENTE_LOCAL_EVENTO"
+  },
+  {
+    "id": "maridar-archivo-audiovisual-chanar",
+    "titulo": "Maridar · San Patricio del Chañar · archivo audiovisual",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "cocina",
+    "programaId": "sabores-del-chanar",
+    "fuente": "https://www.google.com/search?q=Maridar+San+Patricio+del+Chañar+video",
+    "nota": "Buscar registros horizontales del ciclo/eventos Maridar. No incorporar resultados sociales verticales.",
+    "evidencia": "BUSQUEDA_MULTIFUENTE"
+  },
+  {
+    "id": "vendimia-2026-malma-local-video",
+    "titulo": "Vendimia Neuquina 2026 · Bodega Malma",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "fuente": "https://turismo.neuquen.gob.ar/la-vendimia-neuquina-invita-a-vivir-la-cosecha-desde-adentro/",
+    "nota": "Evento confirmado el 14/03/2026. Buscar video horizontal concreto.",
+    "evidencia": "FUENTE_OFICIAL_EVENTO"
+  },
+  {
+    "id": "sabores-amigos-2026-video-horizontal",
+    "titulo": "Sabores y Amigos 2026 · feria regional de turismo",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "fuente": "https://www.neuqueninforma.gob.ar/amp/noticias/2026/07/10/260413-san-patricio-del-chanar-realizara-la-primera-feria-regional-de-turismo-sabores-y-amigos",
+    "nota": "Evento local confirmado. Buscar cobertura horizontal directa; excluir verticales.",
+    "evidencia": "FUENTE_OFICIAL_EVENTO"
   }
 ]
