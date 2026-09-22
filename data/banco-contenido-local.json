@@ -1829,5 +1829,41 @@
     "fuente": "https://www.youtube.com/watch?v=OK2X-9MyhLs",
     "nota": "Incorporado con umbral editorial 70%. Video convencional sobre la cosecha local; no identificado como Short/Reel.",
     "evidencia": "YOUTUBE_WATCH_HORIZONTAL_70"
+  },
+  {
+    "id": "interior-neuquino-chanar-2022-publicado",
+    "titulo": "San Patricio del Chañar 2022 · Interior Neuquino",
+    "tipo": "CONTENIDO_PUBLICADO",
+    "estado": "PUBLICADO",
+    "bancoId": "historias",
+    "programaId": "historias-del-chanar",
+    "videoId": "9mjA4bUGGzM",
+    "enfoques": [
+      "Interior Neuquino",
+      "territorio",
+      "historia",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.youtube.com/watch?v=9mjA4bUGGzM",
+    "nota": "Incorporado con umbral editorial 70%. Video convencional de YouTube de Jorge Interior Neuquino Garro; no identificado como Short/Reel.",
+    "evidencia": "YOUTUBE_WATCH_HORIZONTAL_70"
+  },
+  {
+    "id": "interior-neuquino-chanar-2021-publicado",
+    "titulo": "San Patricio del Chañar 2021 · Interior Neuquino",
+    "tipo": "CONTENIDO_PUBLICADO",
+    "estado": "PUBLICADO",
+    "bancoId": "historias",
+    "programaId": "historias-del-chanar",
+    "videoId": "C0S4uVzGpyo",
+    "enfoques": [
+      "Interior Neuquino",
+      "territorio",
+      "historia",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.youtube.com/watch?v=C0S4uVzGpyo",
+    "nota": "Incorporado con umbral editorial 70%. Video convencional de YouTube de Jorge Interior Neuquino Garro; no identificado como Short/Reel.",
+    "evidencia": "YOUTUBE_WATCH_HORIZONTAL_70"
   }
 ]
