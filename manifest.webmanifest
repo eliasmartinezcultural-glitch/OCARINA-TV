@@ -7,23 +7,36 @@
   "background_color": "#061016",
   "theme_color": "#071018",
   "lang": "es",
-  "description": "Canal audiovisual digital dedicado a San Patricio del Chañar.",
+  "description": "OCARINA TV · Canal audiovisual digital de San Patricio del Chañar. Historias, personas y territorio.",
   "shortcuts": [
     {
-      "name": "Señal",
-      "url": "./index.html"
+      "name": "Señal OCARINA TV",
+      "short_name": "Señal",
+      "url": "./index.html",
+      "description": "Abrir la señal principal"
+    },
+    {
+      "name": "Archivo audiovisual",
+      "short_name": "Archivo",
+      "url": "./archivo.html",
+      "description": "Explorar videos de Chañar"
     },
     {
       "name": "Programación",
-      "url": "./programacion.html"
+      "short_name": "Grilla",
+      "url": "./programacion.html",
+      "description": "Ver la programación"
     },
     {
-      "name": "Archivo",
-      "url": "./archivo.html"
-    },
-    {
-      "name": "Configuración",
-      "url": "./configuracion.html"
+      "name": "Publicidad",
+      "short_name": "Publicidad",
+      "url": "./publicidad.html",
+      "description": "Conocer el espacio comercial"
     }
+  ],
+  "id": "./",
+  "categories": [
+    "entertainment",
+    "news"
   ]
 }
