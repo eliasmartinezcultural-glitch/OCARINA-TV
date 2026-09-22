@@ -125,3 +125,6 @@ main:after{content:"";position:fixed;inset:auto 0 0;height:180px;pointer-events:
 /* DECORACION · IDENTIDAD AUDIOVISUAL */
 .section-title{position:relative;padding-bottom:10px}.section-title:after{content:"";position:absolute;left:0;bottom:0;width:54px;height:2px;background:linear-gradient(90deg,var(--gold,#D6B56B),transparent);border-radius:99px}
 .card{transition:transform .2s ease,box-shadow .2s ease,filter .2s ease}.card:hover{filter:brightness(1.035)}
+
+/* DECORACION · ACABADO DE CANAL */
+.section-title{position:relative;padding-bottom:10px}.section-title:after{content:"";position:absolute;left:0;bottom:0;width:54px;height:2px;background:linear-gradient(90deg,var(--gold,#D6B56B),transparent);border-radius:99px}.card{transition:transform .2s ease,box-shadow .2s ease,filter .2s ease}.card:hover{filter:brightness(1.035)}
