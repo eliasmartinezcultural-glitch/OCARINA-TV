@@ -1,14 +1,457 @@
 [
-  {"id":"fiesta-pelon-2026","titulo":"Fiesta Provincial del Pelón 2026","bancoId":"cultura","programaId":"cultura-chanarense","tipo":"CONTENIDO_CANDIDATO","estado":"PENDIENTE","enfoques":["cultura","música","tradición","producción","familias"],"fuente":"https://www.neuqueninforma.gob.ar/noticias/2026/02/10/255111-san-patricio-del-chanar-se-prepara-para-la-fiesta-del-pelon"},
-  {"id":"sabores-y-amigos-2026","titulo":"Sabores y Amigos · Feria Regional de Turismo","bancoId":"turismo","programaId":"rutas-y-paisajes","tipo":"CONTENIDO_CANDIDATO","estado":"PENDIENTE","enfoques":["turismo","gastronomía","producción","artesanías","familias"],"fuente":"https://www.neuqueninforma.gob.ar/amp/noticias/2026/07/10/260413-san-patricio-del-chanar-realizara-la-primera-feria-regional-de-turismo-sabores-y-amigos"},
-  {"id":"balneario-municipal","titulo":"Balneario y camping municipal","bancoId":"turismo","programaId":"rutas-y-paisajes","tipo":"CONTENIDO_CANDIDATO","estado":"PENDIENTE","enfoques":["turismo","familias","recreación","río","naturaleza"],"fuente":"https://sanpatricio.gob.ar/nuestra"},
-  {"id":"dique-compensador","titulo":"Dique Compensador y naturaleza","bancoId":"naturaleza","programaId":"naturaleza-cercana","tipo":"CONTENIDO_CANDIDATO","estado":"PENDIENTE","enfoques":["naturaleza","aves","paisaje","territorio"],"fuente":"https://sanpatricio.gob.ar/nuestra"},
-  {"id":"mirador-la-virgen","titulo":"Mirador La Virgen","bancoId":"turismo","programaId":"rutas-y-paisajes","tipo":"CONTENIDO_CANDIDATO","estado":"PENDIENTE","enfoques":["paisaje","turismo","patrimonio","territorio"],"fuente":"https://sanpatricio.gob.ar/nuestra"},
-  {"id":"chacra-valles-del-chanar","titulo":"Chacra Municipal Valles del Chañar","bancoId":"ruralidad","programaId":"chanar-rural","tipo":"CONTENIDO_CANDIDATO","estado":"PENDIENTE","enfoques":["ruralidad","producción","familias","hortalizas","educación"],"fuente":"https://sanpatricio.gob.ar/nuestra"},
-  {"id":"centro-cultural-erika-baron","titulo":"Centro Cultural Erika Barión de Werro","bancoId":"cultura","programaId":"cultura-chanarense","tipo":"CONTENIDO_CANDIDATO","estado":"PENDIENTE","enfoques":["teatro","música","arte","comunidad"],"fuente":"https://sanpatricio.gob.ar/nuestra"},
-  {"id":"estadio-y-club","titulo":"Club Atlético San Patricio y deporte comunitario","bancoId":"deportes","programaId":"deporte-de-aca","tipo":"CONTENIDO_CANDIDATO","estado":"PENDIENTE","enfoques":["deporte","club","jóvenes","comunidad"],"fuente":"https://www.neuqueninforma.gob.ar/noticias/2026/08/03/261356-el-club-san-patricio-del-chanar-se-fortalece-con-obras-del-programa-clubes-sociales"},
-  {"id":"muro-identidad","titulo":"Muro de la Identidad","bancoId":"cultura","programaId":"historias-del-chanar","tipo":"CONTENIDO_CANDIDATO","estado":"PENDIENTE","enfoques":["arte","identidad","comunidad","patrimonio"],"fuente":"https://sanpatricio.gob.ar/nuestra"},
-  {"id":"vino-y-territorio","titulo":"Viñedos, bodegas y territorio","bancoId":"turismo","programaId":"rutas-y-paisajes","tipo":"CONTENIDO_CANDIDATO","estado":"PENDIENTE","enfoques":["enoturismo","paisaje","producción","gastronomía"],"fuente":"https://sanpatricio.gob.ar/quehacer"},
-  {"id":"fiesta-pelon-archivo","titulo":"Archivo histórico de la Fiesta del Pelón","bancoId":"historias","programaId":"memoria-viva","tipo":"CONTENIDO_CANDIDATO","estado":"PENDIENTE","enfoques":["memoria","fotografía","tradición","historia"],"fuente":"https://turismo.neuquen.gob.ar/san-patricio-del-chanar-vuelve-a-realizar-la-fiesta-del-pelon/"},
-  {"id":"cocina-chanarense","titulo":"Sabores y cocina con identidad local","bancoId":"cocina","programaId":"sabores-del-chanar","tipo":"CONTENIDO_CANDIDATO","estado":"PENDIENTE","enfoques":["cocina","recetas","productos","familias","gastronomía"],"fuente":"https://www.neuqueninforma.gob.ar/amp/noticias/2026/07/10/260413-san-patricio-del-chanar-realizara-la-primera-feria-regional-de-turismo-sabores-y-amigos"}
+  {
+    "id": "fiesta-pelon-2026",
+    "titulo": "Fiesta Provincial del Pelón 2026",
+    "bancoId": "cultura",
+    "programaId": "cultura-chanarense",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "cultura",
+      "música",
+      "tradición",
+      "producción",
+      "familias"
+    ],
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/02/10/255111-san-patricio-del-chanar-se-prepara-para-la-fiesta-del-pelon"
+  },
+  {
+    "id": "sabores-y-amigos-2026",
+    "titulo": "Sabores y Amigos · Feria Regional de Turismo",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "turismo",
+      "gastronomía",
+      "producción",
+      "artesanías",
+      "familias"
+    ],
+    "fuente": "https://www.neuqueninforma.gob.ar/amp/noticias/2026/07/10/260413-san-patricio-del-chanar-realizara-la-primera-feria-regional-de-turismo-sabores-y-amigos"
+  },
+  {
+    "id": "balneario-municipal",
+    "titulo": "Balneario y camping municipal",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "turismo",
+      "familias",
+      "recreación",
+      "río",
+      "naturaleza"
+    ],
+    "fuente": "https://sanpatricio.gob.ar/nuestra"
+  },
+  {
+    "id": "dique-compensador",
+    "titulo": "Dique Compensador y naturaleza",
+    "bancoId": "naturaleza",
+    "programaId": "naturaleza-cercana",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "naturaleza",
+      "aves",
+      "paisaje",
+      "territorio"
+    ],
+    "fuente": "https://sanpatricio.gob.ar/nuestra"
+  },
+  {
+    "id": "mirador-la-virgen",
+    "titulo": "Mirador La Virgen",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "paisaje",
+      "turismo",
+      "patrimonio",
+      "territorio"
+    ],
+    "fuente": "https://sanpatricio.gob.ar/nuestra"
+  },
+  {
+    "id": "chacra-valles-del-chanar",
+    "titulo": "Chacra Municipal Valles del Chañar",
+    "bancoId": "ruralidad",
+    "programaId": "chanar-rural",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "ruralidad",
+      "producción",
+      "familias",
+      "hortalizas",
+      "educación"
+    ],
+    "fuente": "https://sanpatricio.gob.ar/nuestra"
+  },
+  {
+    "id": "centro-cultural-erika-baron",
+    "titulo": "Centro Cultural Erika Barión de Werro",
+    "bancoId": "cultura",
+    "programaId": "cultura-chanarense",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "teatro",
+      "música",
+      "arte",
+      "comunidad"
+    ],
+    "fuente": "https://sanpatricio.gob.ar/nuestra"
+  },
+  {
+    "id": "estadio-y-club",
+    "titulo": "Club Atlético San Patricio y deporte comunitario",
+    "bancoId": "deportes",
+    "programaId": "deporte-de-aca",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "deporte",
+      "club",
+      "jóvenes",
+      "comunidad"
+    ],
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/08/03/261356-el-club-san-patricio-del-chanar-se-fortalece-con-obras-del-programa-clubes-sociales"
+  },
+  {
+    "id": "muro-identidad",
+    "titulo": "Muro de la Identidad",
+    "bancoId": "cultura",
+    "programaId": "historias-del-chanar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "arte",
+      "identidad",
+      "comunidad",
+      "patrimonio"
+    ],
+    "fuente": "https://sanpatricio.gob.ar/nuestra"
+  },
+  {
+    "id": "vino-y-territorio",
+    "titulo": "Viñedos, bodegas y territorio",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "enoturismo",
+      "paisaje",
+      "producción",
+      "gastronomía"
+    ],
+    "fuente": "https://sanpatricio.gob.ar/quehacer"
+  },
+  {
+    "id": "fiesta-pelon-archivo",
+    "titulo": "Archivo histórico de la Fiesta del Pelón",
+    "bancoId": "historias",
+    "programaId": "memoria-viva",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "memoria",
+      "fotografía",
+      "tradición",
+      "historia"
+    ],
+    "fuente": "https://turismo.neuquen.gob.ar/san-patricio-del-chanar-vuelve-a-realizar-la-fiesta-del-pelon/"
+  },
+  {
+    "id": "cocina-chanarense",
+    "titulo": "Sabores y cocina con identidad local",
+    "bancoId": "cocina",
+    "programaId": "sabores-del-chanar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "cocina",
+      "recetas",
+      "productos",
+      "familias",
+      "gastronomía"
+    ],
+    "fuente": "https://www.neuqueninforma.gob.ar/amp/noticias/2026/07/10/260413-san-patricio-del-chanar-realizara-la-primera-feria-regional-de-turismo-sabores-y-amigos"
+  },
+  {
+    "id": "larva-san-patricio",
+    "titulo": "Larva · banda nacida en San Patricio del Chañar",
+    "bancoId": "musica",
+    "programaId": "escena-musical",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "música",
+      "rock",
+      "historia local",
+      "archivo",
+      "jóvenes"
+    ],
+    "fuente": "https://www.youtube.com/watch?v=OCAnnknlDs8"
+  },
+  {
+    "id": "pasion-ranchera-archivo",
+    "titulo": "Pasión Ranchera · presencia en la Fiesta del Pelón",
+    "bancoId": "musica",
+    "programaId": "escena-musical",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "música",
+      "ranchera",
+      "fiesta",
+      "comunidad"
+    ],
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/02/10/255111-san-patricio-del-chanar-se-prepara-para-la-fiesta-del-pelon"
+  },
+  {
+    "id": "orquesta-municipal-pelon",
+    "titulo": "Orquesta Municipal · Fiesta del Pelón 2026",
+    "bancoId": "musica",
+    "programaId": "escena-musical",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "música",
+      "comunidad",
+      "juventud",
+      "fiesta"
+    ],
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/02/10/255111-san-patricio-del-chanar-se-prepara-para-la-fiesta-del-pelon"
+  },
+  {
+    "id": "maridar-chanar",
+    "titulo": "Festival Maridar · gastronomía, bebidas y música",
+    "bancoId": "cocina",
+    "programaId": "sabores-del-chanar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "cocina",
+      "gastronomía",
+      "música",
+      "familias",
+      "productores"
+    ],
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2021/11/17/179132-san-patricio-del-chanar-vivira-una-nueva-edicion-del-festival-maridar"
+  },
+  {
+    "id": "vendimia-neuquina",
+    "titulo": "Vendimia Neuquina · cosecha, bodegas, música y gastronomía",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "vendimia",
+      "enoturismo",
+      "bodegas",
+      "música",
+      "gastronomía"
+    ],
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2023/03/16/212388-las-bodegas-neuquinas-invitan-a-la-fiesta-de-la-vendimia"
+  },
+  {
+    "id": "vendimia-malma-2026",
+    "titulo": "Vendimia 2026 en Bodega Malma",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "vendimia",
+      "Malma",
+      "vino",
+      "música",
+      "cocina",
+      "viñedos"
+    ],
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/04/01/255926-cierre-de-lujo-para-el-ciclo-sunsets-en-san-patricio-del-chanar"
+  },
+  {
+    "id": "malma-cocina-regional",
+    "titulo": "Malma · cocina regional y productos neuquinos",
+    "bancoId": "cocina",
+    "programaId": "sabores-del-chanar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "Malma",
+      "cocina",
+      "leña",
+      "horno de barro",
+      "chivo",
+      "trucha",
+      "vino"
+    ],
+    "fuente": "https://turismo.neuquen.gob.ar/el-orgullo-de-una-cocina-regional/"
+  },
+  {
+    "id": "schroeder-vendimia",
+    "titulo": "Familia Schroeder · vendimia y experiencia en viñedo",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "Schroeder",
+      "vendimia",
+      "viñedo",
+      "cosecha",
+      "turismo"
+    ],
+    "fuente": "https://familiaschroeder.com/eng/restaurant-homepage/"
+  },
+  {
+    "id": "maridaje-schroeder",
+    "titulo": "Familia Schroeder · recetas y maridajes",
+    "bancoId": "cocina",
+    "programaId": "sabores-del-chanar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "maridaje",
+      "recetas",
+      "vino",
+      "cocina"
+    ],
+    "fuente": "https://familiaschroeder.com/eng/restaurant-homepage/"
+  },
+  {
+    "id": "guiso-chanarense",
+    "titulo": "Guiso Chañarense · cocina e identidad local",
+    "bancoId": "cocina",
+    "programaId": "sabores-del-chanar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "guiso",
+      "cocina",
+      "identidad",
+      "productores",
+      "gastronomía"
+    ],
+    "fuente": "https://www.neuqueninforma.gob.ar/amp/noticias/2026/07/10/260413-san-patricio-del-chanar-realizara-la-primera-feria-regional-de-turismo-sabores-y-amigos"
+  },
+  {
+    "id": "chivito-malma",
+    "titulo": "Chivito patagónico · receta regional de Malma",
+    "bancoId": "cocina",
+    "programaId": "sabores-del-chanar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "chivito",
+      "leña",
+      "manzana",
+      "oliva",
+      "vino",
+      "cocina regional"
+    ],
+    "fuente": "https://www.noticiasnqn.com.ar/noticias/2023/08/26/281679-chivito-patagonico-cual-es-la-mejor-manera-de-cocinarlo"
+  },
+  {
+    "id": "historia-tratayen",
+    "titulo": "Tratayén · colonia agrícola y memoria del territorio",
+    "bancoId": "historias",
+    "programaId": "historias-del-chanar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "Tratayén",
+      "historia",
+      "colonia",
+      "río Neuquén",
+      "memoria"
+    ],
+    "fuente": "https://www.sanpatricio.gob.ar/identidad"
+  },
+  {
+    "id": "historia-gasparri",
+    "titulo": "Gasparri · transformación productiva y origen de la ciudad",
+    "bancoId": "historias",
+    "programaId": "historias-del-chanar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "Gasparri",
+      "fruticultura",
+      "riego",
+      "fundación",
+      "historia"
+    ],
+    "fuente": "https://www.sanpatricio.gob.ar/identidad"
+  },
+  {
+    "id": "fundacion-1973",
+    "titulo": "21 de mayo de 1973 · fundación de San Patricio del Chañar",
+    "bancoId": "historias",
+    "programaId": "memoria-viva",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "fundación",
+      "1973",
+      "historia",
+      "identidad"
+    ],
+    "fuente": "https://www.legislaturaneuquen.gob.ar/SVRFILES/hln/documentos/DiaSesio/XLVIII/DXLVIII_08.pdf"
+  },
+  {
+    "id": "pelon-bendicion-frutos",
+    "titulo": "Bendición de los frutos · memoria productiva de la Fiesta del Pelón",
+    "bancoId": "historias",
+    "programaId": "memoria-viva",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "Fiesta del Pelón",
+      "frutos",
+      "trabajo rural",
+      "memoria",
+      "tradición"
+    ],
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/02/10/255111-san-patricio-del-chanar-se-prepara-para-la-fiesta-del-pelon"
+  },
+  {
+    "id": "interior-neuquino-pendiente",
+    "titulo": "Interior neuquino · búsqueda ampliada de relatos vinculados a Chañar",
+    "bancoId": "historias",
+    "programaId": "historias-del-chanar",
+    "tipo": "LINEA_DE_INVESTIGACION",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "interior neuquino",
+      "relatos",
+      "memoria",
+      "viajes",
+      "territorio"
+    ],
+    "fuente": "Búsqueda quirúrgica pendiente de coincidencia directa con San Patricio del Chañar"
+  },
+  {
+    "id": "bemoles-pendiente",
+    "titulo": "Bemoles · coincidencia local por verificar",
+    "bancoId": "musica",
+    "programaId": "escena-musical",
+    "tipo": "LINEA_DE_INVESTIGACION",
+    "estado": "PENDIENTE",
+    "enfoques": [
+      "Bemoles",
+      "música",
+      "espacios culturales"
+    ],
+    "fuente": "No se incorporó evidencia local suficiente; resultados encontrados no permiten atribuir el proyecto a San Patricio del Chañar"
+  }
 ]
