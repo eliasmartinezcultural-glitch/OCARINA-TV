@@ -1470,47 +1470,6 @@
     }
   },
   {
-    "id": "feria-franca-productores-2026",
-    "programaId": "chanar-rural",
-    "titulo": "Feria Franca · Productores locales",
-    "tituloFuente": "Productores locales impulsan la Feria Franca en San Patricio del Chañar",
-    "descripcion": "Registro audiovisual de productores locales, alimentos frescos, conservas y trabajo emprendedor en la Feria Franca.",
-    "categoria": "Producción local",
-    "tipo": "audiovisual",
-    "tags": [
-      "producción",
-      "productores",
-      "feria",
-      "alimentos",
-      "trabajo familiar",
-      "comunidad"
-    ],
-    "territorio": "San Patricio del Chañar",
-    "paraje": null,
-    "protagonistas": [
-      "Productores locales"
-    ],
-    "fecha": "2026-01-23",
-    "duracion": null,
-    "videoId": "n1-49ICezi0",
-    "thumbnail": "https://img.youtube.com/vi/n1-49ICezi0/hqdefault.jpg",
-    "fuentes": [
-      {
-        "tipo": "chanar-digital",
-        "url": "https://www.chanardigital.com.ar/articulo/2026/01/productores-locales-impulsan-la-feria-franca-en-san-patricio-del-chanar.php"
-      },
-      {
-        "tipo": "youtube",
-        "url": "https://www.youtube.com/watch?v=n1-49ICezi0"
-      }
-    ],
-    "estado": "publicado",
-    "fichaEditorial": {
-      "nivel": "completo",
-      "faltantes": []
-    }
-  },
-  {
     "id": "club-de-animales-emprendimiento",
     "programaId": "comunidad-viva",
     "titulo": "Club de Animales · Emprendimiento local",
