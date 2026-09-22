@@ -28,9 +28,9 @@ function scheduleIndex(list,date=new Date()){const h=date.getHours();return h%24
 function editorialStatus(value){return String(value||'').toUpperCase()}
 function editorialGate(item){
  const status=editorialStatus(item?.estado);
- return ['PUBLICABLE','CURADO','VERIFICADO'].includes(status) || status==='PUBLICADO';
+ return status==='PUBLICABLE';
 }
-function bankById(id){return (DATA.bancos?.bancos_permitidos||[]).find(b=>b.id===id)||null}
+function bankById(id){return (DATA.bancos?.permitidos||[]).find(b=>b.id===id)||null}
 function buildEditorialEngine(){
  const candidates=(DATA.bancoContenido||[]).map(item=>{
   const bank=bankById(item.bancoId);
