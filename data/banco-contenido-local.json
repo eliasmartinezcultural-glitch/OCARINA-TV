@@ -1889,5 +1889,24 @@
     "fuente": "https://www.fabricioportelli.com/bodega-familia-schroeder-cosecha-2021-2/",
     "nota": "Página de Fabricio Portelli identifica explícitamente el video y lo enlaza a YouTube; contenido directo sobre la cosecha 2021 en San Patricio del Chañar. Incorporado HORIZONTAL_70.",
     "evidencia": "EXTERNAL_PAGE_EMBED_YOUTUBE_HORIZONTAL_70"
+  },
+  {
+    "id": "bodegas-famosas-schroeder-malma-2023",
+    "titulo": "Bodegas famosas de Neuquén · Schroeder y Malma",
+    "tipo": "CONTENIDO_PUBLICADO",
+    "estado": "PUBLICADO",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "videoId": "tzRcRfGF4gI",
+    "enfoques": [
+      "Bodega Familia Schroeder",
+      "Bodega Malma",
+      "turismo",
+      "vino",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.youtube.com/watch?v=tzRcRfGF4gI",
+    "nota": "Video convencional de YouTube publicado bajo el umbral HORIZONTAL_70; recorrido turístico por dos bodegas de San Patricio del Chañar. No identificado como Short/Reel.",
+    "evidencia": "YOUTUBE_WATCH_HORIZONTAL_70"
   }
 ]
