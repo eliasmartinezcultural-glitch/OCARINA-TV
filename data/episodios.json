@@ -544,5 +544,38 @@
     ],
     "estado": "publicado",
     "formato": "HORIZONTAL"
+  },
+  {
+    "id": "patritti-pasion-vino",
+    "programaId": "rutas-y-paisajes",
+    "titulo": "Bodega Patritti · Pasión por el Vino",
+    "descripcion": "Visita audiovisual a la nueva Bodega Patritti en San Patricio del Chañar.",
+    "categoria": "Turismo",
+    "tags": [
+      "Bodega Patritti",
+      "vino",
+      "vitivinicultura",
+      "San Patricio del Chañar"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "protagonistas": [
+      "Rubén Patritti"
+    ],
+    "fecha": "2023-12-05",
+    "duracion": null,
+    "videoId": "xMc9iHJMtGM",
+    "thumbnail": "https://img.youtube.com/vi/xMc9iHJMtGM/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=xMc9iHJMtGM"
+      },
+      {
+        "tipo": "web",
+        "url": "https://es.linkedin.com/posts/pinco-oscar-a194507_rub%C3%A9n-patritti-bodega-patritti-neuqu%C3%A9n-activity-7139758064580173824-KojZ"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL"
   }
 ]
