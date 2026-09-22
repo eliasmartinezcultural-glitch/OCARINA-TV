@@ -663,5 +663,90 @@
       "criterio": "watch URL convencional; no identificado como Short/Reel",
       "aspecto": "HORIZONTAL"
     }
+  },
+  {
+    "id": "bodega-malma-paraiso-vinedos",
+    "programaId": "rutas-y-paisajes",
+    "titulo": "Bodega Malma · un paraíso de viñedos",
+    "tituloFuente": "Bodega Malma, un paraíso de viñedos | San Patricio del Chañar | Neuquén",
+    "descripcion": "Recorrido audiovisual por Bodega Malma y su paisaje vitivinícola en San Patricio del Chañar.",
+    "categoria": "Turismo",
+    "tipo": "audiovisual",
+    "tags": [
+      "Bodega Malma",
+      "viñedos",
+      "turismo",
+      "vino",
+      "San Patricio del Chañar"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Bodega Malma"
+    ],
+    "fecha": "2021-02-12",
+    "duracion": null,
+    "videoId": "AZqHAgYojUA",
+    "thumbnail": "https://img.youtube.com/vi/AZqHAgYojUA/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=AZqHAgYojUA"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL",
+    "chequeoTecnico": {
+      "fuente": "YouTube",
+      "tipo": "video largo",
+      "short": false,
+      "criterio": "watch URL convencional y resultado identificado como video completo; supera umbral editorial 70%",
+      "aspecto": "HORIZONTAL_70"
+    }
+  },
+  {
+    "id": "nicolas-navio-patritti-2024",
+    "programaId": "rutas-y-paisajes",
+    "titulo": "Nicolás Navío · Bodega Patritti",
+    "tituloFuente": "Nicolás Navío (Bodega Patritti, Neuquén) - PASION POR EL VINO",
+    "descripcion": "Conversación y recorrido por la nueva Bodega Patritti con Nicolás Navío, enólogo radicado en San Patricio del Chañar.",
+    "categoria": "Turismo",
+    "tipo": "audiovisual",
+    "tags": [
+      "Nicolás Navío",
+      "Bodega Patritti",
+      "vino",
+      "enología",
+      "San Patricio del Chañar"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Nicolás Navío",
+      "Bodega Patritti"
+    ],
+    "fecha": "2024-01-10",
+    "duracion": null,
+    "videoId": "KpZy2w251t8",
+    "thumbnail": "https://img.youtube.com/vi/KpZy2w251t8/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=KpZy2w251t8"
+      },
+      {
+        "tipo": "web",
+        "url": "https://es.linkedin.com/posts/oscar-pinco-80467213_nicol%C3%A1s-nav%C3%ADo-bodega-patritti-neuqu%C3%A9n-activity-7150955273082351616-eJFy"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL",
+    "chequeoTecnico": {
+      "fuente": "YouTube",
+      "tipo": "video largo",
+      "short": false,
+      "criterio": "watch URL convencional, fuente audiovisual identificada y contenido territorial directo; supera umbral editorial 70%",
+      "aspecto": "HORIZONTAL_70"
+    }
   }
 ]
