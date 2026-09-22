@@ -7,7 +7,12 @@
     "descripcion": "Trabajo rural, producción y territorio desde una mirada local.",
     "categoria": "Producción local",
     "tipo": "audiovisual",
-    "tags": ["producción", "ruralidad", "tierra", "identidad local"],
+    "tags": [
+      "producción",
+      "ruralidad",
+      "tierra",
+      "identidad local"
+    ],
     "territorio": "San Patricio del Chañar",
     "paraje": null,
     "protagonistas": [],
@@ -28,7 +33,12 @@
     "estado": "publicado",
     "fichaEditorial": {
       "nivel": "parcial",
-      "faltantes": ["fecha", "duracion", "paraje", "protagonistas"]
+      "faltantes": [
+        "fecha",
+        "duracion",
+        "paraje",
+        "protagonistas"
+      ]
     }
   },
   {
@@ -39,7 +49,12 @@
     "descripcion": "Registro de una institución que forma parte de la memoria local.",
     "categoria": "Memoria",
     "tipo": "audiovisual",
-    "tags": ["educación", "escuela", "memoria", "instituciones"],
+    "tags": [
+      "educación",
+      "escuela",
+      "memoria",
+      "instituciones"
+    ],
     "territorio": "San Patricio del Chañar",
     "paraje": null,
     "protagonistas": [],
@@ -60,7 +75,12 @@
     "estado": "publicado",
     "fichaEditorial": {
       "nivel": "parcial",
-      "faltantes": ["fecha", "duracion", "paraje", "protagonistas"]
+      "faltantes": [
+        "fecha",
+        "duracion",
+        "paraje",
+        "protagonistas"
+      ]
     }
   },
   {
@@ -71,10 +91,17 @@
     "descripcion": "Una conversación vinculada a la historia y la memoria del territorio.",
     "categoria": "Historia",
     "tipo": "audiovisual",
-    "tags": ["historia", "colonia japonesa", "memoria", "territorio"],
+    "tags": [
+      "historia",
+      "colonia japonesa",
+      "memoria",
+      "territorio"
+    ],
     "territorio": "San Patricio del Chañar",
     "paraje": null,
-    "protagonistas": ["Seiichi Matsui"],
+    "protagonistas": [
+      "Seiichi Matsui"
+    ],
     "fecha": null,
     "duracion": null,
     "videoId": "G8rbbeZMMVk",
@@ -92,7 +119,11 @@
     "estado": "publicado",
     "fichaEditorial": {
       "nivel": "parcial",
-      "faltantes": ["fecha", "duracion", "paraje"]
+      "faltantes": [
+        "fecha",
+        "duracion",
+        "paraje"
+      ]
     }
   },
   {
@@ -103,7 +134,12 @@
     "descripcion": "Un recorrido por personas, instituciones y experiencias registradas por Ocarina.",
     "categoria": "Archivo",
     "tipo": "audiovisual",
-    "tags": ["archivo", "comunidad", "instituciones", "personas"],
+    "tags": [
+      "archivo",
+      "comunidad",
+      "instituciones",
+      "personas"
+    ],
     "territorio": "San Patricio del Chañar",
     "paraje": null,
     "protagonistas": [],
@@ -124,7 +160,137 @@
     "estado": "publicado",
     "fichaEditorial": {
       "nivel": "parcial",
-      "faltantes": ["fecha", "duracion", "paraje", "protagonistas"]
+      "faltantes": [
+        "fecha",
+        "duracion",
+        "paraje",
+        "protagonistas"
+      ]
     }
+  },
+  {
+    "id": "larva-musica-agradece",
+    "programaId": "escena-musical",
+    "titulo": "Larva · ¿Especial?",
+    "tituloFuente": "MI MÚSICA TE AGRADECE: San Patricio del Chañar",
+    "descripcion": "Larva, banda formada en San Patricio del Chañar, en un registro musical de Fundación BPN.",
+    "categoria": "Música",
+    "tipo": "audiovisual",
+    "tags": [
+      "música",
+      "Larva",
+      "rock",
+      "comunidad"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Larva"
+    ],
+    "fecha": "2021-07-19",
+    "duracion": null,
+    "videoId": "OCAnnknlDs8",
+    "thumbnail": "https://img.youtube.com/vi/OCAnnknlDs8/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=OCAnnknlDs8"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": "larva-sumo",
+    "programaId": "escena-musical",
+    "titulo": "Larva · Todos los discos de Sumo",
+    "tituloFuente": "MI MÚSICA TE AGRADECE: San Patricio del Chañar",
+    "descripcion": "Segunda participación de Larva, banda formada en San Patricio del Chañar, en el ciclo de Fundación BPN.",
+    "categoria": "Música",
+    "tipo": "audiovisual",
+    "tags": [
+      "música",
+      "Larva",
+      "rock",
+      "archivo"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Larva"
+    ],
+    "fecha": "2021-10-14",
+    "duracion": null,
+    "videoId": "GEtR6AH4-UI",
+    "thumbnail": "https://img.youtube.com/vi/GEtR6AH4-UI/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=GEtR6AH4-UI"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": "vino-patagonico-lado-v",
+    "programaId": "rutas-y-paisajes",
+    "titulo": "Los secretos de los vinos patagónicos",
+    "tituloFuente": "San Patricio del Chañar, los secretos de los vinos Patagónicos, en Lado V",
+    "descripcion": "Recorrido audiovisual por San Patricio del Chañar y su producción vitivinícola.",
+    "categoria": "Turismo",
+    "tipo": "audiovisual",
+    "tags": [
+      "vino",
+      "bodegas",
+      "turismo",
+      "territorio"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Canal de la Ciudad"
+    ],
+    "fecha": "2015-07-02",
+    "duracion": null,
+    "videoId": "dY0r3zmo4gA",
+    "thumbnail": "https://img.youtube.com/vi/dY0r3zmo4gA/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=dY0r3zmo4gA"
+      }
+    ],
+    "estado": "publicado"
+  },
+  {
+    "id": "san-patricio-la-amistad-2026",
+    "programaId": "deporte-de-aca",
+    "titulo": "San Patricio del Chañar vs La Amistad",
+    "tituloFuente": "Regional Amateur · 4ta Ronda · Partido de ida",
+    "descripcion": "Transmisión deportiva del partido jugado en San Patricio del Chañar.",
+    "categoria": "Deportes",
+    "tipo": "audiovisual",
+    "tags": [
+      "deporte",
+      "fútbol",
+      "club",
+      "comunidad"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "San Patricio del Chañar",
+      "La Amistad de Cipolletti"
+    ],
+    "fecha": "2026-01-04",
+    "duracion": null,
+    "videoId": "Nro8kNW83D0",
+    "thumbnail": "https://img.youtube.com/vi/Nro8kNW83D0/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=Nro8kNW83D0"
+      }
+    ],
+    "estado": "publicado"
   }
 ]
