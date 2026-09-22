@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "actualizado": "2026-09-21",
   "proposito": "Índice de descubrimiento audiovisual externo sobre San Patricio del Chañar. No incorpora automáticamente material de terceros a la señal Ocarina TV.",
   "regla_editorial": "Descubrir primero, verificar después, publicar solo con encaje editorial y estado de derechos documentado.",
@@ -479,7 +479,104 @@
       "url": "https://www.ivoox.com/shm-larva-audios-mp3_rf_124721268_1.html",
       "tipo": "PISTA_DE_DESCUBRIMIENTO",
       "nota": "La entrevista identifica a Larva como banda de San Patricio del Chañar, con producción autogestiva y videoclips; confirma Facebook, Instagram y YouTube oficiales como fuentes para continuar el barrido."
+    },
+    {
+      "id": "AV-029",
+      "titulo": "Fiesta del Pelón XXIV — edición 2010",
+      "plataforma": "Prensa digital / archivo editorial",
+      "autor": "La Mañana Neuquén",
+      "fecha": "2010-02-19",
+      "categoria": [
+        "FIESTA",
+        "RURALIDAD",
+        "CULTURA",
+        "COMUNIDAD"
+      ],
+      "estado": "PARCIAL",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.lmneuquen.com/comienza-la-xxiv-fiesta-del-pelon-el-chanar-n55186",
+      "tipo": "PISTA_DE_DESCUBRIMIENTO",
+      "nota": "Fuente contemporánea que documenta la XXIV edición, homenaje al trabajador rural, predio del estadio, stands productivos/artesanales/institucionales y espectáculos. Debe rastrearse audiovisual asociado de 2010."
+    },
+    {
+      "id": "AV-030",
+      "titulo": "Fiesta del Pelón XXV — Bodas de Plata, 2011",
+      "plataforma": "Prensa digital / archivo editorial",
+      "autor": "LM Cipolletti / La Mañana Neuquén",
+      "fecha": "2011-02-18",
+      "categoria": [
+        "FIESTA",
+        "RURALIDAD",
+        "CULTURA",
+        "DEPORTE",
+        "MUSICA"
+      ],
+      "estado": "PARCIAL",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.lmcipolletti.com/se-aproxima-la-fiesta-del-pelon-n429199",
+      "tipo": "PISTA_DE_DESCUBRIMIENTO",
+      "nota": "La edición 25 incluyó Larva, Kapanga, Antonio Ríos, actividades folklóricas y cierre con fuegos artificiales. La prensa también documenta transmisión en vivo por FM Municipal y web municipal; investigar si existen registros audiovisuales conservados."
+    },
+    {
+      "id": "AV-031",
+      "titulo": "Copa Challenger de la Fiesta del Pelón — fútbol, 2011",
+      "plataforma": "Archivo deportivo web",
+      "autor": "El Valle Futbolero",
+      "fecha": "2011-02-13",
+      "categoria": [
+        "DEPORTE",
+        "FUTBOL",
+        "PERSONAS",
+        "FIESTA"
+      ],
+      "estado": "PARCIAL",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://elvallefutbolero.blogspot.com/2011/02/sabado-santo.html",
+      "tipo": "PISTA_DE_DESCUBRIMIENTO",
+      "nota": "Registra al San Patricio local como finalista del cuadrangular de la Fiesta del Pelón y conserva nombres de jugadores, entrenador y rivalidad local. Buscar fotografías, videos o transmisiones de la época."
+    },
+    {
+      "id": "AV-032",
+      "titulo": "Fiesta del Pelón XXVII — 2013",
+      "plataforma": "Prensa digital / archivo institucional",
+      "autor": "Honorable Cámara de Diputados de la Nación",
+      "fecha": "2013-02-21",
+      "categoria": [
+        "FIESTA",
+        "RURALIDAD",
+        "CULTURA",
+        "PERSONAS",
+        "HISTORIA"
+      ],
+      "estado": "PARCIAL",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://www.hcdn.gob.ar/comisiones/permanentes/cdhygarantias/proyecto.html?exp=0039-D-2013",
+      "tipo": "PISTA_DE_DESCUBRIMIENTO",
+      "nota": "Documento oficial conserva cronograma, bendición de frutos, Expo Dino Chañar, artistas locales/regionales y la existencia de un video institucional de la gestión municipal durante la fiesta. Ese video institucional queda como objetivo prioritario de recuperación."
+    },
+    {
+      "id": "AV-033",
+      "titulo": "Fiesta del Pelón XXVIII — 2014 / Chaqueño Palavecino y artistas regionales",
+      "plataforma": "Prensa digital / archivo de producción artística",
+      "autor": "LM Neuquén / Ramasso Producciones",
+      "fecha": "2014-01-15",
+      "categoria": [
+        "FIESTA",
+        "MUSICA",
+        "CULTURA",
+        "COMUNIDAD"
+      ],
+      "estado": "PARCIAL",
+      "derechos": "NO_VERIFICADO",
+      "tratamiento": "REFERENCIA_EXTERNA",
+      "url": "https://robertoramasso.com/el-chaqueno-palavecino-y-los-tulipanes-fiesta-nacional-del-pelon/",
+      "tipo": "PISTA_DE_DESCUBRIMIENTO",
+      "nota": "Hay registro editorial y fotográfico de la edición 2014, incluyendo Chaqueño Palavecino y Los Tulipanes. Falta localizar videos originales, especialmente coberturas del escenario y bendición de frutos."
     }
   ],
-  "proxima_fase": "Continuar el barrido cronológico 2000–2026 por bloques de años y cruzarlo con personas, instituciones, picadas y eventos. Priorizar YouTube, Vimeo, Instagram, Facebook, TikTok y medios locales. Registrar solo piezas verificables como audiovisual; las fuentes que solo documenten un hecho quedan como PISTA_DE_DESCUBRIMIENTO y nunca se presentan como video."
+  "proxima_fase": "Bloque prioritario 2000–2015: recuperar audiovisual original antes de ampliar indiscriminadamente el inventario. Prioridad: 2000–2009 (archivo analógico/digitalizado y nombres de personas/instituciones), 2010–2011 (Fiesta del Pelón, FM Municipal, fútbol, Larva y skate), 2012–2014 (skatepark, Fiesta del Pelón, video institucional municipal, artistas locales), 2015 (drone/territorio y transición a plataformas actuales). Cada pista debe intentar convertirse en pieza audiovisual exacta o quedar explícitamente como referencia histórica."
 }
