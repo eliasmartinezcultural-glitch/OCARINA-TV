@@ -1,0 +1,60 @@
+{
+  "version":"1.0.0",
+  "nombre":"OCARINA TV",
+  "subtitulo":"Videos de San Patricio del Chañar",
+  "principio":"Abrir y mirar. El canal propone contenido; el vecino también puede elegir qué ver.",
+  "experiencia":{
+    "prioridad":"REPRODUCIR",
+    "segundaria":"ELEGIR",
+    "tercera":"EXPLORAR",
+    "regla":"La pantalla debe poder entenderse sin conocimientos tecnológicos.",
+    "texto":"corto",
+    "imagenes":"primero",
+    "navegacion":"4 accesos principales"
+  },
+  "secciones_principales":[
+    {"id":"senal","nombre":"Señal","descripcion":"Un video elegido automáticamente para mirar."},
+    {"id":"videos","nombre":"Videos","descripcion":"Elegí qué querés ver."},
+    {"id":"categorias","nombre":"Categorías","descripcion":"Encontrá cultura, historia, turismo y más."},
+    {"id":"publicidad","nombre":"Publicidad","descripcion":"Comercios y sponsors que acompañan el canal."}
+  ],
+  "reproduccion":{
+    "modo":"ALEATORIO",
+    "evitarRepeticion":true,
+    "memoriaCola":12,
+    "autoplaySiguiente":true,
+    "inicioAutomatico":false,
+    "motivoInicioAutomatico": "Los navegadores pueden bloquear reproducción con sonido sin interacción del usuario.",
+    "fallback":"Elegir otro video manualmente"
+  },
+  "catalogo":{
+    "fuente":"data/episodios.json",
+    "estadoMinimo":"publicado",
+    "territorioPrincipal":"San Patricio del Chañar",
+    "mostrarPrimero":"thumbnail",
+    "filtros":["Todo","Historia","Cultura","Turismo","Música","Deportes","Ruralidad","Cocina","Comunidad","Naturaleza"]
+  },
+  "derechos":{
+    "regla":"Encontrar no significa incorporar.",
+    "referenciasExternas":"Se presentan como referencias audiovisuales y deben conservar su fuente original.",
+    "produccionOcarina":"Puede destacarse como producción propia.",
+    "estados":["NO_VERIFICADO","REFERENCIA_EXTERNA","AUTORIZADO","OCARINA"]
+  },
+  "publicidad":{
+    "principio":"La publicidad acompaña al contenido y nunca ocupa el lugar del reproductor.",
+    "ubicaciones":["inicio","entre_secciones","pagina_publicidad"],
+    "maximoInicio":2
+  },
+  "visual":{
+    "fondo":"azul petróleo casi negro",
+    "panel":"azul profundo",
+    "acento":"dorado cálido",
+    "acentoSecundario":"verde suave",
+    "textura":"gradiente sutil, sin ruido visual",
+    "bordes":"finos",
+    "sombras":"profundas y suaves",
+    "radio":"14-18px",
+    "tipografia":"sans-serif limpia",
+    "contraste":"alto"
+  }
+}
