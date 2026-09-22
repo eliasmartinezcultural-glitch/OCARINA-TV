@@ -419,5 +419,35 @@
       }
     ],
     "estado": "publicado"
+  },
+  {
+    "id": "turismo-bodega-malma-2018",
+    "programaId": "rutas-y-paisajes",
+    "titulo": "Turismo en Bodega Malma · San Patricio del Chañar",
+    "tituloFuente": "Turismo en Bodega Malma - San Patricio del Chañar - NQN",
+    "descripcion": "Recorrido audiovisual por la propuesta turística de Bodega Malma en San Patricio del Chañar.",
+    "categoria": "Turismo",
+    "tipo": "audiovisual",
+    "tags": [
+      "Bodega Malma",
+      "turismo",
+      "vino",
+      "San Patricio del Chañar"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "protagonistas": [
+      "Bodega Malma"
+    ],
+    "fecha": "2018-04-09",
+    "duracion": null,
+    "videoId": "mvoOAGul4Es",
+    "thumbnail": "https://img.youtube.com/vi/mvoOAGul4Es/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=mvoOAGul4Es"
+      }
+    ],
+    "estado": "publicado"
   }
 ]
