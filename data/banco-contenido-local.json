@@ -614,5 +614,69 @@
     ],
     "fuente": "https://www.neuqueninforma.gob.ar/noticias/2021/11/17/179132-san-patricio-del-chanar-vivira-una-nueva-edicion-del-festival-maridar",
     "nota": "Fuente oficial confirma el evento y sus contenidos. Buscar video horizontal directo."
+  },
+  {
+    "id": "vendimia-2023-video-lm",
+    "titulo": "Vendimia 2023 · video de LM Neuquén",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "enfoques": [
+      "Vendimia Neuquina",
+      "viñedos",
+      "bodegas",
+      "gastronomía"
+    ],
+    "fuente": "https://www.lmneuquen.com/el-comedor/llega-la-vendimia-neuquen-vino-comida-y-musica-vivo-n1004234/amp",
+    "nota": "La página contiene un archivo identificado como Vendimia 2023.mp4. Recuperar URL directa y verificar 16:9 antes de incorporar."
+  },
+  {
+    "id": "vendimia-virtual-2022",
+    "titulo": "Vendimia virtual neuquina · San Patricio del Chañar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "enfoques": [
+      "Vendimia",
+      "vino",
+      "bodegas",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.lmneuquen.com/desde-san-patricio-del-chanar-se-lanza-la-vendimia-virtual-neuquina-n803277/amp",
+    "nota": "La fuente contiene reproductor de video. Recuperar URL directa y comprobar formato horizontal."
+  },
+  {
+    "id": "pelon-2024-video-noticiasnqn",
+    "titulo": "Fiesta del Pelón 2024 · primera jornada",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "cultura",
+    "programaId": "cultura-chanarense",
+    "enfoques": [
+      "Fiesta del Pelón",
+      "cultura",
+      "música",
+      "tradición"
+    ],
+    "fuente": "https://www.noticiasnqn.com.ar/noticias/2024/02/12/291195-video-asi-se-vivio-la-1-jornada-de-la-fiesta-del-pelon-en-san-patricio-del-chanar-la-grilla-de-hoy",
+    "nota": "La nota identifica la publicación como VIDEO y documenta la primera jornada. Recuperar pieza directa y verificar 16:9."
+  },
+  {
+    "id": "campana-blh-chanar-1",
+    "titulo": "Campaña Banco de Leche Humana · Hospital San Patricio del Chañar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "sociales",
+    "programaId": "gente-de-aca",
+    "enfoques": [
+      "Hospital",
+      "comunidad",
+      "salud",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://bancolechehumana.neuquen.gob.ar/san-patricio-del-chanar/",
+    "nota": "La página del Banco de Leche Humana publica dos MP4 de campaña asociados a la página de San Patricio del Chañar. Verificar contenido territorial y formato horizontal antes de incorporar."
   }
 ]
