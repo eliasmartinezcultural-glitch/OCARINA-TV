@@ -128,3 +128,7 @@ main:after{content:"";position:fixed;inset:auto 0 0;height:180px;pointer-events:
 
 /* DECORACION · ACABADO DE CANAL */
 .section-title{position:relative;padding-bottom:10px}.section-title:after{content:"";position:absolute;left:0;bottom:0;width:54px;height:2px;background:linear-gradient(90deg,var(--gold,#D6B56B),transparent);border-radius:99px}.card{transition:transform .2s ease,box-shadow .2s ease,filter .2s ease}.card:hover{filter:brightness(1.035)}
+
+/* DECORACION · ATMOSFERA DE ARCHIVO */
+.grid .card{position:relative;background:linear-gradient(180deg,rgba(17,37,48,.72),rgba(12,24,33,.98))}.grid .card:after{content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;box-shadow:inset 0 1px 0 rgba(255,255,255,.035)}
+.category-rail a{position:relative}.category-rail a:after{content:"";position:absolute;left:14px;right:14px;bottom:10px;height:1px;background:linear-gradient(90deg,rgba(214,181,107,.55),transparent);opacity:.7}
