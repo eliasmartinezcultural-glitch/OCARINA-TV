@@ -962,5 +962,170 @@
       "criterio": "watch URL convencional; no identificado como Short/Reel",
       "aspecto": "HORIZONTAL_70"
     }
+  },
+  {
+    "id": "bodega-fin-del-mundo-tonel-privado-2018",
+    "programaId": "rutas-y-paisajes",
+    "titulo": "Bodega Del Fin del Mundo · Tonel Privado",
+    "tituloFuente": "Descubrí Bodega Del Fin del Mundo en TONEL PRIVADO",
+    "descripcion": "Recorrido audiovisual por Bodega Del Fin del Mundo, en San Patricio del Chañar, desde el ciclo Tonel Privado.",
+    "categoria": "Turismo",
+    "tipo": "audiovisual",
+    "tags": [
+      "Bodega Del Fin del Mundo",
+      "turismo",
+      "vino",
+      "territorio"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Tonel Privado",
+      "Bodega Del Fin del Mundo"
+    ],
+    "fecha": "2018-05-02",
+    "duracion": null,
+    "videoId": "DCmhbb1-oDY",
+    "thumbnail": "https://img.youtube.com/vi/DCmhbb1-oDY/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=DCmhbb1-oDY"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL_70",
+    "chequeoTecnico": {
+      "fuente": "YouTube",
+      "tipo": "video convencional",
+      "short": false,
+      "criterio": "watch URL convencional; no identificado como Short/Reel; contenido largo sobre una bodega local",
+      "aspecto": "HORIZONTAL_70"
+    }
+  },
+  {
+    "id": "aniversario-chanar-2024-noticiero-central",
+    "programaId": "memoria-viva",
+    "titulo": "Aniversario de San Patricio del Chañar · 2024",
+    "tituloFuente": "Acto de aniversario de San Patricio del Chañar | Luciano Muñoz | Noticiero Central",
+    "descripcion": "Registro audiovisual del acto de aniversario de San Patricio del Chañar realizado en 2024.",
+    "categoria": "Historia",
+    "tipo": "audiovisual",
+    "tags": [
+      "aniversario",
+      "memoria",
+      "comunidad",
+      "historia local"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Luciano Muñoz",
+      "247 CanaldeNoticias"
+    ],
+    "fecha": "2024-05-23",
+    "duracion": null,
+    "videoId": "3Vx_LMnsyFQ",
+    "thumbnail": "https://img.youtube.com/vi/3Vx_LMnsyFQ/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=3Vx_LMnsyFQ"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL_70",
+    "chequeoTecnico": {
+      "fuente": "YouTube",
+      "tipo": "video convencional",
+      "short": false,
+      "criterio": "watch URL convencional; no identificado como Short/Reel; registro de acto local",
+      "aspecto": "HORIZONTAL_70"
+    }
+  },
+  {
+    "id": "visita-familia-schroeder-2011-2de4",
+    "programaId": "rutas-y-paisajes",
+    "titulo": "Familia Schroeder · visita a la bodega 2/4",
+    "tituloFuente": "Visita a bodega Familia Schroeder en San Patricio del Chañar, Neuquén 2/4",
+    "descripcion": "Registro de una visita realizada en 2010 a Bodega Familia Schroeder, con foco en sus instalaciones, elaboración y añejado de vinos.",
+    "categoria": "Turismo",
+    "tipo": "audiovisual",
+    "tags": [
+      "Familia Schroeder",
+      "bodega",
+      "vino",
+      "turismo",
+      "archivo"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Familia Schroeder",
+      "Carlos Awdejczuk"
+    ],
+    "fecha": "2011-06-21",
+    "duracion": null,
+    "videoId": "3omqG_YI9ig",
+    "thumbnail": "https://img.youtube.com/vi/3omqG_YI9ig/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=3omqG_YI9ig"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL_70",
+    "chequeoTecnico": {
+      "fuente": "YouTube",
+      "tipo": "video convencional",
+      "short": false,
+      "criterio": "watch URL convencional; no identificado como Short/Reel; archivo audiovisual de visita a bodega",
+      "aspecto": "HORIZONTAL_70"
+    }
+  },
+  {
+    "id": "saurus-select-pinot-noir-presentacion-2020",
+    "programaId": "rutas-y-paisajes",
+    "titulo": "Saurus Select Pinot Noir · presentación",
+    "tituloFuente": "Saurus Select Pinot Noir 2019 se presenta con nueva imagen",
+    "descripcion": "Video de presentación de Saurus Select, línea de Familia Schroeder elaborada con uvas de fincas del valle de San Patricio del Chañar.",
+    "categoria": "Turismo",
+    "tipo": "audiovisual",
+    "tags": [
+      "Saurus Select",
+      "Pinot Noir",
+      "Familia Schroeder",
+      "vino",
+      "producción"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Familia Schroeder"
+    ],
+    "fecha": "2020-08-01",
+    "duracion": null,
+    "videoId": "a4KUd3nBuPA",
+    "thumbnail": "https://img.youtube.com/vi/a4KUd3nBuPA/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=a4KUd3nBuPA"
+      },
+      {
+        "tipo": "web",
+        "url": "https://www.logiapetitverdot.com.ar/2020/08/saurus-select-pinot-noir-2019/"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL_70",
+    "chequeoTecnico": {
+      "fuente": "YouTube + fuente web",
+      "tipo": "video convencional",
+      "short": false,
+      "criterio": "watch URL convencional y fuente externa identificable; no identificado como Short/Reel",
+      "aspecto": "HORIZONTAL_70"
+    }
   }
 ]
