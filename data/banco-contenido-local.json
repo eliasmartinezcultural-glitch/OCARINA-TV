@@ -1908,5 +1908,79 @@
     "fuente": "https://www.youtube.com/watch?v=tzRcRfGF4gI",
     "nota": "Video convencional de YouTube publicado bajo el umbral HORIZONTAL_70; recorrido turístico por dos bodegas de San Patricio del Chañar. No identificado como Short/Reel.",
     "evidencia": "YOUTUBE_WATCH_HORIZONTAL_70"
+  },
+  {
+    "id": "bodega-fin-del-mundo-tonel-privado-2018",
+    "titulo": "Bodega Del Fin del Mundo · Tonel Privado",
+    "tipo": "CONTENIDO_PUBLICADO",
+    "estado": "PUBLICADO",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "videoId": "DCmhbb1-oDY",
+    "enfoques": [
+      "Bodega Del Fin del Mundo",
+      "turismo",
+      "vino",
+      "territorio"
+    ],
+    "fuente": "https://www.youtube.com/watch?v=DCmhbb1-oDY",
+    "nota": "Incorporado bajo umbral editorial HORIZONTAL_70: video convencional de YouTube, relevancia territorial directa y sin identificación como Short/Reel.",
+    "evidencia": "YOUTUBE_WATCH_HORIZONTAL_70"
+  },
+  {
+    "id": "aniversario-chanar-2024-noticiero-central",
+    "titulo": "Aniversario de San Patricio del Chañar · 2024",
+    "tipo": "CONTENIDO_PUBLICADO",
+    "estado": "PUBLICADO",
+    "bancoId": "historias",
+    "programaId": "memoria-viva",
+    "videoId": "3Vx_LMnsyFQ",
+    "enfoques": [
+      "aniversario",
+      "memoria",
+      "comunidad",
+      "historia local"
+    ],
+    "fuente": "https://www.youtube.com/watch?v=3Vx_LMnsyFQ",
+    "nota": "Incorporado bajo umbral editorial HORIZONTAL_70: video convencional de YouTube, relevancia territorial directa y sin identificación como Short/Reel.",
+    "evidencia": "YOUTUBE_WATCH_HORIZONTAL_70"
+  },
+  {
+    "id": "visita-familia-schroeder-2011-2de4",
+    "titulo": "Familia Schroeder · visita a la bodega 2/4",
+    "tipo": "CONTENIDO_PUBLICADO",
+    "estado": "PUBLICADO",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "videoId": "3omqG_YI9ig",
+    "enfoques": [
+      "Familia Schroeder",
+      "bodega",
+      "vino",
+      "turismo",
+      "archivo"
+    ],
+    "fuente": "https://www.youtube.com/watch?v=3omqG_YI9ig",
+    "nota": "Incorporado bajo umbral editorial HORIZONTAL_70: video convencional de YouTube, relevancia territorial directa y sin identificación como Short/Reel.",
+    "evidencia": "YOUTUBE_WATCH_HORIZONTAL_70"
+  },
+  {
+    "id": "saurus-select-pinot-noir-presentacion-2020",
+    "titulo": "Saurus Select Pinot Noir · presentación",
+    "tipo": "CONTENIDO_PUBLICADO",
+    "estado": "PUBLICADO",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "videoId": "a4KUd3nBuPA",
+    "enfoques": [
+      "Saurus Select",
+      "Pinot Noir",
+      "Familia Schroeder",
+      "vino",
+      "producción"
+    ],
+    "fuente": "https://www.youtube.com/watch?v=a4KUd3nBuPA",
+    "nota": "Incorporado bajo umbral editorial HORIZONTAL_70: video convencional de YouTube, relevancia territorial directa y sin identificación como Short/Reel.",
+    "evidencia": "YOUTUBE_WATCH_HORIZONTAL_70"
   }
 ]
