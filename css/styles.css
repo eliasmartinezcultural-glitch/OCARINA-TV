@@ -115,3 +115,9 @@ main:after{content:"";position:fixed;inset:auto 0 0;height:180px;pointer-events:
 .category-rail a b{font-size:1.03rem}.category-rail a:hover{transform:translateY(-4px) scale(1.01)}
 .grid .card h3{font-size:1rem;line-height:1.25}.grid .card p{line-height:1.42}.grid .card{box-shadow:inset 0 1px 0 rgba(255,255,255,.025),0 14px 34px rgba(0,0,0,.2)}
 .tv-player{box-shadow:0 25px 80px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.025)}
+
+/* DECORACION · PROFUNDIDAD DEL CATALOGO */
+.section-title{letter-spacing:.01em}.category-rail{gap:14px}.category-rail a{border-radius:18px;overflow:hidden;min-height:112px;backdrop-filter:blur(3px)}
+.grid{gap:22px}.grid .card{border-radius:16px;overflow:hidden;transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease}.grid .card:hover{transform:translateY(-3px)}
+.grid .card img{transition:transform .35s ease,filter .35s ease}.grid .card:hover img{transform:scale(1.025);filter:saturate(1.06)}
+@media(max-width:720px){.category-rail{gap:10px}.category-rail a{min-height:96px}.grid{gap:16px}}
