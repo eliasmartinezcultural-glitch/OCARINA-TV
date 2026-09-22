@@ -919,5 +919,48 @@
     ],
     "estado": "publicado",
     "formato": "HORIZONTAL_70"
+  },
+  {
+    "id": "bodegas-famosas-schroeder-malma-2023",
+    "programaId": "rutas-y-paisajes",
+    "titulo": "Bodegas famosas de Neuquén · Schroeder y Malma",
+    "tituloFuente": "BODEGAS FAMOSAS DE NEUQUÉN🍷[Schroeder - Malma] San Patricio del Chañar |Patagonia Arg",
+    "descripcion": "Recorrido audiovisual por Bodega Familia Schroeder y Bodega Malma en San Patricio del Chañar.",
+    "categoria": "Turismo",
+    "tipo": "audiovisual",
+    "tags": [
+      "bodegas",
+      "turismo",
+      "vino",
+      "Familia Schroeder",
+      "Bodega Malma",
+      "territorio"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Paula AMARILLA",
+      "Familia Schroeder",
+      "Bodega Malma"
+    ],
+    "fecha": "2023-12-10",
+    "duracion": null,
+    "videoId": "tzRcRfGF4gI",
+    "thumbnail": "https://img.youtube.com/vi/tzRcRfGF4gI/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=tzRcRfGF4gI"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL",
+    "chequeoTecnico": {
+      "fuente": "YouTube",
+      "tipo": "video largo",
+      "short": false,
+      "criterio": "watch URL convencional; no identificado como Short/Reel",
+      "aspecto": "HORIZONTAL_70"
+    }
   }
 ]
