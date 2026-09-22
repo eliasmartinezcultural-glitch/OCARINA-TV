@@ -187,3 +187,9 @@ main{position:relative}main:before{content:"";position:absolute;top:0;left:50%;w
 .grid .card{border-color:rgba(245,240,229,.07);background:linear-gradient(180deg,rgba(17,37,48,.88),rgba(8,19,25,.96))}
 .grid .card h3{letter-spacing:-.01em}.grid .card p{color:rgba(245,240,229,.68)}
 .tv-player:after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;box-shadow:inset 0 0 80px rgba(0,0,0,.18),inset 0 1px 0 rgba(255,255,255,.025)}
+
+
+/* DECORACION · ARCHIVO VIVO · SOLO CSS */
+.grid .card{position:relative;isolation:isolate}.grid .card:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,255,255,.018),transparent 28%,rgba(0,0,0,.08));pointer-events:none;z-index:0}.grid .card>*{position:relative;z-index:1}
+.tv-player{border-color:rgba(214,181,107,.10);box-shadow:0 34px 90px rgba(0,0,0,.42),0 0 0 1px rgba(114,199,160,.025)}
+.category-rail{scrollbar-width:thin}.category-rail::-webkit-scrollbar{height:5px}.category-rail::-webkit-scrollbar-thumb{background:rgba(214,181,107,.22);border-radius:99px}
