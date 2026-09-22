@@ -109,3 +109,9 @@ main:after{content:"";position:fixed;inset:auto 0 0;height:180px;pointer-events:
 
 /* ACABADO EDITORIAL · SOLO DECORACION */
 .tv-hero,.section,.simple-note{scroll-margin-top:20px}.sectionhead h2{font-weight:950}.category-rail a{isolation:isolate}.category-rail a:after{mix-blend-mode:screen;opacity:.8}.grid .card{transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}.grid .card:hover{border-color:rgba(214,181,107,.24)!important}
+
+/* DECORACION · ARCHIVO LOCAL */
+.category-rail a{box-shadow:inset 0 0 0 1px rgba(255,255,255,.035),0 14px 34px rgba(0,0,0,.22)}
+.category-rail a b{font-size:1.03rem}.category-rail a:hover{transform:translateY(-4px) scale(1.01)}
+.grid .card h3{font-size:1rem;line-height:1.25}.grid .card p{line-height:1.42}.grid .card{box-shadow:inset 0 1px 0 rgba(255,255,255,.025),0 14px 34px rgba(0,0,0,.2)}
+.tv-player{box-shadow:0 25px 80px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.025)}
