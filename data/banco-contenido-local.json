@@ -794,5 +794,87 @@
     ],
     "fuente": "https://sanpatricio.gob.ar/quehacer",
     "nota": "Fuente municipal identifica actividades y fauna local. Buscar registros audiovisuales horizontales concretos."
+  },
+  {
+    "id": "vendimia-2023-lm-video-confirmado",
+    "titulo": "Vendimia 2023 · video de LM Neuquén",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "enfoques": [
+      "Vendimia Neuquina",
+      "Familia Schroeder",
+      "vino",
+      "gastronomía",
+      "música"
+    ],
+    "fuente": "https://www.lmneuquen.com/neuquen/las-bodegas-neuquinas-abren-sus-vinedos-la-vendimia-2023-n1000576",
+    "nota": "La página contiene un reproductor HTML5 identificado como Vendimia 2023.mp4. Falta recuperar/medir el archivo para confirmar dimensiones horizontales antes de incorporarlo."
+  },
+  {
+    "id": "nieve-schroeder-lm-video",
+    "titulo": "Nieve en Bodega Familia Schroeder · video",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "naturaleza",
+    "programaId": "naturaleza-cercana",
+    "enfoques": [
+      "nieve",
+      "Familia Schroeder",
+      "paisaje",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.lmneuquen.com/neuquen/la-ruta-del-vino-neuquen-5-bodegas-visitar-la-provincia-n1070025",
+    "nota": "La página contiene un reproductor HTML5 identificado como Nieve en Bodega Familia Schroeder.mp4. Pendiente de recuperación y comprobación horizontal."
+  },
+  {
+    "id": "vendimia-2021-streaming",
+    "titulo": "Vendimia Neuquina 2021 · transmisión desde los viñedos",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "enfoques": [
+      "Vendimia Neuquina",
+      "viñedos",
+      "cocina",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.rionegro.com.ar/aniversario-de-san-patricio-del-chanar-el-maridar-de-otono-espera-por-una-nueva-fecha-1824401/",
+    "nota": "La fuente documenta una transmisión audiovisual desde las viñas de Chañar en 2021. Buscar archivo reproducible horizontal."
+  },
+  {
+    "id": "maridar-2022-cobertura-lm",
+    "titulo": "Maridar 2022 · festival gastronómico de Chañar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "cocina",
+    "programaId": "sabores-del-chanar",
+    "enfoques": [
+      "Maridar",
+      "gastronomía",
+      "cocina",
+      "productores",
+      "música"
+    ],
+    "fuente": "https://www.lmneuquen.com/el-comedor/maridar-festival-gastronomico-este-finde-el-chanar-n970442",
+    "nota": "Cobertura periodística del festival. Buscar video horizontal asociado; no incorporar capturas, Reels ni verticales."
+  },
+  {
+    "id": "interior-neuquino-50-aniversario-chanar",
+    "titulo": "Interior Neuquino · San Patricio del Chañar · 50 aniversario",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "historias",
+    "programaId": "historias-del-chanar",
+    "enfoques": [
+      "Interior Neuquino",
+      "historia",
+      "50 aniversario",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://es.scribd.com/document/869968648/Secuencia-Semana-25-de-MAYO-y-50-Aniversario-Chanar",
+    "nota": "Una secuencia educativa identifica un video del programa Interior Neuquino sobre el aniversario de Chañar. Falta recuperar la pieza original y verificar formato horizontal."
   }
 ]
