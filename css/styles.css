@@ -290,3 +290,19 @@ img,iframe,video{max-width:100%}
   .detail .episode-actions{margin-top:14px}
   .detail .episode-actions .btn{min-height:46px}
 }
+
+
+/* DECORACION · CIERRE EDITORIAL VISUAL · SOLO CSS · SIN CAMBIO DE ESTRUCTURA */
+.card{isolation:isolate}
+.card .thumb{transition:transform .35s ease,filter .35s ease}
+.card:hover .thumb{transform:scale(1.018);filter:saturate(1.05)}
+.cardbody{position:relative}
+.cardbody:before{content:"";display:block;width:34px;height:2px;margin-bottom:9px;background:#D6B56B;opacity:.8}
+.sectionhead{border-bottom:1px solid rgba(214,181,107,.18);padding-bottom:10px}
+.category-rail a{border:1px solid rgba(214,181,107,.12);box-shadow:0 8px 24px rgba(0,0,0,.14)}
+.category-rail a:hover{border-color:rgba(214,181,107,.38);transform:translateY(-2px)}
+@media(max-width:720px){
+ .card:hover .thumb{transform:none;filter:none}
+ .sectionhead{padding-bottom:9px}
+ .cardbody:before{margin-bottom:7px}
+}
