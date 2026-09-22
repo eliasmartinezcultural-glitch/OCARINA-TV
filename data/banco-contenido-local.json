@@ -1128,5 +1128,90 @@
     "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/07/10/260413-san-patricio-del-chanar-realizara-la-primera-feria-regional-de-turismo-sabores-y-amigos",
     "nota": "La feria 2026 está documentalmente confirmada; aún no se localizó en esta pasada un video horizontal directo, por lo que permanece pendiente.",
     "evidencia": "EVENTO_CONFIRMADO"
+  },
+  {
+    "id": "interior-neuquino-chanar-2021-web",
+    "titulo": "San Patricio del Chañar 2021 · Interior Neuquino",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "VERIFICADO",
+    "bancoId": "historias",
+    "programaId": "historias-del-chanar",
+    "videoId": "C0S4uVzGpyo",
+    "enfoques": [
+      "Interior Neuquino",
+      "territorio",
+      "historia",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.youtube.com/watch?v=C0S4uVzGpyo",
+    "nota": "Video directo de YouTube, publicado por Jorge 'Interior Neuquino' Garro. Mantener en catálogo candidato hasta comprobación automática/manual de 16:9."
+  },
+  {
+    "id": "interior-neuquino-chanar-2022-web",
+    "titulo": "San Patricio del Chañar 2022 · Interior Neuquino",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "VERIFICADO",
+    "bancoId": "historias",
+    "programaId": "historias-del-chanar",
+    "videoId": "9mjA4bUGGzM",
+    "enfoques": [
+      "Interior Neuquino",
+      "territorio",
+      "historia",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.youtube.com/watch?v=9mjA4bUGGzM",
+    "nota": "Video directo de YouTube, publicado por Jorge 'Interior Neuquino' Garro. Mantener en catálogo candidato hasta comprobación automática/manual de 16:9."
+  },
+  {
+    "id": "vendimia-2026-malma",
+    "titulo": "Vendimia Neuquina 2026 · Bodega Malma",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "enfoques": [
+      "Vendimia 2026",
+      "Bodega Malma",
+      "vino",
+      "música",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://turismo.neuquen.gob.ar/la-vendimia-neuquina-invita-a-vivir-la-cosecha-desde-adentro/",
+    "nota": "Evento oficial confirmado en San Patricio del Chañar. Buscar registro audiovisual horizontal concreto."
+  },
+  {
+    "id": "el-chical-2026-video-pista",
+    "titulo": "El Chical · nueva bodega urbana de Chañar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "enfoques": [
+      "El Chical",
+      "vino",
+      "bodega urbana",
+      "cultura",
+      "turismo"
+    ],
+    "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/04/03/255930-el-chical-se-suma-a-la-oferta-vitivinicola-de-san-patricio-del-chanar",
+    "nota": "Nueva bodega urbana y espacio cultural inaugurado en 2026. Buscar entrevista/video horizontal."
+  },
+  {
+    "id": "maridar-2021-cocina-productores",
+    "titulo": "Maridar 2021 · gastronomía y productores locales",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "cocina",
+    "programaId": "sabores-del-chanar",
+    "enfoques": [
+      "Maridar",
+      "gastronomía",
+      "productores",
+      "artesanos",
+      "cocina local"
+    ],
+    "fuente": "https://www.rionegro.com.ar/maridar-un-festival-de-sabores-regionales-este-finde-en-san-patricio-del-chanar-2043578/",
+    "nota": "Fuente periodística documenta contenidos concretos del festival; falta recuperar video horizontal."
   }
 ]
