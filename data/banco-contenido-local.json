@@ -1865,5 +1865,17 @@
     "fuente": "https://www.youtube.com/watch?v=C0S4uVzGpyo",
     "nota": "Incorporado con umbral editorial 70%. Video convencional de YouTube de Jorge Interior Neuquino Garro; no identificado como Short/Reel.",
     "evidencia": "YOUTUBE_WATCH_HORIZONTAL_70"
+  },
+  {
+    "id": "familia-schroeder-ecovalley-video-publicado",
+    "titulo": "Familia Schroeder · Viñedos de San Patricio del Chañar",
+    "tipo": "CONTENIDO_PUBLICADO",
+    "estado": "PUBLICADO",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "videoId": "BpJEJt089EY",
+    "fuente": "https://www.ecovalleyimports.com/familia-schroeder",
+    "nota": "Video externo de 7 minutos enlazado desde Eco Valley Imports. Fuente identificable, foco territorial directo en Familia Schroeder y San Patricio del Chañar; incorporado bajo umbral HORIZONTAL_70. No identificado como Short/Reel.",
+    "evidencia": "EXTERNAL_PAGE_EMBED_YOUTUBE_7MIN_HORIZONTAL_70"
   }
 ]
