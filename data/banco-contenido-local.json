@@ -1045,7 +1045,7 @@
     "id": "patritti-nicolas-navio-youtube",
     "titulo": "Nicolás Navío · Bodega Patritti · Pasión por el Vino",
     "tipo": "CONTENIDO_CANDIDATO",
-    "estado": "PENDIENTE",
+    "estado": "VERIFICADO",
     "bancoId": "turismo",
     "programaId": "rutas-y-paisajes",
     "enfoques": [
@@ -1056,7 +1056,8 @@
       "enología"
     ],
     "fuente": "https://www.youtube.com/watch?v=KpZy2w251t8",
-    "nota": "Segmento de programa televisivo localizado en YouTube. La temática y fuente son aptas; queda pendiente la comprobación técnica del 16:9 antes de incorporarlo."
+    "nota": "Video real localizado en YouTube; descripción lo sitúa en Bodega Patritti, San Patricio del Chañar. Por criterio estricto queda fuera del catálogo publicado hasta confirmar técnicamente relación de aspecto horizontal.",
+    "evidencia": "VIDEO_YOUTUBE_IDENTIFICADO"
   },
   {
     "id": "pelon-2024-noticiasnqn-video",
@@ -1073,7 +1074,8 @@
       "San Patricio del Chañar"
     ],
     "fuente": "https://www.noticiasnqn.com.ar/noticias/2024/02/12/291195-video-asi-se-vivio-la-1-jornada-de-la-fiesta-del-pelon-en-san-patricio-del-chanar-la-grilla-de-hoy",
-    "nota": "La nota contiene video pero enlaza una publicación de Instagram. No publicar como OCARINA TV hasta encontrar/recoverar una versión horizontal independiente."
+    "nota": "La nota confirma que existe un video, pero el recurso enlazado es una publicación de Instagram. No entra hasta recuperar una versión horizontal.",
+    "evidencia": "VIDEO_REFERENCIADO_INSTAGRAM"
   },
   {
     "id": "pelon-2026-larva-rock",
@@ -1089,7 +1091,8 @@
       "San Patricio del Chañar"
     ],
     "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/02/10/255111-san-patricio-del-chanar-se-prepara-para-la-fiesta-del-pelon",
-    "nota": "Fuente oficial confirma la presentación de Larva Rock en la Fiesta del Pelón 2026. Buscar registro audiovisual horizontal."
+    "nota": "Larva Rock figura oficialmente en la programación 2026. Buscar grabación horizontal concreta.",
+    "evidencia": "EVENTO_CONFIRMADO"
   },
   {
     "id": "pelon-2026-documental-fiesta",
@@ -1123,6 +1126,7 @@
       "San Patricio del Chañar"
     ],
     "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/07/10/260413-san-patricio-del-chanar-realizara-la-primera-feria-regional-de-turismo-sabores-y-amigos",
-    "nota": "Evento local de 2026 con gastronomía, vinos y producción. Buscar registro audiovisual horizontal."
+    "nota": "La feria 2026 está documentalmente confirmada; aún no se localizó en esta pasada un video horizontal directo, por lo que permanece pendiente.",
+    "evidencia": "EVENTO_CONFIRMADO"
   }
 ]
