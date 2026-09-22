@@ -1213,5 +1213,40 @@
     ],
     "fuente": "https://www.rionegro.com.ar/maridar-un-festival-de-sabores-regionales-este-finde-en-san-patricio-del-chanar-2043578/",
     "nota": "Fuente periodística documenta contenidos concretos del festival; falta recuperar video horizontal."
+  },
+  {
+    "id": "rally-vendimia-2025-chanar-publicado",
+    "titulo": "Rally de la Vendimia 2025 · San Patricio del Chañar",
+    "tipo": "CONTENIDO_PUBLICADO",
+    "estado": "PUBLICADO",
+    "bancoId": "deportes",
+    "programaId": "deporte-de-aca",
+    "videoId": "Dlul7OIiw_c",
+    "enfoques": [
+      "Rally de la Vendimia",
+      "automovilismo",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.youtube.com/watch?v=Dlul7OIiw_c",
+    "nota": "Incorporado al catálogo. YouTube watch convencional; no identificado como Short/Reel. Se mantiene como HORIZONTAL.",
+    "evidencia": "YOUTUBE_WATCH_HORIZONTAL"
+  },
+  {
+    "id": "pelon-2025-lanzamiento-publicado",
+    "titulo": "Fiesta del Pelón · lanzamiento 2025",
+    "tipo": "CONTENIDO_PUBLICADO",
+    "estado": "PUBLICADO",
+    "bancoId": "cultura",
+    "programaId": "cultura-chanarense",
+    "videoId": "7GB2MUk_Vdg",
+    "enfoques": [
+      "Fiesta del Pelón",
+      "cultura",
+      "tradición",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.youtube.com/watch?v=7GB2MUk_Vdg",
+    "nota": "Incorporado al catálogo. YouTube watch convencional; no identificado como Short/Reel. Se mantiene como HORIZONTAL.",
+    "evidencia": "YOUTUBE_WATCH_HORIZONTAL"
   }
 ]
