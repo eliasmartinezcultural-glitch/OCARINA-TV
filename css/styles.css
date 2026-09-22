@@ -193,3 +193,57 @@ main{position:relative}main:before{content:"";position:absolute;top:0;left:50%;w
 .grid .card{position:relative;isolation:isolate}.grid .card:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,255,255,.018),transparent 28%,rgba(0,0,0,.08));pointer-events:none;z-index:0}.grid .card>*{position:relative;z-index:1}
 .tv-player{border-color:rgba(214,181,107,.10);box-shadow:0 34px 90px rgba(0,0,0,.42),0 0 0 1px rgba(114,199,160,.025)}
 .category-rail{scrollbar-width:thin}.category-rail::-webkit-scrollbar{height:5px}.category-rail::-webkit-scrollbar-thumb{background:rgba(214,181,107,.22);border-radius:99px}
+
+
+/* CIERRE MULTIDISPOSITIVO · SOLO DECORACIÓN Y RESPONSIVE · SIN CAMBIO DE ESTRUCTURA */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{-webkit-tap-highlight-color:rgba(214,181,107,.12)}
+a,button{touch-action:manipulation}
+img,iframe,video{max-width:100%}
+@media(max-width:960px){
+  .nav{padding-left:16px;padding-right:16px}
+  .tv-hero{grid-template-columns:1fr}
+  .now-panel{padding:20px}
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:720px){
+  header{position:sticky}
+  .nav{align-items:flex-start;gap:10px;padding:11px 14px}
+  .brand{font-size:.9rem;white-space:nowrap}
+  nav{max-width:70vw;overflow-x:auto;flex-wrap:nowrap;gap:12px;padding-bottom:3px;scrollbar-width:none}
+  nav::-webkit-scrollbar{display:none}
+  nav a{white-space:nowrap;padding:7px 2px}
+  main{padding:16px 12px 58px}
+  .screen-head{font-size:.61rem;gap:10px}
+  .tv-player,.now-panel{border-radius:15px}
+  .player-title{padding:13px 13px 9px}
+  .player-title h2{font-size:1.05rem}
+  .player-title p{font-size:.78rem}
+  .controls{gap:6px;padding:9px 10px;overflow-x:auto;scrollbar-width:none}
+  .controls::-webkit-scrollbar{display:none}
+  .control{min-height:40px;padding:8px 9px;flex:0 0 auto}
+  .volume{display:none}
+  .clock{margin-left:auto;flex:0 0 auto}
+  .section{margin-top:30px}
+  .sectionhead{align-items:flex-start;gap:12px}
+  .section h2{font-size:1.2rem}
+  .grid{grid-template-columns:1fr;gap:12px}
+  .grid .card{border-radius:13px}
+  .grid .card h3{font-size:.96rem}
+  .grid .card p{font-size:.8rem}
+  .category-rail{overflow-x:auto;overscroll-behavior-x:contain}
+  .category-rail a{min-width:132px}
+  .ads-grid{grid-template-columns:1fr}
+  footer{padding-left:14px!important;padding-right:14px!important}
+}
+@media(max-width:420px){
+  .nav{display:block}
+  .brand{display:block;margin-bottom:6px}
+  nav{max-width:100%;width:100%}
+  .now-panel h1{font-size:2.35rem}
+  .screen-head span:last-child{font-size:.58rem}
+  .player-state{font-size:.58rem;padding:5px 6px}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}
+}
