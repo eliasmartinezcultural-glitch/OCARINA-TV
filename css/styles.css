@@ -147,3 +147,12 @@ main:after{content:"";position:fixed;inset:auto 0 0;height:180px;pointer-events:
 .sectionhead{position:relative}.sectionhead:before{content:"";display:block;width:34px;height:1px;margin-bottom:9px;background:linear-gradient(90deg,rgba(214,181,107,.8),transparent)}
 .grid .card img{aspect-ratio:16/9;object-fit:cover}.grid .card{background-image:linear-gradient(180deg,rgba(17,37,48,.7),rgba(6,16,22,.99)),radial-gradient(circle at 85% 0,rgba(114,199,160,.045),transparent 35%)}
 @media(max-width:720px){.sectionhead:before{margin-bottom:7px}.tv-hero{background-image:linear-gradient(180deg,rgba(6,16,22,.98),rgba(6,16,22,.94))}}
+
+
+/* DECORACION · EXPANSION DEL ARCHIVO LOCAL · SOLO VISUAL */
+.archive-page .sectionhead,.catalog-page .sectionhead{border-bottom:1px solid rgba(214,181,107,.08)}
+.grid .card{background-image:linear-gradient(180deg,rgba(17,37,48,.82),rgba(6,16,22,.99)),radial-gradient(circle at 100% 0,rgba(214,181,107,.045),transparent 32%)}
+.grid .card img{background:#0b171e}
+.category-rail a{background-color:#0b1820;background-position:center;background-repeat:no-repeat}
+.tv-hero{outline:1px solid rgba(255,255,255,.025);outline-offset:-1px}
+@media(max-width:720px){.grid .card{border-radius:14px}.category-rail a{border-radius:15px}}
