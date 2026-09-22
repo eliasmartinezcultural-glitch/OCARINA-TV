@@ -943,5 +943,102 @@
     ],
     "fuente": "https://www.lmneuquen.com/neuquen/vendimia-neuquina-el-evento-impulsado-los-bodegueros-sera-una-propuesta-provincial-potenciar-el-turismo-n1230228/amp",
     "nota": "La página contiene reproductor HTML5 y entrevistas sobre Vendimia 2026. Recuperar pieza y comprobar formato horizontal."
+  },
+  {
+    "id": "interior-neuquino-chanar-2021-confirmado",
+    "titulo": "San Patricio del Chañar 2021 · Interior Neuquino",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "historias",
+    "programaId": "historias-del-chanar",
+    "enfoques": [
+      "Interior Neuquino",
+      "historia",
+      "paisaje",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.youtube.com/watch?v=C0S4uVzGpyo",
+    "nota": "Video localizado en YouTube del programa Interior Neuquino. Candidato hasta verificar dimensiones 16:9."
+  },
+  {
+    "id": "interior-neuquino-chanar-2022-confirmado",
+    "titulo": "San Patricio del Chañar 2022 · Interior Neuquino",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "historias",
+    "programaId": "historias-del-chanar",
+    "enfoques": [
+      "Interior Neuquino",
+      "historia",
+      "territorio",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.youtube.com/watch?v=9mjA4bUGGzM",
+    "nota": "Video localizado en YouTube del programa Interior Neuquino. Candidato hasta verificar dimensiones 16:9."
+  },
+  {
+    "id": "larva-tres-capullos-rock-mate",
+    "titulo": "Larva · de tres capullos salió rock and mate",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "musica",
+    "programaId": "escena-musical",
+    "enfoques": [
+      "Larva",
+      "música local",
+      "rock",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://podimo.com/dk/shows/pone-la-pava/episode/2673f352-4ef5-4418-9bd6-9658bb9784d1",
+    "nota": "Entrevista registrada en sala de ensayo de Larva en Chañar. La fuente localizada es audio; solo incorporar si aparece versión de video horizontal."
+  },
+  {
+    "id": "maridar-2021-streaming",
+    "titulo": "Maridar · transmisión desde San Patricio del Chañar",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "cocina",
+    "programaId": "sabores-del-chanar",
+    "enfoques": [
+      "Maridar",
+      "gastronomía",
+      "productores",
+      "cocina",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.rionegro.com.ar/aniversario-de-san-patricio-del-chanar-el-maridar-de-otono-espera-por-una-nueva-fecha-1824401/",
+    "nota": "Fuente documenta transmisión de Vendimia Neuquina desde las viñas y el contexto Maridar. Falta recuperar pieza horizontal concreta."
+  },
+  {
+    "id": "vendimia-neuquina-2023-c5n",
+    "titulo": "Vendimia Neuquina 2023 · viaje a la tierra del Pinot Noir",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "enfoques": [
+      "Vendimia Neuquina",
+      "Pinot Noir",
+      "bodegas",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.c5n.com/lifestyle/las-bodegas-neuquinas-brillaron-la-vendimia-un-viaje-la-tierra-del-pinot-noir-n104605",
+    "nota": "Cobertura periodística de bodegas de Chañar. Recuperar video original y verificar horizontal antes de publicar."
+  },
+  {
+    "id": "fiesta-pelon-2013-larva-archivo",
+    "titulo": "Fiesta del Pelón 2013 · archivo histórico",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "PENDIENTE",
+    "bancoId": "historias",
+    "programaId": "archivo-ocarina",
+    "enfoques": [
+      "Fiesta del Pelón",
+      "Larva",
+      "historia",
+      "San Patricio del Chañar"
+    ],
+    "fuente": "https://www.hcdn.gob.ar/comisiones/permanentes/cdhygarantias/proyecto.html?exp=0039-D-2013",
+    "nota": "Fuente oficial confirma la Fiesta del Pelón 2013 y participación de Larva. Es pista histórica, no video; requiere recuperar material audiovisual."
   }
 ]
