@@ -1723,5 +1723,38 @@
     "fuente": "https://www.neuqueninforma.gob.ar/noticias/2026/02/10/255111-san-patricio-del-chanar-se-prepara-para-la-fiesta-del-pelon",
     "nota": "Fuente oficial confirma presentación de Larva Rock en la edición 2026. Buscar filmación horizontal completa.",
     "evidencia": "FUENTE_OFICIAL_EVENTO"
+  },
+  {
+    "id": "vendimia-2023-lm-mp4-segunda-fuente",
+    "titulo": "Vendimia Neuquina 2023 · registro LM Neuquén",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "VERIFICADO",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "fuente": "https://www.lmneuquen.com/neuquen/las-bodegas-neuquinas-abren-sus-vinedos-la-vendimia-2023-n1000576/amp",
+    "nota": "La página identifica explícitamente un video HTML5 llamado Vendimia 2023.mp4. Mantener fuera del catálogo hasta medir dimensiones del archivo.",
+    "evidencia": "HTML5_MP4_IDENTIFICADO"
+  },
+  {
+    "id": "skatepark-chanar-mp4-segunda-fuente",
+    "titulo": "Skatepark Rodrigo Barros Hurtado · archivo audiovisual",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "VERIFICADO",
+    "bancoId": "deportes",
+    "programaId": "deporte-de-aca",
+    "fuente": "https://www.lmneuquen.com/con-un-megaevento-el-chanar-recupero-su-skatepark-n860238/amp",
+    "nota": "La cobertura identifica MV Chañar EVENTO .mp4. Contenido compatible con Ocarina TV; falta medición técnica de orientación.",
+    "evidencia": "HTML5_MP4_IDENTIFICADO"
+  },
+  {
+    "id": "bert-2021-vendimia-pdv-mp4-segunda-fuente",
+    "titulo": "Puntos de Vista · Bertoya y la primera Vendimia Neuquina",
+    "tipo": "CONTENIDO_CANDIDATO",
+    "estado": "VERIFICADO",
+    "bancoId": "historias",
+    "programaId": "historias-del-chanar",
+    "fuente": "https://www.lmneuquen.com/bertoya-la-pandemia-hizo-la-politica-la-dinamica-lo-impensado-n805002",
+    "nota": "La entrevista incluye un archivo 18-PDV-LEANDRO BERTOYA - 01.mp4. Mantenerlo como candidato hasta medir dimensiones.",
+    "evidencia": "HTML5_MP4_IDENTIFICADO"
   }
 ]
