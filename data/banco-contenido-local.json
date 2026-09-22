@@ -1877,5 +1877,17 @@
     "fuente": "https://www.ecovalleyimports.com/familia-schroeder",
     "nota": "Video externo de 7 minutos enlazado desde Eco Valley Imports. Fuente identificable, foco territorial directo en Familia Schroeder y San Patricio del Chañar; incorporado bajo umbral HORIZONTAL_70. No identificado como Short/Reel.",
     "evidencia": "EXTERNAL_PAGE_EMBED_YOUTUBE_7MIN_HORIZONTAL_70"
+  },
+  {
+    "id": "familia-schroeder-cosecha-2021-todo-publicado",
+    "titulo": "Familia Schroeder · Todo sobre la cosecha 2021",
+    "tipo": "CONTENIDO_PUBLICADO",
+    "estado": "PUBLICADO",
+    "bancoId": "ruralidad",
+    "programaId": "chanar-rural",
+    "videoId": "WhDKsRU_2is",
+    "fuente": "https://www.fabricioportelli.com/bodega-familia-schroeder-cosecha-2021-2/",
+    "nota": "Página de Fabricio Portelli identifica explícitamente el video y lo enlaza a YouTube; contenido directo sobre la cosecha 2021 en San Patricio del Chañar. Incorporado HORIZONTAL_70.",
+    "evidencia": "EXTERNAL_PAGE_EMBED_YOUTUBE_HORIZONTAL_70"
   }
 ]
