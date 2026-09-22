@@ -170,3 +170,8 @@ main:after{content:"";position:fixed;inset:auto 0 0;height:180px;pointer-events:
 .grid .card{backdrop-filter:blur(2px)}
 .grid .card:hover{box-shadow:0 22px 48px rgba(0,0,0,.28),0 0 0 1px rgba(214,181,107,.08),inset 0 1px 0 rgba(255,255,255,.035)}
 .category-rail a:hover{box-shadow:0 20px 44px rgba(0,0,0,.28),0 0 0 1px rgba(214,181,107,.08),inset 0 1px 0 rgba(255,255,255,.04)}
+
+
+/* DECORACION · IDENTIDAD DE CANAL · SIN CAMBIOS FUNCIONALES */
+.sectionhead{position:relative}.sectionhead:after{content:"";display:block;width:42px;height:1px;margin-top:9px;background:linear-gradient(90deg,#D6B56B,transparent);opacity:.75}
+.grid .card{overflow:hidden}.grid .card:after{content:"";position:absolute;left:12px;right:12px;bottom:10px;height:1px;background:linear-gradient(90deg,transparent,rgba(214,181,107,.16),transparent);pointer-events:none}
