@@ -1756,5 +1756,41 @@
     "fuente": "https://www.lmneuquen.com/bertoya-la-pandemia-hizo-la-politica-la-dinamica-lo-impensado-n805002",
     "nota": "La entrevista incluye un archivo 18-PDV-LEANDRO BERTOYA - 01.mp4. Mantenerlo como candidato hasta medir dimensiones.",
     "evidencia": "HTML5_MP4_IDENTIFICADO"
+  },
+  {
+    "id": "bodega-malma-paraiso-vinedos-publicado",
+    "titulo": "Bodega Malma · un paraíso de viñedos",
+    "tipo": "CONTENIDO_PUBLICADO",
+    "estado": "PUBLICADO",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "videoId": "AZqHAgYojUA",
+    "enfoques": [
+      "Bodega Malma",
+      "viñedos",
+      "turismo",
+      "territorio"
+    ],
+    "fuente": "https://www.youtube.com/watch?v=AZqHAgYojUA",
+    "nota": "Incorporado con umbral editorial 70%. Video largo de YouTube; no identificado como Short/Reel.",
+    "evidencia": "YOUTUBE_WATCH_HORIZONTAL_70"
+  },
+  {
+    "id": "nicolas-navio-patritti-2024-publicado",
+    "titulo": "Nicolás Navío · Bodega Patritti",
+    "tipo": "CONTENIDO_PUBLICADO",
+    "estado": "PUBLICADO",
+    "bancoId": "turismo",
+    "programaId": "rutas-y-paisajes",
+    "videoId": "KpZy2w251t8",
+    "enfoques": [
+      "Nicolás Navío",
+      "Bodega Patritti",
+      "enología",
+      "territorio"
+    ],
+    "fuente": "https://www.youtube.com/watch?v=KpZy2w251t8",
+    "nota": "Incorporado con umbral editorial 70%. Video largo de YouTube; fuente complementaria de Oscar Pinco.",
+    "evidencia": "YOUTUBE_WATCH_HORIZONTAL_70"
   }
 ]
