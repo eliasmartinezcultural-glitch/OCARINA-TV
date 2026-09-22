@@ -199,8 +199,13 @@ async function renderEpisode(){
  const d=await load();buildEditorialEngine();const id=new URLSearchParams(location.search).get('id'),e=d.episodios.find(x=>x.id===id);
  if(!e){shell('Episodio no encontrado','<main><h1>Episodio no encontrado</h1><p class="muted">La pieza solicitada no existe en el catálogo.</p><a class="btn" href="archivo.html">Volver al archivo</a></main>');return}
  const p=d.programas.find(x=>x.id===e.programaId),related=d.episodios.filter(x=>x.id!==e.id&&((x.tags||[]).some(t=>(e.tags||[]).includes(t))||x.programaId===e.programaId)).slice(0,4);
- shell(e.titulo,'<main class="detail"><div class="kicker">'+esc(p?.nombre||'OCARINA TV')+' · '+esc(e.categoria)+'</div><h1>'+esc(e.titulo)+'</h1>'+buildPlayer(e,'episode')+'<p>'+esc(e.descripcion)+'</p><div class="meta"><span>Territorio: '+esc(e.territorio||'No especificado')+'</span><span>Fecha: '+esc(e.fecha||'No cargada')+'</span><span>Duración: '+esc(e.duracion||'No cargada')+'</span></div><div class="chips">'+(e.tags||[]).map(t=>'<span>'+esc(t)+'</span>').join('')+'</div><p class="muted">Programa: <a href="programas.html?id='+encodeURIComponent(e.programaId)+'">'+esc(p?.nombre||'Archivo Ocarina')+'</a> · Estado: '+esc(e.estado)+'</p><a class="btn" href="archivo.html">← Volver al archivo</a><section class="section"><div class="kicker">CONTENIDO RELACIONADO</div><h2>También puede interesarte</h2><div class="grid">'+related.map(card).join('')+'</div></section></main>');
- bindPlayerControls();mediaMetadata(e)
+ shell(e.titulo,'<main class="detail"><div class="kicker">'+esc(p?.nombre||'OCARINA TV')+' · '+esc(e.categoria)+'</div><h1>'+esc(e.titulo)+'</h1>'+buildPlayer(e,'episode')+'<p>'+esc(e.descripcion)+'</p><div class="meta"><span>Territorio: '+esc(e.territorio||'No especificado')+'</span><span>Fecha: '+esc(e.fecha||'No cargada')+'</span><span>Duración: '+esc(e.duracion||'No cargada')+'</span></div><div class="chips">'+(e.tags||[]).map(t=>'<span>'+esc(t)+'</span>').join('')+'</div><p class="muted">Programa: <a href="programas.html?id='+encodeURIComponent(e.programaId)+'">'+esc(p?.nombre||'Archivo Ocarina')+'</a> · Estado: '+esc(e.estado)+'</p><div class="episode-actions"><a class="btn" href="archivo.html">← Volver a videos</a><button id="episodeRandomBtn" class="btn" type="button">▶ Ver otro video</button></div><section class="section"><div class="kicker">CONTENIDO RELACIONADO</div><h2>También puede interesarte</h2><div class="grid">'+related.map(card).join('')+'</div></section></main>');
+ bindPlayerControls();mediaMetadata(e);
+ document.getElementById('episodeRandomBtn')?.addEventListener('click',()=>{
+   const pool=d.episodios.filter(x=>x.id!==e.id&&x.videoId&&editorialStatus(x.estado)==='PUBLICADO');
+   const next=pool[Math.floor(Math.random()*pool.length)];
+   if(next) location.href='episodio.html?id='+encodeURIComponent(next.id);
+ });
 }
 async function renderConfig(){
  const s=SETTINGS.readSettings();
