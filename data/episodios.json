@@ -509,5 +509,40 @@
     ],
     "estado": "publicado",
     "formato": "HORIZONTAL"
+  },
+  {
+    "id": "saurus-schroeder-pinot-noir-2018",
+    "programaId": "rutas-y-paisajes",
+    "titulo": "Familia Schroeder · Saurus Pinot Noir 2018",
+    "descripcion": "Degustación audiovisual de un vino de Familia Schroeder, San Patricio del Chañar.",
+    "categoria": "Turismo",
+    "tags": [
+      "Familia Schroeder",
+      "Saurus",
+      "Pinot Noir",
+      "vino",
+      "San Patricio del Chañar"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "protagonistas": [
+      "Familia Schroeder",
+      "Fabricio Portelli"
+    ],
+    "fecha": "2020-11-01",
+    "duracion": null,
+    "videoId": "wHFyjiGXiRU",
+    "thumbnail": "https://img.youtube.com/vi/wHFyjiGXiRU/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "web",
+        "url": "https://www.fabricioportelli.com/saurus-barrel-fermented-pinot-noir-2018-2/"
+      },
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=wHFyjiGXiRU"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL"
   }
 ]
