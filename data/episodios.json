@@ -1127,5 +1127,50 @@
       "criterio": "watch URL convencional y fuente externa identificable; no identificado como Short/Reel",
       "aspecto": "HORIZONTAL_70"
     }
+  },
+  {
+    "id": "pancho-fernandez-malma-pasion-vino",
+    "programaId": "sabores-del-chanar",
+    "titulo": "Francisco Pancho Fernández · cocina de Bodega Malma",
+    "tituloFuente": "Francisco \"Pancho\" Fernández (Chef Bodega Malma) - PASION POR EL VINO",
+    "descripcion": "Registro audiovisual del chef de Bodega Malma, vinculado a la cocina regional y la propuesta gastronómica de San Patricio del Chañar.",
+    "categoria": "Cocina",
+    "tipo": "audiovisual",
+    "tags": [
+      "cocina",
+      "gastronomía",
+      "Bodega Malma",
+      "Pancho Fernández",
+      "San Patricio del Chañar"
+    ],
+    "territorio": "San Patricio del Chañar",
+    "paraje": null,
+    "protagonistas": [
+      "Francisco Pancho Fernández",
+      "Bodega Malma"
+    ],
+    "fecha": "2023-01-01",
+    "duracion": null,
+    "videoId": "d-zSEuLkQBg",
+    "thumbnail": "https://img.youtube.com/vi/d-zSEuLkQBg/hqdefault.jpg",
+    "fuentes": [
+      {
+        "tipo": "youtube",
+        "url": "https://www.youtube.com/watch?v=d-zSEuLkQBg"
+      },
+      {
+        "tipo": "fuente-secundaria",
+        "url": "https://ww.twstalker.com/MalmaWines"
+      }
+    ],
+    "estado": "publicado",
+    "formato": "HORIZONTAL_70",
+    "chequeoTecnico": {
+      "fuente": "YouTube + fuente secundaria",
+      "tipo": "video convencional",
+      "short": false,
+      "criterio": "URL YouTube directa identificada por fuente vinculada a Malma; no identificado como Short/Reel",
+      "aspecto": "HORIZONTAL_70"
+    }
   }
 ]
