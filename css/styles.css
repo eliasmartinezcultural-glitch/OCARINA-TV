@@ -181,3 +181,9 @@ main:after{content:"";position:fixed;inset:auto 0 0;height:180px;pointer-events:
 main{position:relative}main:before{content:"";position:absolute;top:0;left:50%;width:min(900px,85vw);height:220px;transform:translateX(-50%);background:radial-gradient(ellipse,rgba(214,181,107,.035),transparent 68%);pointer-events:none;z-index:0}
 .sectionhead,.grid,.tv-player,.category-rail{position:relative;z-index:1}
 .grid .card img{transition:transform .45s ease,filter .45s ease}.grid .card:hover img{transform:scale(1.018);filter:saturate(1.04) contrast(1.02)}
+
+
+/* DECORACION · CIERRE DE CATÁLOGO · SIN CAMBIOS FUNCIONALES */
+.grid .card{border-color:rgba(245,240,229,.07);background:linear-gradient(180deg,rgba(17,37,48,.88),rgba(8,19,25,.96))}
+.grid .card h3{letter-spacing:-.01em}.grid .card p{color:rgba(245,240,229,.68)}
+.tv-player:after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;box-shadow:inset 0 0 80px rgba(0,0,0,.18),inset 0 1px 0 rgba(255,255,255,.025)}
