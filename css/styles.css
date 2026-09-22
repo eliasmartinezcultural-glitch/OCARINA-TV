@@ -269,3 +269,8 @@ img,iframe,video{max-width:100%}
 /* DECORACION · IDENTIDAD AUDIOVISUAL · SIN CAMBIOS DE ESTRUCTURA */
 .card .thumb,.grid .card img{background:#0A171E}
 .sectionhead h2{letter-spacing:-.025em}
+
+/* DECORACION · ACCIONES DE EPISODIO · SOLO PRESENTACION RESPONSIVE */
+.episode-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
+.episode-actions .btn{display:inline-flex;align-items:center;justify-content:center;min-height:42px}
+@media(max-width:620px){.episode-actions{display:grid;grid-template-columns:1fr}.episode-actions .btn{width:100%}}
