@@ -175,3 +175,9 @@ main:after{content:"";position:fixed;inset:auto 0 0;height:180px;pointer-events:
 /* DECORACION · IDENTIDAD DE CANAL · SIN CAMBIOS FUNCIONALES */
 .sectionhead{position:relative}.sectionhead:after{content:"";display:block;width:42px;height:1px;margin-top:9px;background:linear-gradient(90deg,#D6B56B,transparent);opacity:.75}
 .grid .card{overflow:hidden}.grid .card:after{content:"";position:absolute;left:12px;right:12px;bottom:10px;height:1px;background:linear-gradient(90deg,transparent,rgba(214,181,107,.16),transparent);pointer-events:none}
+
+
+/* DECORACION · ATMOSFERA DE ARCHIVO · SIN CAMBIOS DE ESTRUCTURA */
+main{position:relative}main:before{content:"";position:absolute;top:0;left:50%;width:min(900px,85vw);height:220px;transform:translateX(-50%);background:radial-gradient(ellipse,rgba(214,181,107,.035),transparent 68%);pointer-events:none;z-index:0}
+.sectionhead,.grid,.tv-player,.category-rail{position:relative;z-index:1}
+.grid .card img{transition:transform .45s ease,filter .45s ease}.grid .card:hover img{transform:scale(1.018);filter:saturate(1.04) contrast(1.02)}
